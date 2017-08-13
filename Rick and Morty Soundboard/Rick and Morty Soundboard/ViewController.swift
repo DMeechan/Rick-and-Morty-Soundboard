@@ -63,7 +63,6 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
     print("Clicked cell at: \(indexPath.row)")
     
     let track = tracks[indexPath.row]
-    
     playSound(audioFileNameInAssets: track.soundFileName)
     
   }
@@ -83,17 +82,17 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
   // MARK: Dynamically update cell sizes
   // TODO: One of these two functions is preventing the nameLabel from appearing
   
-  func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-    let picDimension = self.view.frame.size.width / 4.0
-    return CGSize(width: picDimension, height: picDimension)
-    
-  }
-  
-  func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, insetForSectionAt section: Int) -> UIEdgeInsets {
-    let leftRightInset = self.view.frame.size.width / 14.0
-    return UIEdgeInsets(top: 0, left: leftRightInset, bottom: 0, right: leftRightInset)
-    
-  }
+//  func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
+//    let picDimension = self.view.frame.size.width / 4.0
+//    return CGSize(width: picDimension, height: picDimension)
+//    
+//  }
+//  
+//  func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, insetForSectionAt section: Int) -> UIEdgeInsets {
+//    let leftRightInset = self.view.frame.size.width / 14.0
+//    return UIEdgeInsets(top: 0, left: leftRightInset, bottom: 0, right: leftRightInset)
+//    
+//  }
   
   // MARK: Importing data
   
@@ -102,7 +101,6 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
       "wallpaper": "eating title" as AnyObject,
       "theme": "default" as AnyObject,
       "glassEffect": true as AnyObject,
-      "wallpaper": true as AnyObject,
       "longPressLoops": true as AnyObject,
       "simultaneousPlayback": false as AnyObject
     ]

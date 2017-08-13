@@ -29,7 +29,7 @@
 		6509B6CC1F3FC5E30089B897 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6509B6CF1F3FC5E30089B897 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6509B6D11F3FC5E30089B897 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		658DBF6E1F3FE158000E4472 /* TrackCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrackCollectionViewCell.swift; sourceTree = "<group>"; };
+		658DBF6E1F3FE158000E4472 /* TrackCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 2; lastKnownFileType = sourcecode.swift; path = TrackCollectionViewCell.swift; sourceTree = "<group>"; tabWidth = 2; };
 		658DBF741F3FE339000E4472 /* Track.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Track.swift; sourceTree = "<group>"; };
 		658DBF761F3FE580000E4472 /* trackData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = trackData.plist; sourceTree = "<group>"; };
 		75020C2C74ED7B888131D282 /* Pods_Rick_and_Morty_Soundboard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Rick_and_Morty_Soundboard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -97,9 +97,9 @@
 		658DBF711F3FE16C000E4472 /* VIEW */ = {
 			isa = PBXGroup;
 			children = (
+				658DBF6E1F3FE158000E4472 /* TrackCollectionViewCell.swift */,
 				6509B6C61F3FC5E30089B897 /* Main.storyboard */,
 				6509B6CE1F3FC5E30089B897 /* LaunchScreen.storyboard */,
-				658DBF6E1F3FE158000E4472 /* TrackCollectionViewCell.swift */,
 			);
 			name = VIEW;
 			sourceTree = "<group>";

@@ -29,11 +29,24 @@
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="eating title" translatesAutoresizingMaskIntoConstraints="NO" id="edj-dB-3ff" userLabel="Image">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                     </imageView>
-                                    <visualEffectView opaque="NO" alpha="0.97999999999999998" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="emf-OB-mjM" userLabel="Blur">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="SlK-g1-asy">
+                                    <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ERp-Bm-usi">
+                                        <rect key="frame" x="-0.5" y="-0.5" width="375" height="667"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="mV5-vb-3Ht">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                            <subviews>
+                                                <visualEffectView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Xnj-RE-xHE">
+                                                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                                    <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" id="msc-YS-ZRQ">
+                                                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                                    </view>
+                                                    <vibrancyEffect>
+                                                        <blurEffect style="light"/>
+                                                    </vibrancyEffect>
+                                                </visualEffectView>
+                                            </subviews>
                                         </view>
                                         <blurEffect style="light"/>
                                     </visualEffectView>
@@ -42,12 +55,12 @@
                                 <constraints>
                                     <constraint firstItem="edj-dB-3ff" firstAttribute="leading" secondItem="IKs-3N-Qeu" secondAttribute="leading" id="5ok-Pg-k0I"/>
                                     <constraint firstItem="edj-dB-3ff" firstAttribute="height" secondItem="IKs-3N-Qeu" secondAttribute="height" id="Ond-cz-ZkJ"/>
-                                    <constraint firstItem="emf-OB-mjM" firstAttribute="height" secondItem="edj-dB-3ff" secondAttribute="height" id="QIF-Js-msB"/>
-                                    <constraint firstItem="emf-OB-mjM" firstAttribute="width" secondItem="edj-dB-3ff" secondAttribute="width" id="QJ1-dJ-1ja"/>
-                                    <constraint firstItem="emf-OB-mjM" firstAttribute="centerX" secondItem="edj-dB-3ff" secondAttribute="centerX" id="VJ7-LZ-zfl"/>
+                                    <constraint firstItem="ERp-Bm-usi" firstAttribute="width" secondItem="edj-dB-3ff" secondAttribute="width" id="V0X-XF-TNs"/>
+                                    <constraint firstItem="ERp-Bm-usi" firstAttribute="centerX" secondItem="edj-dB-3ff" secondAttribute="centerX" id="Vv8-pF-78Y"/>
                                     <constraint firstItem="edj-dB-3ff" firstAttribute="top" secondItem="IKs-3N-Qeu" secondAttribute="top" id="Ymj-ni-EXn"/>
                                     <constraint firstItem="edj-dB-3ff" firstAttribute="width" secondItem="IKs-3N-Qeu" secondAttribute="width" id="cze-JA-b8R"/>
-                                    <constraint firstItem="emf-OB-mjM" firstAttribute="centerY" secondItem="edj-dB-3ff" secondAttribute="centerY" id="eoE-RA-0mE"/>
+                                    <constraint firstItem="ERp-Bm-usi" firstAttribute="centerY" secondItem="edj-dB-3ff" secondAttribute="centerY" id="dzF-Q2-pj2"/>
+                                    <constraint firstItem="ERp-Bm-usi" firstAttribute="height" secondItem="edj-dB-3ff" secondAttribute="height" id="wAo-of-cTK"/>
                                 </constraints>
                             </view>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" keyboardDismissMode="onDrag" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="phf-vD-Y9v">
@@ -61,40 +74,83 @@
                                 </collectionViewFlowLayout>
                                 <cells>
                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="TrackCollectionViewCell" id="W2J-bY-xL8" customClass="TrackCollectionViewCell" customModule="Rick_and_Morty_Soundboard" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="0.0" width="75" height="110"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="80" height="120"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
-                                            <rect key="frame" x="0.0" y="0.0" width="75" height="110"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="80" height="120"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" reversesTitleShadowWhenHighlighted="YES" showsTouchWhenHighlighted="YES" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="DYd-yb-jvl" userLabel="Track Button">
-                                                    <rect key="frame" x="0.0" y="0.0" width="75" height="75"/>
-                                                    <constraints>
-                                                        <constraint firstAttribute="width" secondItem="DYd-yb-jvl" secondAttribute="height" multiplier="1:1" id="C58-ej-pSe"/>
-                                                    </constraints>
-                                                    <state key="normal" image="rick"/>
-                                                </button>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Wabba dubba dub dub" textAlignment="center" lineBreakMode="characterWrap" numberOfLines="4" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uu4-5P-gbg">
-                                                    <rect key="frame" x="0.0" y="75" width="75" height="35"/>
-                                                    <fontDescription key="fontDescription" type="system" weight="ultraLight" pointSize="12"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tiZ-pa-cxN">
+                                                    <rect key="frame" x="0.0" y="0.0" width="80" height="120"/>
+                                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                </view>
                                             </subviews>
                                         </view>
                                         <constraints>
-                                            <constraint firstItem="uu4-5P-gbg" firstAttribute="leading" secondItem="W2J-bY-xL8" secondAttribute="leading" id="0dB-qE-82U"/>
-                                            <constraint firstAttribute="trailing" secondItem="uu4-5P-gbg" secondAttribute="trailing" id="IEk-q9-rKk"/>
-                                            <constraint firstAttribute="bottom" secondItem="uu4-5P-gbg" secondAttribute="bottom" id="K7B-09-XCV"/>
-                                            <constraint firstAttribute="trailing" secondItem="DYd-yb-jvl" secondAttribute="trailing" id="MQO-5S-Iq1"/>
-                                            <constraint firstItem="DYd-yb-jvl" firstAttribute="top" secondItem="W2J-bY-xL8" secondAttribute="top" id="WpC-d2-Pj1"/>
-                                            <constraint firstItem="uu4-5P-gbg" firstAttribute="top" secondItem="DYd-yb-jvl" secondAttribute="bottom" id="drm-GU-I4i"/>
-                                            <constraint firstItem="DYd-yb-jvl" firstAttribute="leading" secondItem="W2J-bY-xL8" secondAttribute="leading" id="mAy-fe-iby"/>
+                                            <constraint firstAttribute="trailing" secondItem="tiZ-pa-cxN" secondAttribute="trailing" id="4zP-nR-s1w"/>
+                                            <constraint firstItem="tiZ-pa-cxN" firstAttribute="leading" secondItem="W2J-bY-xL8" secondAttribute="leading" id="76j-BV-2VL"/>
+                                            <constraint firstItem="tiZ-pa-cxN" firstAttribute="centerY" secondItem="W2J-bY-xL8" secondAttribute="centerY" id="LtN-N3-dRi"/>
+                                            <constraint firstItem="tiZ-pa-cxN" firstAttribute="centerX" secondItem="W2J-bY-xL8" secondAttribute="centerX" id="ku8-aS-VvC"/>
+                                            <constraint firstItem="tiZ-pa-cxN" firstAttribute="top" secondItem="W2J-bY-xL8" secondAttribute="top" id="vie-qb-WW5"/>
+                                            <constraint firstAttribute="bottom" secondItem="tiZ-pa-cxN" secondAttribute="bottom" id="zQD-6O-OIT"/>
                                         </constraints>
-                                        <size key="customSize" width="75" height="110"/>
+                                        <size key="customSize" width="80" height="120"/>
                                         <connections>
-                                            <outlet property="trackButton" destination="DYd-yb-jvl" id="rEC-YO-GyU"/>
-                                            <outlet property="trackNameLabel" destination="uu4-5P-gbg" id="5Gy-FG-QgS"/>
+                                            <outlet property="view" destination="tiZ-pa-cxN" id="EHG-zz-m7O"/>
+                                        </connections>
+                                    </collectionViewCell>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="TrackCollectionViewCell2" id="tDK-dO-2zA" customClass="TrackCollectionViewCell" customModule="Rick_and_Morty_Soundboard" customModuleProvider="target">
+                                        <rect key="frame" x="98.5" y="0.0" width="80" height="120"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                            <rect key="frame" x="0.0" y="0.0" width="80" height="120"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <stackView hidden="YES" opaque="NO" contentMode="center" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="w5k-o0-GMr">
+                                                    <rect key="frame" x="0.0" y="0.0" width="80" height="120"/>
+                                                    <subviews>
+                                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="JMM-P5-mDQ" userLabel="Symbol">
+                                                            <rect key="frame" x="0.0" y="0.0" width="80" height="0.0"/>
+                                                        </imageView>
+                                                        <imageView hidden="YES" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="morty" translatesAutoresizingMaskIntoConstraints="NO" id="JmW-FH-oBR" userLabel="Image">
+                                                            <rect key="frame" x="0.0" y="0.0" width="80" height="80"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="width" secondItem="JmW-FH-oBR" secondAttribute="height" multiplier="1:1" id="4x2-Oy-xFa"/>
+                                                                <constraint firstAttribute="width" secondItem="JmW-FH-oBR" secondAttribute="height" multiplier="1:1" id="h1p-ak-Rhy"/>
+                                                                <constraint firstAttribute="width" constant="80" id="okR-pz-6lB"/>
+                                                            </constraints>
+                                                        </imageView>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Wubba lubba dub dub" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" adjustsLetterSpacingToFitWidth="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CmS-pu-KSV" userLabel="Name Label">
+                                                            <rect key="frame" x="0.0" y="80" width="80" height="40"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="40" id="8n5-kw-jMj"/>
+                                                            </constraints>
+                                                            <fontDescription key="fontDescription" type="system" weight="ultraLight" pointSize="13"/>
+                                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                    </subviews>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="80" id="BSF-7Z-bAn"/>
+                                                        <constraint firstItem="JmW-FH-oBR" firstAttribute="leading" secondItem="w5k-o0-GMr" secondAttribute="leading" id="Ele-7z-ish"/>
+                                                        <constraint firstAttribute="bottom" secondItem="CmS-pu-KSV" secondAttribute="bottom" id="N0J-v3-GsK"/>
+                                                        <constraint firstItem="CmS-pu-KSV" firstAttribute="leading" secondItem="w5k-o0-GMr" secondAttribute="leading" id="mE4-Ex-bSx"/>
+                                                        <constraint firstItem="JmW-FH-oBR" firstAttribute="top" secondItem="w5k-o0-GMr" secondAttribute="top" id="rCR-sX-ZcV"/>
+                                                        <constraint firstAttribute="trailing" secondItem="CmS-pu-KSV" secondAttribute="trailing" id="tWr-NK-0J1"/>
+                                                        <constraint firstAttribute="height" constant="120" id="xHu-Rl-aqV"/>
+                                                    </constraints>
+                                                </stackView>
+                                            </subviews>
+                                        </view>
+                                        <constraints>
+                                            <constraint firstItem="w5k-o0-GMr" firstAttribute="top" secondItem="tDK-dO-2zA" secondAttribute="top" id="cHH-y7-PbB"/>
+                                            <constraint firstItem="w5k-o0-GMr" firstAttribute="leading" secondItem="tDK-dO-2zA" secondAttribute="leading" id="owl-7c-uh2"/>
+                                        </constraints>
+                                        <size key="customSize" width="80" height="120"/>
+                                        <connections>
+                                            <outlet property="symbolImage" destination="JMM-P5-mDQ" id="7yP-HF-dmQ"/>
+                                            <outlet property="trackImage" destination="JmW-FH-oBR" id="QhO-O1-pYx"/>
+                                            <outlet property="trackNameLabel" destination="CmS-pu-KSV" id="oeR-Ef-GzM"/>
                                         </connections>
                                     </collectionViewCell>
                                 </cells>
@@ -159,6 +215,6 @@
     </scenes>
     <resources>
         <image name="eating title" width="640" height="1136"/>
-        <image name="rick" width="250" height="318"/>
+        <image name="morty" width="250" height="398"/>
     </resources>
 </document>

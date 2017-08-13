@@ -11,12 +11,14 @@ import Foundation
 class Track {
     
     var image: String
-    var name: String = "wubba lubba dub dub"
+    var name: String = "Rick and Morty"
     var soundFileName: String = "lick my balls"
     
     init(dataDictionary: [String: String]) {
+        name = dataDictionary["name"]!
         image = dataDictionary["image"]!
         soundFileName = dataDictionary["sound"]!
+        
     }
     
     class func newTrack(dataDictionary: [String: String]) -> Track {
