@@ -6,7 +6,6 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
-        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -99,65 +98,11 @@
                                             <outlet property="view" destination="tiZ-pa-cxN" id="EHG-zz-m7O"/>
                                         </connections>
                                     </collectionViewCell>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="TrackCollectionViewCell2" id="tDK-dO-2zA" customClass="TrackCollectionViewCell" customModule="Rick_and_Morty_Soundboard" customModuleProvider="target">
-                                        <rect key="frame" x="98.5" y="0.0" width="80" height="120"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
-                                            <rect key="frame" x="0.0" y="0.0" width="80" height="120"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <stackView hidden="YES" opaque="NO" contentMode="center" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="w5k-o0-GMr">
-                                                    <rect key="frame" x="0.0" y="0.0" width="80" height="120"/>
-                                                    <subviews>
-                                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="JMM-P5-mDQ" userLabel="Symbol">
-                                                            <rect key="frame" x="0.0" y="0.0" width="80" height="0.0"/>
-                                                        </imageView>
-                                                        <imageView hidden="YES" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="morty" translatesAutoresizingMaskIntoConstraints="NO" id="JmW-FH-oBR" userLabel="Image">
-                                                            <rect key="frame" x="0.0" y="0.0" width="80" height="80"/>
-                                                            <constraints>
-                                                                <constraint firstAttribute="width" secondItem="JmW-FH-oBR" secondAttribute="height" multiplier="1:1" id="4x2-Oy-xFa"/>
-                                                                <constraint firstAttribute="width" secondItem="JmW-FH-oBR" secondAttribute="height" multiplier="1:1" id="h1p-ak-Rhy"/>
-                                                                <constraint firstAttribute="width" constant="80" id="okR-pz-6lB"/>
-                                                            </constraints>
-                                                        </imageView>
-                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Wubba lubba dub dub" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" adjustsLetterSpacingToFitWidth="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CmS-pu-KSV" userLabel="Name Label">
-                                                            <rect key="frame" x="0.0" y="80" width="80" height="40"/>
-                                                            <constraints>
-                                                                <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="40" id="8n5-kw-jMj"/>
-                                                            </constraints>
-                                                            <fontDescription key="fontDescription" type="system" weight="ultraLight" pointSize="13"/>
-                                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                                            <nil key="highlightedColor"/>
-                                                        </label>
-                                                    </subviews>
-                                                    <constraints>
-                                                        <constraint firstAttribute="width" constant="80" id="BSF-7Z-bAn"/>
-                                                        <constraint firstItem="JmW-FH-oBR" firstAttribute="leading" secondItem="w5k-o0-GMr" secondAttribute="leading" id="Ele-7z-ish"/>
-                                                        <constraint firstAttribute="bottom" secondItem="CmS-pu-KSV" secondAttribute="bottom" id="N0J-v3-GsK"/>
-                                                        <constraint firstItem="CmS-pu-KSV" firstAttribute="leading" secondItem="w5k-o0-GMr" secondAttribute="leading" id="mE4-Ex-bSx"/>
-                                                        <constraint firstItem="JmW-FH-oBR" firstAttribute="top" secondItem="w5k-o0-GMr" secondAttribute="top" id="rCR-sX-ZcV"/>
-                                                        <constraint firstAttribute="trailing" secondItem="CmS-pu-KSV" secondAttribute="trailing" id="tWr-NK-0J1"/>
-                                                        <constraint firstAttribute="height" constant="120" id="xHu-Rl-aqV"/>
-                                                    </constraints>
-                                                </stackView>
-                                            </subviews>
-                                        </view>
-                                        <constraints>
-                                            <constraint firstItem="w5k-o0-GMr" firstAttribute="top" secondItem="tDK-dO-2zA" secondAttribute="top" id="cHH-y7-PbB"/>
-                                            <constraint firstItem="w5k-o0-GMr" firstAttribute="leading" secondItem="tDK-dO-2zA" secondAttribute="leading" id="owl-7c-uh2"/>
-                                        </constraints>
-                                        <size key="customSize" width="80" height="120"/>
-                                        <connections>
-                                            <outlet property="symbolImage" destination="JMM-P5-mDQ" id="7yP-HF-dmQ"/>
-                                            <outlet property="trackImage" destination="JmW-FH-oBR" id="QhO-O1-pYx"/>
-                                            <outlet property="trackNameLabel" destination="CmS-pu-KSV" id="oeR-Ef-GzM"/>
-                                        </connections>
-                                    </collectionViewCell>
                                 </cells>
                                 <connections>
-                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="nyZ-h8-FLx"/>
-                                    <outlet property="delegate" destination="BYZ-38-t0r" id="OlB-7y-2AB"/>
-                                    <outlet property="prefetchDataSource" destination="BYZ-38-t0r" id="sFH-OZ-j0u"/>
+                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="jlD-fA-T8T"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="A7a-gQ-Tl4"/>
+                                    <outlet property="prefetchDataSource" destination="BYZ-38-t0r" id="7Yf-NV-Fbb"/>
                                 </connections>
                             </collectionView>
                             <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Qdd-Ni-j4N" userLabel="Top bar stack">
@@ -205,7 +150,7 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="collectionView" destination="phf-vD-Y9v" id="6qg-lz-DcT"/>
+                        <outlet property="collectionView" destination="phf-vD-Y9v" id="ni7-eh-se8"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -215,6 +160,5 @@
     </scenes>
     <resources>
         <image name="eating title" width="640" height="1136"/>
-        <image name="morty" width="250" height="398"/>
     </resources>
 </document>

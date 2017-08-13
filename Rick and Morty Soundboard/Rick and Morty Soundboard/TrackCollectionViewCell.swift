@@ -18,6 +18,9 @@ class TrackCollectionViewCell: UICollectionViewCell {
   
   var charImageView: UIImageView = UIImageView()
   var blurredEffectView: UIVisualEffectView = UIVisualEffectView()
+  var symbolImageView = UIImageView()
+  
+  let animationDuration: Double = 0.4
   
   func setTrack(item: Track) {
     // Create character image
@@ -39,9 +42,17 @@ class TrackCollectionViewCell: UICollectionViewCell {
     charImageView.addSubview(blurredEffectView)
     
     // Create symbol image
-    let symbolImageView = UIImageView(image: UIImage(named: "play"))
     symbolImageView.frame = charImageView.bounds
     charImageView.addSubview(symbolImageView)
+    
+    print("Being played is: \(item.beingPlayed)")
+    if item.beingPlayed {
+      showOverlay()
+      
+    } else {
+      hideOverlay()
+      
+    }
     
     view.addSubview(charImageView)
     
@@ -49,18 +60,18 @@ class TrackCollectionViewCell: UICollectionViewCell {
     
   }
   
-  func playTrack() {
-    showSymbol(symbolImageName: "play")
-    showBlur()
-    showBorder()
+  func showOverlay() {
+    self.showSymbol(symbolImageName: "play")
+    self.charImageView.layer.borderWidth = 3
+    self.blurredEffectView.isHidden = false
     
   }
   
-  func stopTrack() {
-    hideSymbol()
-    hideBlur()
-    hideBorder()
-    
+  func hideOverlay() {
+    self.hideSymbol()
+    self.charImageView.layer.borderWidth = 0
+    self.blurredEffectView.isHidden = true
+
   }
   
   func useStoryboard(item: Track) {
@@ -88,31 +99,13 @@ class TrackCollectionViewCell: UICollectionViewCell {
     
   }
   
-  func showBlur() {
-    
-    blurredEffectView.isHidden = false
-    
-  }
-  
-  func hideBlur() {
-    blurredEffectView.isHidden = true
-  }
-  
-  func showBorder() {
-    charImageView.layer.borderWidth = 3
-  }
-  
-  func hideBorder() {
-    charImageView.layer.borderWidth = 0
-  }
-  
   func showSymbol(symbolImageName: String) {
-    symbolImage.image = UIImage(named: symbolImageName)
+    symbolImageView.image = UIImage(named: symbolImageName)
     
   }
   
   func hideSymbol() {
-    symbolImage.image = nil
+    symbolImageView.image = nil
   }
   
 }

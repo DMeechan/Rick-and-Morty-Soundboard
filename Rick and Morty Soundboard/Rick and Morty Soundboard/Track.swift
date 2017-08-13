@@ -13,6 +13,7 @@ class Track {
     var image: String
     var name: String = "Rick and Morty"
     var soundFileName: String = "lick my balls"
+    var beingPlayed: Bool = false
     
     init(dataDictionary: [String: String]) {
         name = dataDictionary["name"]!

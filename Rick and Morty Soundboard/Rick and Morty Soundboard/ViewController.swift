@@ -13,10 +13,12 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
   
   @IBOutlet weak var collectionView: UICollectionView!
   
-  var tracks: [Track] = []
-  var audioPlayer: AVAudioPlayer!
-  
   var settings: [String: AnyObject] = [:]
+  
+  var audioPlayer: AVAudioPlayer!
+  var tracks: [Track] = []
+  
+  var currentTrack: Track?
   
   override func viewDidLoad() {
     super.viewDidLoad()
@@ -25,23 +27,41 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
     importTrackData()
     collectionView.reloadData()
     
-    audioPlayer = AVAudioPlayer()
+    setupSampleSound()
     
   }
   
   // MARK: Audio player
   
-
-  func playSound(audioFileNameInAssets: String) {
-    if let sound = NSDataAsset(name: audioFileNameInAssets) {
+  func setupSampleSound() {
+    if let sampleSound = NSDataAsset(name: "tiny rick") {
+      do {
+        try audioPlayer = AVAudioPlayer(data: sampleSound.data)
+        audioPlayer.prepareToPlay()
+        
+      } catch {
+        print("Error playing sample sound: \(sampleSound)")
+        
+      }
+    }
+  }
+  
+  func playSound(audioFileName: String) {
+    if audioPlayer.isPlaying {
+      stopSound()
+    }
+    
+    if let sound = NSDataAsset(name: audioFileName) {
       do {
         try! AVAudioSession.sharedInstance().setCategory(AVAudioSessionCategoryPlayback)
         try! AVAudioSession.sharedInstance().setActive(true)
+        
         try audioPlayer = AVAudioPlayer(data: sound.data)
+        // audioPlayer.delegate = self
         audioPlayer.play()
         
       } catch {
-        print("Error playing sound: \(audioFileNameInAssets)")
+        print("Error playing sound: \(audioFileName)")
       }
     }
     
@@ -62,8 +82,28 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
     // Take action when a cell is selected
     print("Clicked cell at: \(indexPath.row)")
     
+    // Play sound
     let track = tracks[indexPath.row]
-    playSound(audioFileNameInAssets: track.soundFileName)
+    playSound(audioFileName: track.soundFileName)
+    
+    track.beingPlayed = true
+    UIView.animate(withDuration: 2, animations: {
+      self.collectionView.reloadData()
+    })
+    
+    currentTrack = track
+    
+    Timer.scheduledTimer(withTimeInterval: audioPlayer.duration, repeats: false, block: {_ in
+      track.beingPlayed = false
+      self.collectionView.reloadData()
+      
+    })
+    
+  }
+  
+  func stopSound() {
+    print("Finished playing")
+    currentTrack?.beingPlayed = false
     
   }
   
@@ -82,17 +122,17 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
   // MARK: Dynamically update cell sizes
   // TODO: One of these two functions is preventing the nameLabel from appearing
   
-//  func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-//    let picDimension = self.view.frame.size.width / 4.0
-//    return CGSize(width: picDimension, height: picDimension)
-//    
-//  }
-//  
-//  func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, insetForSectionAt section: Int) -> UIEdgeInsets {
-//    let leftRightInset = self.view.frame.size.width / 14.0
-//    return UIEdgeInsets(top: 0, left: leftRightInset, bottom: 0, right: leftRightInset)
-//    
-//  }
+  //  func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
+  //    let picDimension = self.view.frame.size.width / 4.0
+  //    return CGSize(width: picDimension, height: picDimension)
+  //
+  //  }
+  //
+  //  func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, insetForSectionAt section: Int) -> UIEdgeInsets {
+  //    let leftRightInset = self.view.frame.size.width / 14.0
+  //    return UIEdgeInsets(top: 0, left: leftRightInset, bottom: 0, right: leftRightInset)
+  //
+  //  }
   
   // MARK: Importing data
   
@@ -102,7 +142,8 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
       "theme": "default" as AnyObject,
       "glassEffect": true as AnyObject,
       "longPressLoops": true as AnyObject,
-      "simultaneousPlayback": false as AnyObject
+      "simultaneousPlayback": false as AnyObject,
+      "isDeveloper": true as AnyObject
     ]
     
   }
