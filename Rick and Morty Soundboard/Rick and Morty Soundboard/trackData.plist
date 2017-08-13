@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+   trackImages.plist
+   Rick and Morty Soundboard
+
+   Created by Daniel Meechan on 13/08/2017.
+   Copyright (c) 2017 Rogue Studios. All rights reserved.
+-->
+<plist version="1.0">
+    <array>
+        <dict>
+            <key>image</key>
+            <string>beth</string>
+            <key>sound</key>
+            <string>lick my balls</string>
+        </dict>
+        <dict>
+            <key>image</key>
+            <string>dr_wong</string>
+            <key>sound</key>
+            <string>wubba lubba dub dub</string>
+        </dict>
+        <dict>
+            <key>image</key>
+            <string>mr_poopy_butthole</string>
+            <key>sound</key>
+            <string>mr meeseeks</string>
+        </dict>
+        <dict>
+            <key>image</key>
+            <string>morty</string>
+            <key>sound</key>
+            <string>tiny rick</string>
+        </dict>
+        <dict>
+            <key>image</key>
+            <string>jaguar</string>
+            <key>sound</key>
+            <string>lick my balls</string>
+        </dict>
+        <dict>
+            <key>image</key>
+            <string>birdperson</string>
+            <key>sound</key>
+            <string>wubba lubba dub dub</string>
+        </dict>
+        <dict>
+            <key>image</key>
+            <string>rick</string>
+            <key>sound</key>
+            <string>mr meeseeks</string>
+        </dict>
+        <dict>
+            <key>image</key>
+            <string>jerry</string>
+            <key>sound</key>
+            <string>tiny rick</string>
+        </dict>
+    </array>
+</plist>

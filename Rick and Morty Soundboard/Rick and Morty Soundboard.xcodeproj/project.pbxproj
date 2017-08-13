@@ -7,23 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A2B25657D4E11ABF277E71A /* Pods_Rick_and_Morty_Soundboard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75020C2C74ED7B888131D282 /* Pods_Rick_and_Morty_Soundboard.framework */; };
 		6509B6C31F3FC5E30089B897 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6509B6C21F3FC5E30089B897 /* AppDelegate.swift */; };
 		6509B6C51F3FC5E30089B897 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6509B6C41F3FC5E30089B897 /* ViewController.swift */; };
 		6509B6C81F3FC5E30089B897 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6509B6C61F3FC5E30089B897 /* Main.storyboard */; };
 		6509B6CB1F3FC5E30089B897 /* Rick_and_Morty_Soundboard.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6509B6C91F3FC5E30089B897 /* Rick_and_Morty_Soundboard.xcdatamodeld */; };
 		6509B6CD1F3FC5E30089B897 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6509B6CC1F3FC5E30089B897 /* Assets.xcassets */; };
 		6509B6D01F3FC5E30089B897 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6509B6CE1F3FC5E30089B897 /* LaunchScreen.storyboard */; };
+		658DBF6F1F3FE158000E4472 /* TrackCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658DBF6E1F3FE158000E4472 /* TrackCollectionViewCell.swift */; };
+		658DBF751F3FE339000E4472 /* Track.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658DBF741F3FE339000E4472 /* Track.swift */; };
+		658DBF771F3FE580000E4472 /* trackData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 658DBF761F3FE580000E4472 /* trackData.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0648664E2679CEE33250EE8C /* Pods-Rick and Morty Soundboard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rick and Morty Soundboard.release.xcconfig"; path = "Pods/Target Support Files/Pods-Rick and Morty Soundboard/Pods-Rick and Morty Soundboard.release.xcconfig"; sourceTree = "<group>"; };
 		6509B6BF1F3FC5E30089B897 /* Rick and Morty Soundboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rick and Morty Soundboard.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6509B6C21F3FC5E30089B897 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		6509B6C41F3FC5E30089B897 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6509B6C41F3FC5E30089B897 /* ViewController.swift */ = {isa = PBXFileReference; indentWidth = 2; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; tabWidth = 2; };
 		6509B6C71F3FC5E30089B897 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6509B6CA1F3FC5E30089B897 /* Rick_and_Morty_Soundboard.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Rick_and_Morty_Soundboard.xcdatamodel; sourceTree = "<group>"; };
 		6509B6CC1F3FC5E30089B897 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6509B6CF1F3FC5E30089B897 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6509B6D11F3FC5E30089B897 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		658DBF6E1F3FE158000E4472 /* TrackCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrackCollectionViewCell.swift; sourceTree = "<group>"; };
+		658DBF741F3FE339000E4472 /* Track.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Track.swift; sourceTree = "<group>"; };
+		658DBF761F3FE580000E4472 /* trackData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = trackData.plist; sourceTree = "<group>"; };
+		75020C2C74ED7B888131D282 /* Pods_Rick_and_Morty_Soundboard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Rick_and_Morty_Soundboard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5485A494B0EEC002027C0D2 /* Pods-Rick and Morty Soundboard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rick and Morty Soundboard.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Rick and Morty Soundboard/Pods-Rick and Morty Soundboard.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +41,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A2B25657D4E11ABF277E71A /* Pods_Rick_and_Morty_Soundboard.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		59AA022BCFD0DE408DCA4CA5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C5485A494B0EEC002027C0D2 /* Pods-Rick and Morty Soundboard.debug.xcconfig */,
+				0648664E2679CEE33250EE8C /* Pods-Rick and Morty Soundboard.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		6509B6B61F3FC5E30089B897 = {
 			isa = PBXGroup;
 			children = (
 				6509B6C11F3FC5E30089B897 /* Rick and Morty Soundboard */,
 				6509B6C01F3FC5E30089B897 /* Products */,
+				59AA022BCFD0DE408DCA4CA5 /* Pods */,
+				7130A430BDFABF54E32D2DD2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +78,58 @@
 		6509B6C11F3FC5E30089B897 /* Rick and Morty Soundboard */ = {
 			isa = PBXGroup;
 			children = (
-				6509B6C21F3FC5E30089B897 /* AppDelegate.swift */,
-				6509B6C41F3FC5E30089B897 /* ViewController.swift */,
-				6509B6C61F3FC5E30089B897 /* Main.storyboard */,
-				6509B6CC1F3FC5E30089B897 /* Assets.xcassets */,
-				6509B6CE1F3FC5E30089B897 /* LaunchScreen.storyboard */,
-				6509B6D11F3FC5E30089B897 /* Info.plist */,
-				6509B6C91F3FC5E30089B897 /* Rick_and_Morty_Soundboard.xcdatamodeld */,
+				658DBF721F3FE16E000E4472 /* MODEL */,
+				658DBF711F3FE16C000E4472 /* VIEW */,
+				658DBF701F3FE16A000E4472 /* CONTROLLER */,
+				658DBF731F3FE194000E4472 /* SUPPORTING FILES */,
 			);
 			path = "Rick and Morty Soundboard";
+			sourceTree = "<group>";
+		};
+		658DBF701F3FE16A000E4472 /* CONTROLLER */ = {
+			isa = PBXGroup;
+			children = (
+				6509B6C41F3FC5E30089B897 /* ViewController.swift */,
+			);
+			name = CONTROLLER;
+			sourceTree = "<group>";
+		};
+		658DBF711F3FE16C000E4472 /* VIEW */ = {
+			isa = PBXGroup;
+			children = (
+				6509B6C61F3FC5E30089B897 /* Main.storyboard */,
+				6509B6CE1F3FC5E30089B897 /* LaunchScreen.storyboard */,
+				658DBF6E1F3FE158000E4472 /* TrackCollectionViewCell.swift */,
+			);
+			name = VIEW;
+			sourceTree = "<group>";
+		};
+		658DBF721F3FE16E000E4472 /* MODEL */ = {
+			isa = PBXGroup;
+			children = (
+				658DBF741F3FE339000E4472 /* Track.swift */,
+				6509B6CC1F3FC5E30089B897 /* Assets.xcassets */,
+				658DBF761F3FE580000E4472 /* trackData.plist */,
+				6509B6C91F3FC5E30089B897 /* Rick_and_Morty_Soundboard.xcdatamodeld */,
+			);
+			name = MODEL;
+			sourceTree = "<group>";
+		};
+		658DBF731F3FE194000E4472 /* SUPPORTING FILES */ = {
+			isa = PBXGroup;
+			children = (
+				6509B6C21F3FC5E30089B897 /* AppDelegate.swift */,
+				6509B6D11F3FC5E30089B897 /* Info.plist */,
+			);
+			name = "SUPPORTING FILES";
+			sourceTree = "<group>";
+		};
+		7130A430BDFABF54E32D2DD2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				75020C2C74ED7B888131D282 /* Pods_Rick_and_Morty_Soundboard.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +139,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6509B6D41F3FC5E30089B897 /* Build configuration list for PBXNativeTarget "Rick and Morty Soundboard" */;
 			buildPhases = (
+				A7453DE8A0A8781D2FA300F7 /* [CP] Check Pods Manifest.lock */,
 				6509B6BB1F3FC5E30089B897 /* Sources */,
 				6509B6BC1F3FC5E30089B897 /* Frameworks */,
 				6509B6BD1F3FC5E30089B897 /* Resources */,
+				258E689B93473F3EA41FAA21 /* [CP] Embed Pods Frameworks */,
+				765244D5F6A74B01B26308AF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -129,17 +197,68 @@
 			files = (
 				6509B6D01F3FC5E30089B897 /* LaunchScreen.storyboard in Resources */,
 				6509B6CD1F3FC5E30089B897 /* Assets.xcassets in Resources */,
+				658DBF771F3FE580000E4472 /* trackData.plist in Resources */,
 				6509B6C81F3FC5E30089B897 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		258E689B93473F3EA41FAA21 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Rick and Morty Soundboard/Pods-Rick and Morty Soundboard-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		765244D5F6A74B01B26308AF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Rick and Morty Soundboard/Pods-Rick and Morty Soundboard-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A7453DE8A0A8781D2FA300F7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6509B6BB1F3FC5E30089B897 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				658DBF6F1F3FE158000E4472 /* TrackCollectionViewCell.swift in Sources */,
+				658DBF751F3FE339000E4472 /* Track.swift in Sources */,
 				6509B6C51F3FC5E30089B897 /* ViewController.swift in Sources */,
 				6509B6C31F3FC5E30089B897 /* AppDelegate.swift in Sources */,
 				6509B6CB1F3FC5E30089B897 /* Rick_and_Morty_Soundboard.xcdatamodeld in Sources */,
@@ -265,6 +384,7 @@
 		};
 		6509B6D51F3FC5E30089B897 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5485A494B0EEC002027C0D2 /* Pods-Rick and Morty Soundboard.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 2T3457P6TK;
@@ -278,6 +398,7 @@
 		};
 		6509B6D61F3FC5E30089B897 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0648664E2679CEE33250EE8C /* Pods-Rick and Morty Soundboard.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 2T3457P6TK;
@@ -308,6 +429,7 @@
 				6509B6D61F3FC5E30089B897 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

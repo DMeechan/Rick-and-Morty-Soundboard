@@ -1,0 +1,360 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4F91CB7C0C06BB8BBE7F8C516FF13A0A /* Pods-Rick and Morty Soundboard-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 417E4FAB31293D992B255AD4799E4E82 /* Pods-Rick and Morty Soundboard-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		63B9D0733A8B5A48BE6DB68BB02406D4 /* Pods-Rick and Morty Soundboard-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 89369750CD0399A2C12A3FAE10F15EAB /* Pods-Rick and Morty Soundboard-dummy.m */; };
+		7634B9996133171120E3B9986C5F3937 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0404AECCF2457820A0553BE09E54ADD3 /* Pods-Rick and Morty Soundboard.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Rick and Morty Soundboard.modulemap"; sourceTree = "<group>"; };
+		1CABEE465EBDD05F271D6BE6CA13AE32 /* Pods-Rick and Morty Soundboard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Rick and Morty Soundboard.debug.xcconfig"; sourceTree = "<group>"; };
+		2173A5B31279E33E4EC285AB977EE5D5 /* Pods-Rick and Morty Soundboard-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Rick and Morty Soundboard-acknowledgements.plist"; sourceTree = "<group>"; };
+		417E4FAB31293D992B255AD4799E4E82 /* Pods-Rick and Morty Soundboard-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Rick and Morty Soundboard-umbrella.h"; sourceTree = "<group>"; };
+		6071C0D303CED9222C4B5B3BED2C2854 /* Pods-Rick and Morty Soundboard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Rick and Morty Soundboard.release.xcconfig"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		85947102E55DC1B9090C0081186ED16A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89369750CD0399A2C12A3FAE10F15EAB /* Pods-Rick and Morty Soundboard-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Rick and Morty Soundboard-dummy.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A3A6EDF8BD6249D4403E9B66BC33219A /* Pods_Rick_and_Morty_Soundboard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Rick_and_Morty_Soundboard.framework; path = "Pods-Rick and Morty Soundboard.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAC2F1596E85924534E23DC0237189B2 /* Pods-Rick and Morty Soundboard-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Rick and Morty Soundboard-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BDC5CBACE161BC9AEB69A528227425EB /* Pods-Rick and Morty Soundboard-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Rick and Morty Soundboard-resources.sh"; sourceTree = "<group>"; };
+		E1A5510627CB346535D69589B0B9EE0E /* Pods-Rick and Morty Soundboard-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Rick and Morty Soundboard-frameworks.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		539386C4E0C9939039CC12C379041775 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7634B9996133171120E3B9986C5F3937 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				D4584D00EAEA8D28AD57E7C7CF044F2C /* Products */,
+				D8CFD7E03ADCB079612D7C91F5570053 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		D4584D00EAEA8D28AD57E7C7CF044F2C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A3A6EDF8BD6249D4403E9B66BC33219A /* Pods_Rick_and_Morty_Soundboard.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D8CFD7E03ADCB079612D7C91F5570053 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EFBBC414ABC9EEDA556FADB278AC1A07 /* Pods-Rick and Morty Soundboard */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		EFBBC414ABC9EEDA556FADB278AC1A07 /* Pods-Rick and Morty Soundboard */ = {
+			isa = PBXGroup;
+			children = (
+				85947102E55DC1B9090C0081186ED16A /* Info.plist */,
+				0404AECCF2457820A0553BE09E54ADD3 /* Pods-Rick and Morty Soundboard.modulemap */,
+				AAC2F1596E85924534E23DC0237189B2 /* Pods-Rick and Morty Soundboard-acknowledgements.markdown */,
+				2173A5B31279E33E4EC285AB977EE5D5 /* Pods-Rick and Morty Soundboard-acknowledgements.plist */,
+				89369750CD0399A2C12A3FAE10F15EAB /* Pods-Rick and Morty Soundboard-dummy.m */,
+				E1A5510627CB346535D69589B0B9EE0E /* Pods-Rick and Morty Soundboard-frameworks.sh */,
+				BDC5CBACE161BC9AEB69A528227425EB /* Pods-Rick and Morty Soundboard-resources.sh */,
+				417E4FAB31293D992B255AD4799E4E82 /* Pods-Rick and Morty Soundboard-umbrella.h */,
+				1CABEE465EBDD05F271D6BE6CA13AE32 /* Pods-Rick and Morty Soundboard.debug.xcconfig */,
+				6071C0D303CED9222C4B5B3BED2C2854 /* Pods-Rick and Morty Soundboard.release.xcconfig */,
+			);
+			name = "Pods-Rick and Morty Soundboard";
+			path = "Target Support Files/Pods-Rick and Morty Soundboard";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		60678D887F2B210CE4C7675450ECE7FE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F91CB7C0C06BB8BBE7F8C516FF13A0A /* Pods-Rick and Morty Soundboard-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		687D96D402AA11BAAC63BAE271F67757 /* Pods-Rick and Morty Soundboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 705157B0F2C625C2A0918226D5B14641 /* Build configuration list for PBXNativeTarget "Pods-Rick and Morty Soundboard" */;
+			buildPhases = (
+				E811ED0A8791231187CCEF4D2D86D14E /* Sources */,
+				539386C4E0C9939039CC12C379041775 /* Frameworks */,
+				60678D887F2B210CE4C7675450ECE7FE /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Rick and Morty Soundboard";
+			productName = "Pods-Rick and Morty Soundboard";
+			productReference = A3A6EDF8BD6249D4403E9B66BC33219A /* Pods_Rick_and_Morty_Soundboard.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = D4584D00EAEA8D28AD57E7C7CF044F2C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				687D96D402AA11BAAC63BAE271F67757 /* Pods-Rick and Morty Soundboard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E811ED0A8791231187CCEF4D2D86D14E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63B9D0733A8B5A48BE6DB68BB02406D4 /* Pods-Rick and Morty Soundboard-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3EFC4F8AC1EFE5326D3EB29871C9F7DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1CABEE465EBDD05F271D6BE6CA13AE32 /* Pods-Rick and Morty Soundboard.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Rick and Morty Soundboard/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Rick and Morty Soundboard/Pods-Rick and Morty Soundboard.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Rick_and_Morty_Soundboard;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4E487F173E6C9664F4E9E26B9635D23C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		728764302C6252A4B00EA67417683C2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6071C0D303CED9222C4B5B3BED2C2854 /* Pods-Rick and Morty Soundboard.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Rick and Morty Soundboard/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Rick and Morty Soundboard/Pods-Rick and Morty Soundboard.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Rick_and_Morty_Soundboard;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BDD0139D6EB93FA375F887ABD62DAB2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E487F173E6C9664F4E9E26B9635D23C /* Debug */,
+				BDD0139D6EB93FA375F887ABD62DAB2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		705157B0F2C625C2A0918226D5B14641 /* Build configuration list for PBXNativeTarget "Pods-Rick and Morty Soundboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EFC4F8AC1EFE5326D3EB29871C9F7DF /* Debug */,
+				728764302C6252A4B00EA67417683C2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
