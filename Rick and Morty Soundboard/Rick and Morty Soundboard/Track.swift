@@ -10,15 +10,18 @@ import Foundation
 
 class Track {
     
-    var image: String
-    var name: String = "Rick and Morty"
+    var name: String = ""
+    var image: String = "jerry"
     var soundFileName: String = "lick my balls"
-    var beingPlayed: Bool = false
     
     init(dataDictionary: [String: String]) {
         name = dataDictionary["name"]!
+        
         image = dataDictionary["image"]!
+        image.append("_char")
+        
         soundFileName = dataDictionary["sound"]!
+        soundFileName.append("_sound")
         
     }
     

@@ -12,17 +12,17 @@ class TrackCollectionViewCell: UICollectionViewCell {
   
   @IBOutlet weak var trackNameLabel: UILabel!
   @IBOutlet weak var trackImage: UIImageView!
-  @IBOutlet weak var symbolImage: UIImageView!
+  @IBOutlet weak var iconImage: UIImageView!
   
   @IBOutlet weak var view: UIView!
   
   var charImageView: UIImageView = UIImageView()
   var blurredEffectView: UIVisualEffectView = UIVisualEffectView()
-  var symbolImageView = UIImageView()
+  var iconImageView = UIImageView()
   
   let animationDuration: Double = 0.4
   
-  func setTrack(item: Track) {
+  func setTrack(item: Track, beingPlayed: Bool) {
     // Create character image
     charImageView = UIImageView(image: UIImage(named: item.image))
     charImageView.frame = CGRect(x: 0, y: 0, width: 80, height: 80)
@@ -32,46 +32,40 @@ class TrackCollectionViewCell: UICollectionViewCell {
     charImageView.layer.cornerRadius = (charImageView.frame.size.width / 2)
     charImageView.clipsToBounds = true
     
-    // Create border
-    charImageView.layer.borderColor = UIColor.white.cgColor
+    print("Being played: \(beingPlayed)")
     
-    // Create blur effect
-    let blurEffect = UIBlurEffect(style: .light)
-    blurredEffectView = UIVisualEffectView(effect: blurEffect)
-    blurredEffectView.frame = charImageView.bounds
-    charImageView.addSubview(blurredEffectView)
-    
-    // Create symbol image
-    symbolImageView.frame = charImageView.bounds
-    charImageView.addSubview(symbolImageView)
-    
-    print("Being played is: \(item.beingPlayed)")
-    if item.beingPlayed {
-      showOverlay()
+    if beingPlayed {
+      // Create border
+      charImageView.layer.borderColor = UIColor.white.cgColor
+      charImageView.layer.borderWidth = 3
       
-    } else {
-      hideOverlay()
+      // Create blur effect
+      let blurEffect = UIBlurEffect(style: .light)
+      blurredEffectView = UIVisualEffectView(effect: blurEffect)
+      blurredEffectView.frame = charImageView.bounds
+      charImageView.addSubview(blurredEffectView)
+      
+      // Create icon image
+      showIcon(iconImageName: "play")
+      iconImageView.frame = charImageView.bounds
+      charImageView.addSubview(iconImageView)
       
     }
     
     view.addSubview(charImageView)
     
-    // useStoryboard(item: item)
+  }
+  
+  func showIcon(iconImageName: String) {
+    var iconName = iconImageName
+    iconName.append("_icon")
+    
+    iconImageView.image = UIImage(named: iconName)
     
   }
   
-  func showOverlay() {
-    self.showSymbol(symbolImageName: "play")
-    self.charImageView.layer.borderWidth = 3
-    self.blurredEffectView.isHidden = false
-    
-  }
-  
-  func hideOverlay() {
-    self.hideSymbol()
-    self.charImageView.layer.borderWidth = 0
-    self.blurredEffectView.isHidden = true
-
+  func hideIcon() {
+    iconImageView.image = nil
   }
   
   func useStoryboard(item: Track) {
@@ -92,20 +86,11 @@ class TrackCollectionViewCell: UICollectionViewCell {
     trackImage.layer.borderWidth = 3
     trackImage.layer.borderColor = UIColor.white.cgColor
     
-    // Set up symbol image
-    symbolImage.frame = CGRect(x: 0, y: 0, width: 80, height: 80)
-    symbolImage.image = UIImage(named: "play")
-    trackImage.addSubview(symbolImage)
+    // Set up icon image
+    iconImage.frame = CGRect(x: 0, y: 0, width: 80, height: 80)
+    iconImage.image = UIImage(named: "play_icon")
+    trackImage.addSubview(iconImage)
     
-  }
-  
-  func showSymbol(symbolImageName: String) {
-    symbolImageView.image = UIImage(named: symbolImageName)
-    
-  }
-  
-  func hideSymbol() {
-    symbolImageView.image = nil
   }
   
 }

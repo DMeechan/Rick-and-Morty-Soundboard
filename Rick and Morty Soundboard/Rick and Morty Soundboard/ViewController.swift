@@ -18,23 +18,41 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
   var audioPlayer: AVAudioPlayer!
   var tracks: [Track] = []
   
-  var currentTrack: Track?
+  var currentTrackName: String = ""
   
   override func viewDidLoad() {
     super.viewDidLoad()
+    
+    // setupSampleSound()
     
     importSettings()
     importTrackData()
     collectionView.reloadData()
     
-    setupSampleSound()
-    
   }
   
   // MARK: Audio player
+
+  func playSound(audioFileName: String) {
+    if let sound = NSDataAsset(name: audioFileName) {
+      do {
+        try! AVAudioSession.sharedInstance().setCategory(AVAudioSessionCategoryPlayback)
+        try! AVAudioSession.sharedInstance().setActive(true)
+        
+        try audioPlayer = AVAudioPlayer(data: sound.data)
+        audioPlayer.play()
+        
+        // audioPlayer.delegate = self
+        
+      } catch {
+        print("Error playing sound: \(audioFileName)")
+      }
+    }
+    
+  }
   
   func setupSampleSound() {
-    if let sampleSound = NSDataAsset(name: "tiny rick") {
+    if let sampleSound = NSDataAsset(name: "tiny rick_sound") {
       do {
         try audioPlayer = AVAudioPlayer(data: sampleSound.data)
         audioPlayer.prepareToPlay()
@@ -46,34 +64,23 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
     }
   }
   
-  func playSound(audioFileName: String) {
-    if audioPlayer.isPlaying {
-      stopSound()
-    }
-    
-    if let sound = NSDataAsset(name: audioFileName) {
-      do {
-        try! AVAudioSession.sharedInstance().setCategory(AVAudioSessionCategoryPlayback)
-        try! AVAudioSession.sharedInstance().setActive(true)
-        
-        try audioPlayer = AVAudioPlayer(data: sound.data)
-        // audioPlayer.delegate = self
-        audioPlayer.play()
-        
-      } catch {
-        print("Error playing sound: \(audioFileName)")
-      }
-    }
-    
-  }
-  
   // MARK: Collection View
   
   func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
     // Give cells their contents
     let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "TrackCollectionViewCell", for: indexPath) as! TrackCollectionViewCell
     
-    cell.setTrack(item: tracks[indexPath.row])
+    // Check if the cell is being played currently
+    let track = tracks[indexPath.row]
+    var beingPlayed: Bool = false
+    
+    if track.name == currentTrackName {
+      beingPlayed = true
+      
+    }
+    
+    // Link cell with track
+    cell.setTrack(item: track, beingPlayed: beingPlayed)
     return cell
     
   }
@@ -86,24 +93,18 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
     let track = tracks[indexPath.row]
     playSound(audioFileName: track.soundFileName)
     
-    track.beingPlayed = true
-    UIView.animate(withDuration: 2, animations: {
-      self.collectionView.reloadData()
-    })
+    currentTrackName = track.name
     
-    currentTrack = track
+    // track.beingPlayed = true
+    // currentTrack = track
     
-    Timer.scheduledTimer(withTimeInterval: audioPlayer.duration, repeats: false, block: {_ in
-      track.beingPlayed = false
-      self.collectionView.reloadData()
-      
-    })
+    self.collectionView.reloadData()
     
-  }
-  
-  func stopSound() {
-    print("Finished playing")
-    currentTrack?.beingPlayed = false
+//    Timer.scheduledTimer(withTimeInterval: audioPlayer.duration, repeats: false, block: {_ in
+//      track.beingPlayed = false
+//      self.collectionView.reloadData()
+//      
+//    })
     
   }
   
@@ -140,7 +141,8 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
     settings = [
       "wallpaper": "eating title" as AnyObject,
       "theme": "default" as AnyObject,
-      "glassEffect": true as AnyObject,
+      "glassEffectOnWallpaper": true as AnyObject,
+      "glassEffectOnTracks": true as AnyObject,
       "longPressLoops": true as AnyObject,
       "simultaneousPlayback": false as AnyObject,
       "isDeveloper": true as AnyObject
@@ -157,11 +159,28 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
     
     for item in inputDataArray as! [Dictionary<String, String>] {
       let track = Track(dataDictionary: item)
+      
+      if trackNotUnique(track: track) {
+        track.name += "2"
+      }
+      
       items.append(track)
       
     }
     
     tracks = items
+    
+  }
+  
+  func trackNotUnique(track: Track) -> Bool {
+    for existingTrack in tracks {
+      if track.name == existingTrack.name {
+        print("Track \(track.name) has a duplicate! Attempting to correct.")
+        return true
+        
+      }
+    }
+    return true
     
   }
   
