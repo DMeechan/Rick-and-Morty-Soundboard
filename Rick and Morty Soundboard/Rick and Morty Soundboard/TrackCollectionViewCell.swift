@@ -77,13 +77,10 @@ class TrackCollectionViewCell: UICollectionViewCell {
     // Create circular mask
     
     charImageView.layer.cornerRadius = charImageView.bounds.size.width / 2.0
-    
-    print("Image size: \(String(describing: charImageView.image?.size))")
-    print("Bounds with: \(charImageView.bounds.size.width)")
-    print("Corner radius: \(charImageView.layer.cornerRadius)")
+
   }
   
-  func showPlayOverlay() {
+  func showPlayOverlay(trackImage: String) {
     // Create image border
     charImageView.layer.borderColor = UIColor.white.cgColor
     
@@ -91,7 +88,7 @@ class TrackCollectionViewCell: UICollectionViewCell {
     //charImageView.blur(blurRadius: CGFloat(1.1))
     //charImageView.image?.ciImage?.applyingGaussianBlur(withSigma: 200.0)
     
-    blurImage(image: charImageView)
+    charImageView.blurImage(id: trackImage)
     
     // Old method to create blur effect
     let blurEffect = UIBlurEffect(style: .light)
@@ -110,31 +107,11 @@ class TrackCollectionViewCell: UICollectionViewCell {
   func removeOverlay() {
     // Hide image border
     charImageView.layer.borderColor = UIColor.clear.cgColor
-    charImageView.unBlur()
+//    charImageView.unBlur()
     
     for subview in charImageView.subviews {
       subview.removeFromSuperview()
     }
-    
-  }
-  
-  func blurImage(image: UIImageView) {
-    let context = CIContext(options: nil)
-    
-    let currentFilter = CIFilter(name: "CIGaussianBlur")
-    let beginImage = CIImage(image: image.image!)
-    currentFilter!.setValue(beginImage, forKey: kCIInputImageKey)
-    currentFilter!.setValue(2, forKey: kCIInputRadiusKey)
-    
-    let cropFilter = CIFilter(name: "CICrop")
-    cropFilter!.setValue(currentFilter!.outputImage, forKey: kCIInputImageKey)
-    cropFilter!.setValue(CIVector(cgRect: beginImage!.extent), forKey: "inputRectangle")
-    
-    let output = cropFilter!.outputImage
-    let cgimg = context.createCGImage(output!, from: output!.extent)
-    let processedImage = UIImage(cgImage: cgimg!)
-    
-    image.image = processedImage
     
   }
   

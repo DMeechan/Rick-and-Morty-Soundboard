@@ -65,7 +65,7 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
     // Check if the cell is being played currently
     if track.name == currentTrackName {
       // Track is being played
-      cell.showPlayOverlay()
+      cell.showPlayOverlay(trackImage: track.image)
       
     } else {
       cell.removeOverlay()

@@ -10,8 +10,6 @@ import UIKit
 
 class Track {
   
-  static let blurredImageCache = NSCache<AnyObject, AnyObject>()
-  
   var name: String = "jerry"
   var image: String = "jerry_char"
   var soundFileName: String = "lick my balls_sound"
@@ -39,4 +37,40 @@ class Track {
     
   }
   
+}
+
+let blurredImageCache = NSCache<AnyObject, AnyObject>()
+
+extension UIImageView {
+  
+  func blurImage(id: String) {
+    
+    if let imageFromCache = blurredImageCache.object(forKey: id as AnyObject) {
+      self.image = imageFromCache as? UIImage
+      print("Grabbing blurred image from cache!")
+      return
+    }
+    
+    let context = CIContext(options: nil)
+    
+    let currentFilter = CIFilter(name: "CIGaussianBlur")
+    let beginImage = CIImage(image: self.image!)
+    currentFilter!.setValue(beginImage, forKey: kCIInputImageKey)
+    currentFilter!.setValue(2, forKey: kCIInputRadiusKey)
+    
+    let cropFilter = CIFilter(name: "CICrop")
+    cropFilter!.setValue(currentFilter!.outputImage, forKey: kCIInputImageKey)
+    cropFilter!.setValue(CIVector(cgRect: beginImage!.extent), forKey: "inputRectangle")
+    
+    let output = cropFilter!.outputImage
+    let cgimg = context.createCGImage(output!, from: output!.extent)
+    let processedImageToCache = UIImage(cgImage: cgimg!)
+    
+    // Save blurred image to cache
+    blurredImageCache.setObject(processedImageToCache, forKey: id as AnyObject)
+    
+    print("Processing blurred image")
+    self.image = processedImageToCache
+    
+  }
 }
