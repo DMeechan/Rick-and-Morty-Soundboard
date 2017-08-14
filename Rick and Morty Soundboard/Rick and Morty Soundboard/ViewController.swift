@@ -22,13 +22,21 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
   var tracks: [Track] = []
   
   var currentTrackName: String = ""
-
+  
+  var movingIndexPath: IndexPath?
+  
+  // MARK: User interface
+  
   override func viewDidLoad() {
     super.viewDidLoad()
     
     setupCollectionView()
     importSettings()
     importTrackData()
+    
+    let longPress = UILongPressGestureRecognizer(target: self, action: #selector(self.longPressReceived(_:)))
+     collectionView?.addGestureRecognizer(longPress)
+    longPress.minimumPressDuration = 0.3
     
     // setupSampleSound()
     
@@ -38,7 +46,95 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
     collectionView?.reloadData()
   }
   
+  // MARK: Moving cells
+  
+  func longPressed(_ gesture: UILongPressGestureRecognizer) {
+    let location = gesture.location(in: collectionView)
+    movingIndexPath = collectionView?.indexPathForItem(at: location)
+    
+    if gesture.state == .began {
+      guard let indexPath = movingIndexPath else { return }
+      
+      setEditing(true, animated: true)
+      collectionView?.beginInteractiveMovementForItem(at: indexPath)
+      animatePickingUpCell(cell: pickedUpCell())
+    } else if(gesture.state == .changed) {
+      collectionView?.updateInteractiveMovementTargetPosition(location)
+    } else {
+      gesture.state == .ended
+        ? collectionView?.endInteractiveMovement()
+        : collectionView?.cancelInteractiveMovement()
+      
+      animatePuttingDownCell(cell: pickedUpCell())
+      movingIndexPath = nil
+    }
+  }
+  
+  func longPressReceived(_ gesture: UILongPressGestureRecognizer) {
+    let location = gesture.location(in: collectionView)
+    movingIndexPath = collectionView?.indexPathForItem(at: location)
+    
+    switch (gesture.state) {
+      
+    case UIGestureRecognizerState.began:
+      guard let indexPath = movingIndexPath else { return }
+      setEditing(true, animated: true)
+      collectionView?.beginInteractiveMovementForItem(at: indexPath)
+      animatePickingUpCell(cell: pickedUpCell())
+      
+    case UIGestureRecognizerState.changed:
+      collectionView?.updateInteractiveMovementTargetPosition(location)
+      
+    case UIGestureRecognizerState.ended:
+      collectionView?.endInteractiveMovement()
+      animatePuttingDownCell(cell: pickedUpCell())
+      movingIndexPath = nil
+      
+    default:
+      collectionView?.cancelInteractiveMovement()
+      animatePuttingDownCell(cell: pickedUpCell())
+      movingIndexPath = nil
+      
+    }
+    
+  }
+  
+  func pickedUpCell() -> TrackCollectionViewCell? {
+    guard let indexPath = movingIndexPath else { return nil }
+    
+    return collectionView?.cellForItem(at: indexPath) as? TrackCollectionViewCell
+    
+  }
+  
+  func animatePickingUpCell(cell: TrackCollectionViewCell?) {
+    UIView.animate(withDuration: 0.1, delay: 0.0, options: [.allowUserInteraction, .beginFromCurrentState], animations: { () -> Void in
+      cell?.alpha = 0.7
+      cell?.transform = CGAffineTransform(scaleX: 1.3, y: 1.3)
+    }, completion: { finished in
+      
+    })
+  }
+  
+  func animatePuttingDownCell(cell: TrackCollectionViewCell?) {
+    UIView.animate(withDuration: 0.1, delay: 0.0, options: [.allowUserInteraction, .beginFromCurrentState], animations: { () -> Void in
+      cell?.alpha = 1.0
+      cell?.transform = CGAffineTransform.identity
+    }, completion: { finished in
+      
+    })
+    
+    collectionView?.reloadData()
+    
+  }
+  
+  
   // MARK: Collection View
+  
+  func collectionView(_ collectionView: UICollectionView, moveItemAt sourceIndexPath: IndexPath, to destinationIndexPath: IndexPath) {
+    let track = tracks.remove(at: sourceIndexPath.item)
+    tracks.insert(track, at: destinationIndexPath.item)
+    
+  }
   
   func setupCollectionView() {
     let flowLayout = UICollectionViewFlowLayout()
