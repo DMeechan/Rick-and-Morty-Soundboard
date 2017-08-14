@@ -65,6 +65,7 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
     let favImageView: UIImageView = {
       let imageView = UIImageView()
       imageView.backgroundColor = UIColor.orange
+      imageView.alpha = 0.5
       return imageView
       
     }()
@@ -72,6 +73,7 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
     let bannerImageView: UIImageView = {
       let imageView = UIImageView()
       imageView.backgroundColor = UIColor.cyan
+      imageView.alpha = 0.5
       return imageView
       
     }()
