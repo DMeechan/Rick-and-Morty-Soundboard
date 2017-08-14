@@ -16,8 +16,6 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
   var collectionView: UICollectionView?
   let trackCellIdentifier: String = "trackCell"
   
-  var settings: [String: AnyObject] = [:]
-  
   var audioPlayer: AVAudioPlayer!
   var tracks: [Track] = []
   
@@ -25,13 +23,14 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
   
   var movingIndexPath: IndexPath?
   
+  // TODO: Compress audio files to .ogg or .flac
+  
   // MARK: User interface
   
   override func viewDidLoad() {
     super.viewDidLoad()
     
     setupViews()
-    importSettings()
     importTrackData()
     
     let longPress = UILongPressGestureRecognizer(target: self, action: #selector(self.longPressReceived(_:)))
@@ -55,7 +54,7 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
       
       imageView.image = UIImage(named: "eating title_wallpaper")
       imageView.blurImage(id: "eating title_wallpaper", blurValue: 5)
-      imageView.image = imageView.image?.alpha(0.8)
+      imageView.image = imageView.image?.alpha(0.7)
       
       imageView.contentMode = .scaleToFill
       return imageView
@@ -107,7 +106,7 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
     ] as [String : Any]
     
     addConstraint(visualFormat: "V:|-25-[settings(48)]", items: items)
-    addConstraint(visualFormat: "V:|-25-[banner(50)][collection][favourites(100)]|", items: items)
+    addConstraint(visualFormat: "V:|-25-[banner(50)]-10-[collection][favourites(100)]|", items: items)
     addConstraint(visualFormat: "V:|[wallpaper]|", items: items)
     
     addConstraint(visualFormat: "H:|[banner(320@500)][settings(48)]|", items: items)
@@ -316,19 +315,6 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
   }
   
   // MARK: Importing data
-  
-  func importSettings() {
-    settings = [
-      "wallpaper": "eating title" as AnyObject,
-      "theme": "default" as AnyObject,
-      "glassEffectOnWallpaper": true as AnyObject,
-      "glassEffectOnTracks": true as AnyObject,
-      "longPressLoops": true as AnyObject,
-      "simultaneousPlayback": false as AnyObject,
-      "isDeveloper": true as AnyObject
-    ]
-    
-  }
   
   func importTrackData() {
     var items = [Track]()

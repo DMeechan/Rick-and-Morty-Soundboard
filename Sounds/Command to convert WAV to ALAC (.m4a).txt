@@ -1,0 +1,1 @@
+for file in *.wav; do afconvert -d alac "$file" "${file%wav}m4a"; done

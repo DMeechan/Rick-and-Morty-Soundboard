@@ -17,6 +17,7 @@
 		658DBF6F1F3FE158000E4472 /* TrackCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658DBF6E1F3FE158000E4472 /* TrackCollectionViewCell.swift */; };
 		658DBF751F3FE339000E4472 /* Track.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658DBF741F3FE339000E4472 /* Track.swift */; };
 		658DBF771F3FE580000E4472 /* trackData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 658DBF761F3FE580000E4472 /* trackData.plist */; };
+		65AC7D8E1F41E2C0000F0F3C /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65AC7D8D1F41E2C0000F0F3C /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		658DBF6E1F3FE158000E4472 /* TrackCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 2; lastKnownFileType = sourcecode.swift; path = TrackCollectionViewCell.swift; sourceTree = "<group>"; tabWidth = 2; };
 		658DBF741F3FE339000E4472 /* Track.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Track.swift; sourceTree = "<group>"; };
 		658DBF761F3FE580000E4472 /* trackData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = trackData.plist; sourceTree = "<group>"; };
+		65AC7D8D1F41E2C0000F0F3C /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		75020C2C74ED7B888131D282 /* Pods_Rick_and_Morty_Soundboard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Rick_and_Morty_Soundboard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5485A494B0EEC002027C0D2 /* Pods-Rick and Morty Soundboard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rick and Morty Soundboard.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Rick and Morty Soundboard/Pods-Rick and Morty Soundboard.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -90,6 +92,7 @@
 			isa = PBXGroup;
 			children = (
 				6509B6C41F3FC5E30089B897 /* ViewController.swift */,
+				65AC7D8D1F41E2C0000F0F3C /* SettingsViewController.swift */,
 			);
 			name = CONTROLLER;
 			sourceTree = "<group>";
@@ -262,6 +265,7 @@
 				6509B6C51F3FC5E30089B897 /* ViewController.swift in Sources */,
 				6509B6C31F3FC5E30089B897 /* AppDelegate.swift in Sources */,
 				6509B6CB1F3FC5E30089B897 /* Rick_and_Morty_Soundboard.xcdatamodeld in Sources */,
+				65AC7D8E1F41E2C0000F0F3C /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -130,7 +130,7 @@ class TrackCollectionViewCell: UICollectionViewCell {
     let nameLabel: UILabel = {
       let label = UILabel()
       label.textAlignment = .center
-      label.font = UIFont.systemFont(ofSize: 14, weight: UIFontWeightUltraLight)
+      label.font = UIFont.systemFont(ofSize: 14, weight: UIFontWeightLight)
       return label
       
     }()
