@@ -22,7 +22,7 @@
 		<key>name</key>
 		<string>Mr Meeseeks</string>
 		<key>image</key>
-		<string>jerry</string>
+		<string>mr meeseeks</string>
 		<key>sound</key>
 		<string>mr meeseeks</string>
 	</dict>
@@ -30,7 +30,7 @@
 		<key>name</key>
 		<string>Tiny Rick</string>
 		<key>image</key>
-		<string>tiny_rick</string>
+		<string>tiny rick</string>
 		<key>sound</key>
 		<string>tiny rick</string>
 	</dict>

@@ -9,9 +9,12 @@
 import UIKit
 import AVFoundation
 
-class ViewController: UIViewController, UICollectionViewDataSource, UICollectionViewDelegate, UICollectionViewDelegateFlowLayout {
+class ViewController: UIViewController, UICollectionViewDataSource, UICollectionViewDelegate, UICollectionViewDelegateFlowLayout, AVAudioPlayerDelegate {
   
-  @IBOutlet weak var collectionView: UICollectionView!
+  // @IBOutlet weak var collectionView: UICollectionView!
+  
+  var collectionView: UICollectionView?
+  let trackCellIdentifier: String = "trackCell"
   
   var settings: [String: AnyObject] = [:]
   
@@ -19,20 +22,109 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
   var tracks: [Track] = []
   
   var currentTrackName: String = ""
-  
+
   override func viewDidLoad() {
     super.viewDidLoad()
     
-    // setupSampleSound()
-    
+    setupCollectionView()
     importSettings()
     importTrackData()
+    
+    // setupSampleSound()
+    
+  }
+  
+  override func viewDidAppear(_ animated: Bool) {
+    collectionView?.reloadData()
+  }
+  
+  // MARK: Collection View
+  
+  func setupCollectionView() {
+    let flowLayout = UICollectionViewFlowLayout()
+    
+    collectionView = UICollectionView(frame: self.view.bounds, collectionViewLayout: flowLayout)
+    collectionView?.register(TrackCollectionViewCell.self, forCellWithReuseIdentifier: trackCellIdentifier)
+    
+    collectionView?.delegate = self
+    collectionView?.dataSource = self
+    collectionView?.backgroundColor = UIColor.red
+    
+    self.view.addSubview(collectionView!)
+    
+  }
+  
+  func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+    // Give cells their contents
+    let cell = collectionView.dequeueReusableCell(withReuseIdentifier: trackCellIdentifier, for: indexPath) as! TrackCollectionViewCell
+    
+    let track = tracks[indexPath.row]
+    
+    cell.setTrack(track: track)
+    
+    // Check if the cell is being played currently
+    if track.name == currentTrackName {
+      // Track is being played
+      cell.showPlayOverlay()
+      
+    } else {
+      cell.removeOverlay()
+      
+    }
+    
+    // Link cell with track
+    // cell.setTrack(item: track, beingPlayed: beingPlayed)
+    return cell
+    
+  }
+  
+  func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+    // Take action when a cell is clicked
+    print("Clicked cell at: \(indexPath.row)")
+    
+    // Play sound
+    let track = tracks[indexPath.row]
+    playSound(audioFileName: track.soundFileName)
+    
+    currentTrackName = track.name
+    
     collectionView.reloadData()
     
   }
   
+  func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+    // Return number of cells in collection
+    return tracks.count
+    
+  }
+  
+  func numberOfSections(in collectionView: UICollectionView) -> Int {
+    // Return number of sections in collection
+    return 1
+    
+  }
+  
+  func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
+    return CGSize(width: 80, height: 120)
+  }
+  
+  // MARK: Dynamically update cell sizes
+  // TODO: One of these two functions is preventing the nameLabel from appearing
+  
+  //  func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
+  //    let picDimension = self.view.frame.size.width / 4.0
+  //    return CGSize(width: picDimension, height: picDimension)
+  //
+  //  }
+  //
+  //  func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, insetForSectionAt section: Int) -> UIEdgeInsets {
+  //    let leftRightInset = self.view.frame.size.width / 14.0
+  //    return UIEdgeInsets(top: 0, left: leftRightInset, bottom: 0, right: leftRightInset)
+  //
+  //  }
+  
   // MARK: Audio player
-
+  
   func playSound(audioFileName: String) {
     if let sound = NSDataAsset(name: audioFileName) {
       do {
@@ -42,7 +134,7 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
         try audioPlayer = AVAudioPlayer(data: sound.data)
         audioPlayer.play()
         
-        // audioPlayer.delegate = self
+        audioPlayer.delegate = self
         
       } catch {
         print("Error playing sound: \(audioFileName)")
@@ -64,76 +156,11 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
     }
   }
   
-  // MARK: Collection View
-  
-  func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-    // Give cells their contents
-    let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "TrackCollectionViewCell", for: indexPath) as! TrackCollectionViewCell
-    
-    // Check if the cell is being played currently
-    let track = tracks[indexPath.row]
-    var beingPlayed: Bool = false
-    
-    if track.name == currentTrackName {
-      beingPlayed = true
-      
-    }
-    
-    // Link cell with track
-    cell.setTrack(item: track, beingPlayed: beingPlayed)
-    return cell
-    
+  func audioPlayerDidFinishPlaying(_ player: AVAudioPlayer, successfully flag: Bool) {
+    print("Running delegate")
+    currentTrackName = ""
+    collectionView?.reloadData()
   }
-  
-  func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-    // Take action when a cell is selected
-    print("Clicked cell at: \(indexPath.row)")
-    
-    // Play sound
-    let track = tracks[indexPath.row]
-    playSound(audioFileName: track.soundFileName)
-    
-    currentTrackName = track.name
-    
-    // track.beingPlayed = true
-    // currentTrack = track
-    
-    self.collectionView.reloadData()
-    
-//    Timer.scheduledTimer(withTimeInterval: audioPlayer.duration, repeats: false, block: {_ in
-//      track.beingPlayed = false
-//      self.collectionView.reloadData()
-//      
-//    })
-    
-  }
-  
-  func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-    // Return number of cells in collection
-    return tracks.count
-    
-  }
-  
-  func numberOfSections(in collectionView: UICollectionView) -> Int {
-    // Return number of sections in collection
-    return 1
-    
-  }
-  
-  // MARK: Dynamically update cell sizes
-  // TODO: One of these two functions is preventing the nameLabel from appearing
-  
-  //  func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-  //    let picDimension = self.view.frame.size.width / 4.0
-  //    return CGSize(width: picDimension, height: picDimension)
-  //
-  //  }
-  //
-  //  func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, insetForSectionAt section: Int) -> UIEdgeInsets {
-  //    let leftRightInset = self.view.frame.size.width / 14.0
-  //    return UIEdgeInsets(top: 0, left: leftRightInset, bottom: 0, right: leftRightInset)
-  //
-  //  }
   
   // MARK: Importing data
   
@@ -180,7 +207,7 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
         
       }
     }
-    return true
+    return false
     
   }
   

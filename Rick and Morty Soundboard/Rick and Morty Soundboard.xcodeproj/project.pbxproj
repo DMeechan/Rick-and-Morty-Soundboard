@@ -14,6 +14,7 @@
 		6509B6CB1F3FC5E30089B897 /* Rick_and_Morty_Soundboard.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6509B6C91F3FC5E30089B897 /* Rick_and_Morty_Soundboard.xcdatamodeld */; };
 		6509B6CD1F3FC5E30089B897 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6509B6CC1F3FC5E30089B897 /* Assets.xcassets */; };
 		6509B6D01F3FC5E30089B897 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6509B6CE1F3FC5E30089B897 /* LaunchScreen.storyboard */; };
+		655F4ECF1F41261C0085AD75 /* FMBlurable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 655F4ECE1F41261C0085AD75 /* FMBlurable.swift */; };
 		658DBF6F1F3FE158000E4472 /* TrackCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658DBF6E1F3FE158000E4472 /* TrackCollectionViewCell.swift */; };
 		658DBF751F3FE339000E4472 /* Track.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658DBF741F3FE339000E4472 /* Track.swift */; };
 		658DBF771F3FE580000E4472 /* trackData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 658DBF761F3FE580000E4472 /* trackData.plist */; };
@@ -29,6 +30,7 @@
 		6509B6CC1F3FC5E30089B897 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6509B6CF1F3FC5E30089B897 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6509B6D11F3FC5E30089B897 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		655F4ECE1F41261C0085AD75 /* FMBlurable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FMBlurable.swift; sourceTree = "<group>"; };
 		658DBF6E1F3FE158000E4472 /* TrackCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 2; lastKnownFileType = sourcecode.swift; path = TrackCollectionViewCell.swift; sourceTree = "<group>"; tabWidth = 2; };
 		658DBF741F3FE339000E4472 /* Track.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Track.swift; sourceTree = "<group>"; };
 		658DBF761F3FE580000E4472 /* trackData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = trackData.plist; sourceTree = "<group>"; };
@@ -98,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				658DBF6E1F3FE158000E4472 /* TrackCollectionViewCell.swift */,
+				655F4ECE1F41261C0085AD75 /* FMBlurable.swift */,
 				6509B6C61F3FC5E30089B897 /* Main.storyboard */,
 				6509B6CE1F3FC5E30089B897 /* LaunchScreen.storyboard */,
 			);
@@ -107,10 +110,10 @@
 		658DBF721F3FE16E000E4472 /* MODEL */ = {
 			isa = PBXGroup;
 			children = (
-				658DBF741F3FE339000E4472 /* Track.swift */,
-				6509B6CC1F3FC5E30089B897 /* Assets.xcassets */,
-				658DBF761F3FE580000E4472 /* trackData.plist */,
 				6509B6C91F3FC5E30089B897 /* Rick_and_Morty_Soundboard.xcdatamodeld */,
+				658DBF761F3FE580000E4472 /* trackData.plist */,
+				6509B6CC1F3FC5E30089B897 /* Assets.xcassets */,
+				658DBF741F3FE339000E4472 /* Track.swift */,
 			);
 			name = MODEL;
 			sourceTree = "<group>";
@@ -262,6 +265,7 @@
 				6509B6C51F3FC5E30089B897 /* ViewController.swift in Sources */,
 				6509B6C31F3FC5E30089B897 /* AppDelegate.swift in Sources */,
 				6509B6CB1F3FC5E30089B897 /* Rick_and_Morty_Soundboard.xcdatamodeld in Sources */,
+				655F4ECF1F41261C0085AD75 /* FMBlurable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

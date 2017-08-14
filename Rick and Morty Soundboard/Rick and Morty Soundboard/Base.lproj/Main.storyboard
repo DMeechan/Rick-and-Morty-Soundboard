@@ -82,16 +82,16 @@
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tiZ-pa-cxN">
                                                     <rect key="frame" x="0.0" y="0.0" width="80" height="120"/>
                                                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="80" id="UD4-Kp-cxJ"/>
+                                                        <constraint firstAttribute="height" constant="120" id="hmC-fM-oMF"/>
+                                                    </constraints>
                                                 </view>
                                             </subviews>
                                         </view>
                                         <constraints>
-                                            <constraint firstAttribute="trailing" secondItem="tiZ-pa-cxN" secondAttribute="trailing" id="4zP-nR-s1w"/>
-                                            <constraint firstItem="tiZ-pa-cxN" firstAttribute="leading" secondItem="W2J-bY-xL8" secondAttribute="leading" id="76j-BV-2VL"/>
-                                            <constraint firstItem="tiZ-pa-cxN" firstAttribute="centerY" secondItem="W2J-bY-xL8" secondAttribute="centerY" id="LtN-N3-dRi"/>
                                             <constraint firstItem="tiZ-pa-cxN" firstAttribute="centerX" secondItem="W2J-bY-xL8" secondAttribute="centerX" id="ku8-aS-VvC"/>
                                             <constraint firstItem="tiZ-pa-cxN" firstAttribute="top" secondItem="W2J-bY-xL8" secondAttribute="top" id="vie-qb-WW5"/>
-                                            <constraint firstAttribute="bottom" secondItem="tiZ-pa-cxN" secondAttribute="bottom" id="zQD-6O-OIT"/>
                                         </constraints>
                                         <size key="customSize" width="80" height="120"/>
                                         <connections>

@@ -6,27 +6,37 @@
 //  Copyright © 2017 Rogue Studios. All rights reserved.
 //
 
-import Foundation
+import UIKit
 
 class Track {
+  
+  static let blurredImageCache = NSCache<AnyObject, AnyObject>()
+  
+  var name: String = "jerry"
+  var image: String = "jerry_char"
+  var soundFileName: String = "lick my balls_sound"
+  
+  init(dataDictionary: [String: String]) {
+    name = dataDictionary["name"]!
     
-    var name: String = ""
-    var image: String = "jerry"
-    var soundFileName: String = "lick my balls"
+    image = dataDictionary["image"]!
+    image.append("_char")
     
-    init(dataDictionary: [String: String]) {
-        name = dataDictionary["name"]!
-        
-        image = dataDictionary["image"]!
-        image.append("_char")
-        
-        soundFileName = dataDictionary["sound"]!
-        soundFileName.append("_sound")
-        
-    }
+    soundFileName = dataDictionary["sound"]!
+    soundFileName.append("_sound")
     
-    class func newTrack(dataDictionary: [String: String]) -> Track {
-        return Track(dataDictionary: dataDictionary)
-    }
+  }
+  
+  init() {
+    name = "rick_char"
+    image = "rick_char"
+    soundFileName = "lick my balls_sound"
     
+  }
+  
+  class func newTrack(dataDictionary: [String: String]) -> Track {
+    return Track(dataDictionary: dataDictionary)
+    
+  }
+  
 }
