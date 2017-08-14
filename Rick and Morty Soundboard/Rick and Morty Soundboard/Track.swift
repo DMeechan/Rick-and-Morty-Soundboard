@@ -45,18 +45,35 @@ extension UIImageView {
   
   func blurImage(id: String) {
     
+    blurImage(id: id, blurValue: 2)
+    
+  }
+  
+  func blurImage(id: String, blurValue: Int) {
+    
     if let imageFromCache = blurredImageCache.object(forKey: id as AnyObject) {
       self.image = imageFromCache as? UIImage
       print("Grabbing blurred image from cache!")
       return
     }
     
+    let processedImageToCache = blurImage(blurValue: blurValue)
+    
+    // Save blurred image to cache
+    blurredImageCache.setObject(processedImageToCache, forKey: id as AnyObject)
+    
+    print("Processing blurred image")
+    self.image = processedImageToCache
+    
+  }
+  
+  func blurImage(blurValue: Int) -> UIImage {
     let context = CIContext(options: nil)
     
     let currentFilter = CIFilter(name: "CIGaussianBlur")
     let beginImage = CIImage(image: self.image!)
     currentFilter!.setValue(beginImage, forKey: kCIInputImageKey)
-    currentFilter!.setValue(2, forKey: kCIInputRadiusKey)
+    currentFilter!.setValue(blurValue, forKey: kCIInputRadiusKey)
     
     let cropFilter = CIFilter(name: "CICrop")
     cropFilter!.setValue(currentFilter!.outputImage, forKey: kCIInputImageKey)
@@ -64,13 +81,23 @@ extension UIImageView {
     
     let output = cropFilter!.outputImage
     let cgimg = context.createCGImage(output!, from: output!.extent)
-    let processedImageToCache = UIImage(cgImage: cgimg!)
+    let processedImage = UIImage(cgImage: cgimg!)
     
-    // Save blurred image to cache
-    blurredImageCache.setObject(processedImageToCache, forKey: id as AnyObject)
+    return processedImage
     
-    print("Processing blurred image")
-    self.image = processedImageToCache
+  }
+  
+}
+
+extension UIImage{
+  
+  func alpha(_ value:CGFloat)->UIImage
+  {
+    UIGraphicsBeginImageContextWithOptions(size, false, scale)
+    draw(at: CGPoint.zero, blendMode: .normal, alpha: value)
+    let newImage = UIGraphicsGetImageFromCurrentImageContext()
+    UIGraphicsEndImageContext()
+    return newImage!
     
   }
 }

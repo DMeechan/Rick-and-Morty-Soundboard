@@ -30,12 +30,12 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
   override func viewDidLoad() {
     super.viewDidLoad()
     
-    setupCollectionView()
+    setupViews()
     importSettings()
     importTrackData()
     
     let longPress = UILongPressGestureRecognizer(target: self, action: #selector(self.longPressReceived(_:)))
-     collectionView?.addGestureRecognizer(longPress)
+    collectionView?.addGestureRecognizer(longPress)
     longPress.minimumPressDuration = 0.3
     
     // setupSampleSound()
@@ -46,29 +46,82 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
     collectionView?.reloadData()
   }
   
-  // MARK: Moving cells
-  
-  func longPressed(_ gesture: UILongPressGestureRecognizer) {
-    let location = gesture.location(in: collectionView)
-    movingIndexPath = collectionView?.indexPathForItem(at: location)
+  func setupViews() {
+    setupCollectionView()
     
-    if gesture.state == .began {
-      guard let indexPath = movingIndexPath else { return }
+    let wallpaperImageView: UIImageView = {
+      let imageView = UIImageView()
+      imageView.backgroundColor = UIColor.white
       
-      setEditing(true, animated: true)
-      collectionView?.beginInteractiveMovementForItem(at: indexPath)
-      animatePickingUpCell(cell: pickedUpCell())
-    } else if(gesture.state == .changed) {
-      collectionView?.updateInteractiveMovementTargetPosition(location)
-    } else {
-      gesture.state == .ended
-        ? collectionView?.endInteractiveMovement()
-        : collectionView?.cancelInteractiveMovement()
+      imageView.image = UIImage(named: "eating title_wallpaper")
+      imageView.blurImage(id: "eating title_wallpaper", blurValue: 5)
+      imageView.image = imageView.image?.alpha(0.8)
       
-      animatePuttingDownCell(cell: pickedUpCell())
-      movingIndexPath = nil
-    }
+      imageView.contentMode = .scaleToFill
+      return imageView
+      
+    }()
+    
+    let favImageView: UIImageView = {
+      let imageView = UIImageView()
+      imageView.backgroundColor = UIColor.orange
+      return imageView
+      
+    }()
+    
+    let bannerImageView: UIImageView = {
+      let imageView = UIImageView()
+      imageView.backgroundColor = UIColor.cyan
+      return imageView
+      
+    }()
+    
+    let settingsButon: UIButton = {
+      let button = UIButton()
+      button.contentMode = .scaleToFill
+      button.setImage(UIImage(named: "settings_icon"), for: .normal)
+      return button
+      
+    }()
+    
+    self.view.addSubview(wallpaperImageView)
+    self.view.addSubview(collectionView!)
+    self.view.addSubview(bannerImageView)
+    self.view.addSubview(settingsButon)
+    self.view.addSubview(favImageView)
+    
+    wallpaperImageView.translatesAutoresizingMaskIntoConstraints = false
+    collectionView?.translatesAutoresizingMaskIntoConstraints = false
+    bannerImageView.translatesAutoresizingMaskIntoConstraints = false
+    settingsButon.translatesAutoresizingMaskIntoConstraints = false
+    favImageView.translatesAutoresizingMaskIntoConstraints = false
+    
+    let items = [
+      "wallpaper": wallpaperImageView,
+      "collection": collectionView!,
+      "banner": bannerImageView,
+      "settings": settingsButon,
+      "favourites": favImageView
+    ] as [String : Any]
+    
+    addConstraint(visualFormat: "V:|-25-[settings(48)]", items: items)
+    addConstraint(visualFormat: "V:|-25-[banner(50)][collection][favourites(100)]|", items: items)
+    addConstraint(visualFormat: "V:|[wallpaper]|", items: items)
+    
+    addConstraint(visualFormat: "H:|[banner(320@500)][settings(48)]|", items: items)
+    addConstraint(visualFormat: "H:|[wallpaper]|", items: items)
+    addConstraint(visualFormat: "H:|[collection]|", items: items)
+    addConstraint(visualFormat: "H:|[favourites]|", items: items)
+    
+    
   }
+  
+  func addConstraint(visualFormat: String, items: [String: Any]) {
+    self.view.addConstraints(NSLayoutConstraint.constraints(withVisualFormat: visualFormat, options: NSLayoutFormatOptions(), metrics: nil, views: items))
+    
+  }
+  
+  // MARK: Moving cells
   
   func longPressReceived(_ gesture: UILongPressGestureRecognizer) {
     let location = gesture.location(in: collectionView)
@@ -78,7 +131,7 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
       
     case UIGestureRecognizerState.began:
       guard let indexPath = movingIndexPath else { return }
-      setEditing(true, animated: true)
+      // setEditing(true, animated: true)
       collectionView?.beginInteractiveMovementForItem(at: indexPath)
       animatePickingUpCell(cell: pickedUpCell())
       
@@ -127,6 +180,11 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
     
   }
   
+  override func setEditing(_ editing: Bool, animated: Bool) {
+    super.setEditing(editing, animated: true)
+    
+  }
+  
   
   // MARK: Collection View
   
@@ -139,14 +197,13 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
   func setupCollectionView() {
     let flowLayout = UICollectionViewFlowLayout()
     
-    collectionView = UICollectionView(frame: self.view.bounds, collectionViewLayout: flowLayout)
+    // self.view.bounds
+    collectionView = UICollectionView(frame: CGRect(), collectionViewLayout: flowLayout)
     collectionView?.register(TrackCollectionViewCell.self, forCellWithReuseIdentifier: trackCellIdentifier)
     
     collectionView?.delegate = self
     collectionView?.dataSource = self
-    collectionView?.backgroundColor = UIColor.red
-    
-    self.view.addSubview(collectionView!)
+    collectionView?.backgroundColor = UIColor.clear
     
   }
   
@@ -200,24 +257,22 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
     
   }
   
-  func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-    return CGSize(width: 80, height: 120)
-  }
-  
   // MARK: Dynamically update cell sizes
   // TODO: One of these two functions is preventing the nameLabel from appearing
   
-  //  func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-  //    let picDimension = self.view.frame.size.width / 4.0
-  //    return CGSize(width: picDimension, height: picDimension)
-  //
-  //  }
-  //
-  //  func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, insetForSectionAt section: Int) -> UIEdgeInsets {
-  //    let leftRightInset = self.view.frame.size.width / 14.0
-  //    return UIEdgeInsets(top: 0, left: leftRightInset, bottom: 0, right: leftRightInset)
-  //
-  //  }
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
+      let picDimension = self.view.frame.size.width / 4.0
+      // return CGSize(width: picDimension, height: picDimension)
+      
+      return CGSize(width: 80, height: 120)
+  
+    }
+  
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, insetForSectionAt section: Int) -> UIEdgeInsets {
+      let leftRightInset = self.view.frame.size.width / 14.0
+      return UIEdgeInsets(top: 0, left: leftRightInset, bottom: 0, right: leftRightInset)
+  
+    }
   
   // MARK: Audio player
   
