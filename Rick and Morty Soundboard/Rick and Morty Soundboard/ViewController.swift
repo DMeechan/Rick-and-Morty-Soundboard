@@ -30,19 +30,27 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
   override func viewDidLoad() {
     super.viewDidLoad()
     
-    setupViews()
-    importTrackData()
+    let directToSettings: Bool = true
     
-    let longPress = UILongPressGestureRecognizer(target: self, action: #selector(self.longPressReceived(_:)))
-    collectionView?.addGestureRecognizer(longPress)
-    longPress.minimumPressDuration = 0.3
-    
-    // setupSampleSound()
+    if !directToSettings {
+      setupViews()
+      importTrackData()
+      
+      // Start tracking long presses on track buttons to move them about
+      let longPress = UILongPressGestureRecognizer(target: self, action: #selector(self.longPressReceived(_:)))
+      collectionView?.addGestureRecognizer(longPress)
+      longPress.minimumPressDuration = 0.3
+      
+      // setupSampleSound()
+      
+    }
     
   }
   
   override func viewDidAppear(_ animated: Bool) {
     collectionView?.reloadData()
+    
+    settingsButtonClicked()
   }
   
   func setupViews() {
@@ -81,6 +89,7 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
       let button = UIButton()
       button.contentMode = .scaleToFill
       button.setImage(UIImage(named: "settings_icon"), for: .normal)
+      button.addTarget(self, action: #selector(settingsButtonClicked), for: .touchUpInside)
       return button
       
     }()
@@ -119,6 +128,13 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
   
   func addConstraint(visualFormat: String, items: [String: Any]) {
     self.view.addConstraints(NSLayoutConstraint.constraints(withVisualFormat: visualFormat, options: NSLayoutFormatOptions(), metrics: nil, views: items))
+    
+  }
+  
+  func settingsButtonClicked() {
+    //  (sender: UIButton!)
+    let settingsViewController = SettingsViewController(style: UITableViewStyle.grouped)
+    self.present(settingsViewController, animated: true, completion: nil)
     
   }
   
