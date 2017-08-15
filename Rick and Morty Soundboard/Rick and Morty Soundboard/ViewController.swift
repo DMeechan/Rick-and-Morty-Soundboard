@@ -30,7 +30,7 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
   override func viewDidLoad() {
     super.viewDidLoad()
     
-    let directToSettings: Bool = true
+    let directToSettings: Bool = false
     
     if !directToSettings {
       setupViews()
@@ -50,7 +50,7 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
   override func viewDidAppear(_ animated: Bool) {
     collectionView?.reloadData()
     
-    settingsButtonClicked()
+    // settingsButtonClicked()
   }
   
   func setupViews() {

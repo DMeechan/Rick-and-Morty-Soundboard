@@ -6,6 +6,8 @@ target 'Rick and Morty Soundboard' do
   use_frameworks!
 
   # Pods for Rick and Morty Soundboard
-  pod "LBTAComponents"
+  # pod "LBTAComponents"
+  pod 'ChameleonFramework/Swift'
+  # pod 'Motif'
 
 end
