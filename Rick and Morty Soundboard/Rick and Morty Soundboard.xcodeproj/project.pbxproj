@@ -9,12 +9,14 @@
 /* Begin PBXBuildFile section */
 		3A2B25657D4E11ABF277E71A /* Pods_Rick_and_Morty_Soundboard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75020C2C74ED7B888131D282 /* Pods_Rick_and_Morty_Soundboard.framework */; };
 		6509B6C31F3FC5E30089B897 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6509B6C21F3FC5E30089B897 /* AppDelegate.swift */; };
-		6509B6C51F3FC5E30089B897 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6509B6C41F3FC5E30089B897 /* ViewController.swift */; };
+		6509B6C51F3FC5E30089B897 /* TracksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6509B6C41F3FC5E30089B897 /* TracksViewController.swift */; };
 		6509B6C81F3FC5E30089B897 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6509B6C61F3FC5E30089B897 /* Main.storyboard */; };
 		6509B6CB1F3FC5E30089B897 /* Rick_and_Morty_Soundboard.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6509B6C91F3FC5E30089B897 /* Rick_and_Morty_Soundboard.xcdatamodeld */; };
 		6509B6CD1F3FC5E30089B897 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6509B6CC1F3FC5E30089B897 /* Assets.xcassets */; };
 		6509B6D01F3FC5E30089B897 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6509B6CE1F3FC5E30089B897 /* LaunchScreen.storyboard */; };
-		65291F641F42956C001AA6BC /* Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65291F631F42956C001AA6BC /* Style.swift */; };
+		65291F641F42956C001AA6BC /* StyleManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65291F631F42956C001AA6BC /* StyleManager.swift */; };
+		653BC0831F43476B00FBE162 /* SettingsFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653BC0821F43476B00FBE162 /* SettingsFormViewController.swift */; };
+		655A3D201F49234500B3D762 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 655A3D1F1F49234500B3D762 /* GoogleService-Info.plist */; };
 		658DBF6F1F3FE158000E4472 /* TrackCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658DBF6E1F3FE158000E4472 /* TrackCollectionViewCell.swift */; };
 		658DBF751F3FE339000E4472 /* Track.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658DBF741F3FE339000E4472 /* Track.swift */; };
 		658DBF771F3FE580000E4472 /* trackData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 658DBF761F3FE580000E4472 /* trackData.plist */; };
@@ -28,13 +30,15 @@
 		0648664E2679CEE33250EE8C /* Pods-Rick and Morty Soundboard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rick and Morty Soundboard.release.xcconfig"; path = "Pods/Target Support Files/Pods-Rick and Morty Soundboard/Pods-Rick and Morty Soundboard.release.xcconfig"; sourceTree = "<group>"; };
 		6509B6BF1F3FC5E30089B897 /* Rick and Morty Soundboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rick and Morty Soundboard.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6509B6C21F3FC5E30089B897 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		6509B6C41F3FC5E30089B897 /* ViewController.swift */ = {isa = PBXFileReference; indentWidth = 2; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; tabWidth = 2; };
+		6509B6C41F3FC5E30089B897 /* TracksViewController.swift */ = {isa = PBXFileReference; indentWidth = 2; lastKnownFileType = sourcecode.swift; path = TracksViewController.swift; sourceTree = "<group>"; tabWidth = 2; };
 		6509B6C71F3FC5E30089B897 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6509B6CA1F3FC5E30089B897 /* Rick_and_Morty_Soundboard.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Rick_and_Morty_Soundboard.xcdatamodel; sourceTree = "<group>"; };
 		6509B6CC1F3FC5E30089B897 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6509B6CF1F3FC5E30089B897 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6509B6D11F3FC5E30089B897 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		65291F631F42956C001AA6BC /* Style.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Style.swift; sourceTree = "<group>"; };
+		65291F631F42956C001AA6BC /* StyleManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StyleManager.swift; sourceTree = "<group>"; };
+		653BC0821F43476B00FBE162 /* SettingsFormViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsFormViewController.swift; sourceTree = "<group>"; };
+		655A3D1F1F49234500B3D762 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		658DBF6E1F3FE158000E4472 /* TrackCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 2; lastKnownFileType = sourcecode.swift; path = TrackCollectionViewCell.swift; sourceTree = "<group>"; tabWidth = 2; };
 		658DBF741F3FE339000E4472 /* Track.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Track.swift; sourceTree = "<group>"; };
 		658DBF761F3FE580000E4472 /* trackData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = trackData.plist; sourceTree = "<group>"; };
@@ -88,20 +92,40 @@
 		6509B6C11F3FC5E30089B897 /* Rick and Morty Soundboard */ = {
 			isa = PBXGroup;
 			children = (
+				653BC0841F44FA1800FBE162 /* MANAGERS */,
 				658DBF721F3FE16E000E4472 /* MODEL */,
 				658DBF711F3FE16C000E4472 /* VIEW */,
 				658DBF701F3FE16A000E4472 /* CONTROLLER */,
 				658DBF731F3FE194000E4472 /* SUPPORTING FILES */,
+				653BC0851F44FA3000FBE162 /* DEPRECATED */,
 			);
 			path = "Rick and Morty Soundboard";
+			sourceTree = "<group>";
+		};
+		653BC0841F44FA1800FBE162 /* MANAGERS */ = {
+			isa = PBXGroup;
+			children = (
+				65AC7D931F42858B000F0F3C /* DataManager.swift */,
+				65291F631F42956C001AA6BC /* StyleManager.swift */,
+			);
+			name = MANAGERS;
+			sourceTree = "<group>";
+		};
+		653BC0851F44FA3000FBE162 /* DEPRECATED */ = {
+			isa = PBXGroup;
+			children = (
+				65AC7D8D1F41E2C0000F0F3C /* SettingsViewController.swift */,
+				65AC7D911F42694F000F0F3C /* SettingsViewController2.swift */,
+				65AC7D8F1F425949000F0F3C /* SettingsTableViewCell.swift */,
+			);
+			name = DEPRECATED;
 			sourceTree = "<group>";
 		};
 		658DBF701F3FE16A000E4472 /* CONTROLLER */ = {
 			isa = PBXGroup;
 			children = (
-				6509B6C41F3FC5E30089B897 /* ViewController.swift */,
-				65AC7D8D1F41E2C0000F0F3C /* SettingsViewController.swift */,
-				65AC7D911F42694F000F0F3C /* SettingsViewController2.swift */,
+				6509B6C41F3FC5E30089B897 /* TracksViewController.swift */,
+				653BC0821F43476B00FBE162 /* SettingsFormViewController.swift */,
 			);
 			name = CONTROLLER;
 			sourceTree = "<group>";
@@ -109,9 +133,7 @@
 		658DBF711F3FE16C000E4472 /* VIEW */ = {
 			isa = PBXGroup;
 			children = (
-				65291F631F42956C001AA6BC /* Style.swift */,
 				658DBF6E1F3FE158000E4472 /* TrackCollectionViewCell.swift */,
-				65AC7D8F1F425949000F0F3C /* SettingsTableViewCell.swift */,
 				6509B6C61F3FC5E30089B897 /* Main.storyboard */,
 				6509B6CE1F3FC5E30089B897 /* LaunchScreen.storyboard */,
 			);
@@ -125,7 +147,6 @@
 				658DBF761F3FE580000E4472 /* trackData.plist */,
 				6509B6CC1F3FC5E30089B897 /* Assets.xcassets */,
 				658DBF741F3FE339000E4472 /* Track.swift */,
-				65AC7D931F42858B000F0F3C /* DataManager.swift */,
 			);
 			name = MODEL;
 			sourceTree = "<group>";
@@ -135,6 +156,7 @@
 			children = (
 				6509B6C21F3FC5E30089B897 /* AppDelegate.swift */,
 				6509B6D11F3FC5E30089B897 /* Info.plist */,
+				655A3D1F1F49234500B3D762 /* GoogleService-Info.plist */,
 			);
 			name = "SUPPORTING FILES";
 			sourceTree = "<group>";
@@ -155,11 +177,13 @@
 			buildConfigurationList = 6509B6D41F3FC5E30089B897 /* Build configuration list for PBXNativeTarget "Rick and Morty Soundboard" */;
 			buildPhases = (
 				A7453DE8A0A8781D2FA300F7 /* [CP] Check Pods Manifest.lock */,
+				655A3D1D1F491C2900B3D762 /* Measure compile time [START] */,
 				6509B6BB1F3FC5E30089B897 /* Sources */,
 				6509B6BC1F3FC5E30089B897 /* Frameworks */,
 				6509B6BD1F3FC5E30089B897 /* Resources */,
 				258E689B93473F3EA41FAA21 /* [CP] Embed Pods Frameworks */,
 				765244D5F6A74B01B26308AF /* [CP] Copy Pods Resources */,
+				655A3D1E1F491C5700B3D762 /* Measure compile time [END] */,
 			);
 			buildRules = (
 			);
@@ -212,6 +236,7 @@
 			files = (
 				6509B6D01F3FC5E30089B897 /* LaunchScreen.storyboard in Resources */,
 				6509B6CD1F3FC5E30089B897 /* Assets.xcassets in Resources */,
+				655A3D201F49234500B3D762 /* GoogleService-Info.plist in Resources */,
 				658DBF771F3FE580000E4472 /* trackData.plist in Resources */,
 				6509B6C81F3FC5E30089B897 /* Main.storyboard in Resources */,
 			);
@@ -228,15 +253,53 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Rick and Morty Soundboard/Pods-Rick and Morty Soundboard-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/ChameleonFramework/ChameleonFramework.framework",
+				"${BUILT_PRODUCTS_DIR}/Eureka/Eureka.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ChameleonFramework.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Eureka.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Rick and Morty Soundboard/Pods-Rick and Morty Soundboard-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
+		};
+		655A3D1D1F491C2900B3D762 /* Measure compile time [START] */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Measure compile time [START]";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "echo \"$(date +%s)\" > \"buildtimes.log\"";
+		};
+		655A3D1E1F491C5700B3D762 /* Measure compile time [END] */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Measure compile time [END]";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "startime=$(<buildtimes.log)\nendtime=$(date +%s)\ndeltatime=$((endtime-startime))\nnewline=$'\\n'\necho \"[Start] $startime$newline[End] $endtime$newline[Delta] $deltatime\" > \"buildtimes.log\"";
 		};
 		765244D5F6A74B01B26308AF /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -279,15 +342,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				658DBF6F1F3FE158000E4472 /* TrackCollectionViewCell.swift in Sources */,
+				653BC0831F43476B00FBE162 /* SettingsFormViewController.swift in Sources */,
 				658DBF751F3FE339000E4472 /* Track.swift in Sources */,
 				65AC7D921F42694F000F0F3C /* SettingsViewController2.swift in Sources */,
-				6509B6C51F3FC5E30089B897 /* ViewController.swift in Sources */,
+				6509B6C51F3FC5E30089B897 /* TracksViewController.swift in Sources */,
 				6509B6C31F3FC5E30089B897 /* AppDelegate.swift in Sources */,
 				65AC7D901F425949000F0F3C /* SettingsTableViewCell.swift in Sources */,
 				6509B6CB1F3FC5E30089B897 /* Rick_and_Morty_Soundboard.xcdatamodeld in Sources */,
 				65AC7D941F42858B000F0F3C /* DataManager.swift in Sources */,
 				65AC7D8E1F41E2C0000F0F3C /* SettingsViewController.swift in Sources */,
-				65291F641F42956C001AA6BC /* Style.swift in Sources */,
+				65291F641F42956C001AA6BC /* StyleManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +480,7 @@
 				DEVELOPMENT_TEAM = 2T3457P6TK;
 				INFOPLIST_FILE = "Rick and Morty Soundboard/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_SWIFT_FLAGS = "$(inherited) \"-D\" \"COCOAPODS\" -Xfrontend -warn-long-function-bodies=250";
 				PRODUCT_BUNDLE_IDENTIFIER = "co.roguestudios.Rick-and-Morty-Soundboard";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
@@ -430,6 +495,7 @@
 				DEVELOPMENT_TEAM = 2T3457P6TK;
 				INFOPLIST_FILE = "Rick and Morty Soundboard/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_SWIFT_FLAGS = "$(inherited) \"-D\" \"COCOAPODS\" -Xfrontend -warn-long-function-bodies=250";
 				PRODUCT_BUNDLE_IDENTIFIER = "co.roguestudios.Rick-and-Morty-Soundboard";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;

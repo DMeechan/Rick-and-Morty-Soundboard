@@ -26,6 +26,7 @@ class Track {
   }
   
   init() {
+    
     name = "rick_char"
     image = "rick_char"
     soundFileName = "lick my balls_sound"
@@ -34,6 +35,19 @@ class Track {
   
   class func newTrack(dataDictionary: [String: String]) -> Track {
     return Track(dataDictionary: dataDictionary)
+    
+  }
+  
+  func isUnique() -> Bool {
+    for existingTrack in DataManager.shared.tracks {
+      if self.name == existingTrack.name {
+        print("Track \(self.name) has a duplicate! Attempting to correct.")
+        return false
+        
+      }
+    }
+    
+    return true
     
   }
   
@@ -71,7 +85,10 @@ extension UIImageView {
     let context = CIContext(options: nil)
     
     let currentFilter = CIFilter(name: "CIGaussianBlur")
-    let beginImage = CIImage(image: self.image!)
+    
+    guard let image = self.image else { return UIImage() }
+    let beginImage = CIImage(image: image)
+    
     currentFilter!.setValue(beginImage, forKey: kCIInputImageKey)
     currentFilter!.setValue(blurValue, forKey: kCIInputRadiusKey)
     
@@ -84,6 +101,18 @@ extension UIImageView {
     let processedImage = UIImage(cgImage: cgimg!)
     
     return processedImage
+    
+  }
+  
+  func blurImageApple() -> UIImageView {
+    let blurEffect = UIBlurEffect(style: .light)
+    let blurredEffectView = UIVisualEffectView(effect: blurEffect)
+    blurredEffectView.frame = self.bounds
+    
+    self.addSubview(blurredEffectView)
+    let output: UIImageView = self
+    
+    return output
     
   }
   

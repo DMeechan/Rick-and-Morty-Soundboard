@@ -16,13 +16,6 @@ class SettingsViewController: UITableViewController {
   // About
   ////
   
-  var cellBackgroundColor = UIColor.init(red: 1, green: 1, blue: 1, alpha: 0.8)
-  var cellTextColor = UIColor.black
-  var headerBackgroundColor = UIColor.init(red: 0, green: 0, blue: 0, alpha: 0.1)
-  var headerTextColor = UIColor.white
-  var tableViewBackgroundOverlayColor = UIColor.white
-  
-  
   var wallpaperCell: UITableViewCell = UITableViewCell()
   var darkThemeCell: UITableViewCell = UITableViewCell()
   var blurredWallpaperCell: UITableViewCell = UITableViewCell()
@@ -33,6 +26,25 @@ class SettingsViewController: UITableViewController {
   override func viewDidLoad() {
     super.viewDidLoad()
     
+  }
+  
+  func detectGestures() {
+    let swipeLeft = UISwipeGestureRecognizer(target: self, action: Selector(("respondToSwipeGesture:")))
+    swipeLeft.direction = UISwipeGestureRecognizerDirection.left
+    self.view.addGestureRecognizer(swipeLeft)
+    
+  }
+  
+  func respondToSwipeGesture(gesture: UIGestureRecognizer) {
+    if let swipeGesture = gesture as? UISwipeGestureRecognizer {
+      switch swipeGesture.direction {
+      case UISwipeGestureRecognizerDirection.left:
+        print("Swiped left")
+        closeView()
+      default:
+        break
+      }
+    }
   }
   
   override func loadView() {
@@ -52,46 +64,55 @@ class SettingsViewController: UITableViewController {
   }
   
   func closeView() {
-    dismiss(animated: true, completion: nil)
+     dismiss(animated: true, completion: nil)
+    
+//    let viewController = ViewController()
+//    self.present(viewController, animated: true, completion: nil)
     
   }
   
   override func tableView(_ tableView: UITableView, willDisplayHeaderView view: UIView, forSection section: Int) {
     let header = view as! UITableViewHeaderFooterView
     
-    header.contentView.backgroundColor = headerBackgroundColor
-    header.textLabel?.textColor = headerTextColor
+    // header.contentView.backgroundColor = Style.settingsHeaderBackgroundColor
+    // header.textLabel?.textColor = Style.settingsHeaderTextColor
     
   }
   
   override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
     // Give cells their contents by evaluating their section number and row number
+    
+    var cell = UITableViewCell()
+    
     switch(indexPath.section) {
-      
+    
     case 0:
       switch(indexPath.row) {
-      case 0: return self.wallpaperCell
-      case 1: return self.darkThemeCell
-      case 2: return self.blurredWallpaperCell
-      case 3: return self.blurredTrackCell
+      case 0: cell = self.wallpaperCell
+      case 1: cell =  self.darkThemeCell
+      case 2: cell =  self.blurredWallpaperCell
+      case 3: cell =  self.blurredTrackCell
       default: fatalError("Unknown row: \(indexPath.row) in section \(indexPath.section)")
       }
       
     case 1:
       switch(indexPath.row) {
-      case 0: return self.simultaneousPlaybackCell
+      case 0: cell =  self.simultaneousPlaybackCell
         default: fatalError("Unknown row: \(indexPath.row) in section \(indexPath.section)")
       }
       
     case 2:
       switch(indexPath.row) {
-      case 0: return self.isDeveloperCell
+      case 0: cell =  self.isDeveloperCell
       default: fatalError("Unknown row: \(indexPath.row) in section \(indexPath.section)")
       }
       
     default:
       fatalError("Unknown section: \(indexPath.section)")
     }
+    
+    updateCellStyling(cell: cell)
+    return cell
     
   }
   
@@ -104,6 +125,17 @@ class SettingsViewController: UITableViewController {
     default: fatalError("Unknown section: \(section)")
       
     }
+    
+  }
+  
+  func updateCellStyling(cell: UITableViewCell) {
+    cell.textLabel?.font = Style.settingsFont
+    
+    cell.backgroundColor = Style.settingsCellBackgroundColor
+    cell.textLabel?.textColor = Style.settingsCellTextColor
+    
+    // Update colour of tick
+    cell.tintColor = Style.settingsCellTextColor
     
   }
   
@@ -130,10 +162,10 @@ class SettingsViewController: UITableViewController {
     let cell: UITableViewCell = {
       let cell = UITableViewCell()
       cell.textLabel?.text = name
-      cell.backgroundColor = cellBackgroundColor
-      cell.textLabel?.textColor = cellTextColor
+
+      updateCellStyling(cell: cell)
       
-      if Data.shared.getBoolFromSetting(id: id) {
+      if Datas.shared.getBoolFromSetting(id: id) {
         cell.accessoryType = UITableViewCellAccessoryType.checkmark
         
       } else {
@@ -168,6 +200,7 @@ class SettingsViewController: UITableViewController {
     case 1:
       switch(indexPath.row) {
       case 0: handleBoolCellClick(id: "simultaneousPlayback", cell: self.simultaneousPlaybackCell, indexPath: indexPath)
+        closeView()
       default: fatalError("Unknown row: \(indexPath.row) in section \(indexPath.section)")
       }
       
@@ -198,36 +231,38 @@ class SettingsViewController: UITableViewController {
   }
   
   func updateWallpaper() {
-    if Data.shared.getBoolFromSetting(id: "wallpaper") {
+    if Datas.shared.getBoolFromSetting(id: "wallpaper") {
       
-      let blur: Bool = Data.shared.getBoolFromSetting(id: "glassEffectOnWallpaper")
+      let blur: Bool = Datas.shared.getBoolFromSetting(id: "glassEffectOnWallpaper")
       setWallpaper(blur: blur)
+      // tableView.backgroundColor = Style.wallpaperTintColor
       
     } else {
       tableView.backgroundView = nil
-      tableView.backgroundColor = tableViewBackgroundOverlayColor
+      tableView.backgroundColor = Style.wallpaperColor
       
     }
+    
+    // Prevent text being lost with the wallpaper by adding a light overlay
+    // tableView.backgroundView?.alpha = 0.9
+    // tableView.backgroundColor = Style.wallpaperTintColor
+    
   }
   
   func updateDarkTheme() {
-    if Data.shared.getBoolFromSetting(id: "darkTheme") {
+    if Datas.shared.getBoolFromSetting(id: "darkTheme") {
       // Use dark theme
-      cellBackgroundColor = UIColor.init(red: 0, green: 0, blue: 0, alpha: 0.8)
-      cellTextColor = UIColor.white
-      headerBackgroundColor = UIColor.init(red: 1, green: 1, blue: 1, alpha: 0.1)
-      headerTextColor = UIColor.black
-      tableViewBackgroundOverlayColor = UIColor.black
+//      Style.setThemeDark()
       
     } else {
-      // Use white theme
-      cellBackgroundColor = UIColor.init(red: 1, green: 1, blue: 1, alpha: 0.8)
-      cellTextColor = UIColor.black
-      headerBackgroundColor = UIColor.init(red: 0, green: 0, blue: 0, alpha: 0.1)
-      headerTextColor = UIColor.white
-      tableViewBackgroundOverlayColor = UIColor.white
+      // Use light theme
+//      Style.setThemeLight()
       
     }
+    
+    tableView.reloadData()
+    updateWallpaper()
+    
   }
   
   func setWallpaper(blur: Bool) {
@@ -244,10 +279,6 @@ class SettingsViewController: UITableViewController {
     
     tableView.backgroundView = wallpaper
     
-    // Prevent text being lost with the wallpaper by adding a light overlay
-    tableView.backgroundView?.alpha = 0.9
-    tableView.backgroundColor = tableViewBackgroundOverlayColor
-    
   }
   
   
@@ -257,14 +288,14 @@ class SettingsViewController: UITableViewController {
     
     // Update value in settings
 
-    let inverseValue = !(Data.shared.getBoolFromSetting(id: id))
+    let inverseValue = !(Datas.shared.getBoolFromSetting(id: id))
     
-    Data.shared.settings.updateValue(String(inverseValue), forKey: id)
+    Datas.shared.settings.updateValue(String(inverseValue), forKey: id)
     
   }
   
   func showBoolSetting(id: String, cell: UITableViewCell) {
-    let value = Data.shared.getBoolFromSetting(id: id)
+    let value = Datas.shared.getBoolFromSetting(id: id)
     
     if value == true {
       cell.accessoryType = UITableViewCellAccessoryType.checkmark

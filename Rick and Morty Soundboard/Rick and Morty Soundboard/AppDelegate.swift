@@ -9,6 +9,8 @@
 import UIKit
 import CoreData
 import ChameleonFramework
+import Firebase
+import GoogleMobileAds
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -18,13 +20,20 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
   
   func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
     
+    Style.setupTheme()
+    DataManager.shared.setup()
+    
     // Replace Main.storyboard with code
     window = UIWindow(frame: UIScreen.main.bounds)
     window?.makeKeyAndVisible()
     
-    window?.rootViewController = ViewController()
+    window?.rootViewController = UINavigationController(rootViewController: TracksViewController())
     
-    // Override point for customization after application launch.
+    let adMobID = "ca-app-pub-4605466962808569~2812542748"
+    GADMobileAds.configure(withApplicationID: adMobID)
+    
+    FirebaseApp.configure()
+    
     return true
   }
   

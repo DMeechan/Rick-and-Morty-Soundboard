@@ -11,6 +11,8 @@ import CoreImage
 
 class TrackCollectionViewCell: UICollectionViewCell {
   
+  static let imageWidth:Double = 80.0
+  
   override init(frame: CGRect) {
     super.init(frame: frame)
     setupViews()
@@ -21,9 +23,11 @@ class TrackCollectionViewCell: UICollectionViewCell {
   // Create character image
   let charImageView: UIImageView = {
     let imageView = UIImageView()
-    imageView.backgroundColor = UIColor.green
     imageView.contentMode = .scaleToFill
+    
+    // Add circular mask
     imageView.clipsToBounds = true
+    // imageView.layer.masksToBounds = true
     
     imageView.layer.borderColor = UIColor.clear.cgColor
     imageView.layer.borderWidth = 3
@@ -37,7 +41,8 @@ class TrackCollectionViewCell: UICollectionViewCell {
     let label = UILabel()
     label.text = "Hello world"
     label.textAlignment = .center
-    label.font = UIFont.systemFont(ofSize: 14, weight: UIFontWeightUltraLight)
+    label.font = Style.trackFont
+    label.textColor = Style.trackTextColor
     label.numberOfLines = 3
     label.lineBreakMode = .byTruncatingTail
     // label.lineBreakMode = .byCharWrapping
@@ -64,50 +69,62 @@ class TrackCollectionViewCell: UICollectionViewCell {
       "image": charImageView
     ]
     
-    addConstraints(NSLayoutConstraint.constraints(withVisualFormat: "V:|[image(80)][label(40)]|", options: NSLayoutFormatOptions(), metrics: nil, views: items))
+    addConstraints(NSLayoutConstraint.constraints(withVisualFormat: "V:|[image(\(String(TrackCollectionViewCell.imageWidth)))][label(40)]|", options: NSLayoutFormatOptions(), metrics: nil, views: items))
     addConstraints(NSLayoutConstraint.constraints(withVisualFormat: "H:|[label]|", options: NSLayoutFormatOptions(), metrics: nil, views: items))
     addConstraints(NSLayoutConstraint.constraints(withVisualFormat: "H:|[image(80@500)]|", options: NSLayoutFormatOptions(), metrics: nil, views: items))
     
   }
   
   func setTrack(track: Track) {
-    nameLabel.text = track.name
-    charImageView.image = UIImage(named: track.image)
-    
     // Create circular mask
+    // print("Setting track and adding circular mask")
     
-    charImageView.layer.cornerRadius = charImageView.bounds.size.width / 2.0
-
+    nameLabel.text = track.name
+    
+    let image = UIImage(named: track.image)
+    charImageView.layer.cornerRadius = (CGFloat(TrackCollectionViewCell.imageWidth / 2))
+    charImageView.image = image
+    
   }
   
   func showPlayOverlay(trackImage: String) {
     // Create image border
-    charImageView.layer.borderColor = UIColor.white.cgColor
+    charImageView.layer.borderColor = Style.trackBorderColor.cgColor
     
-    // Create blur effect
-    //charImageView.blur(blurRadius: CGFloat(1.1))
-    //charImageView.image?.ciImage?.applyingGaussianBlur(withSigma: 200.0)
+    guard let blur: Bool = Datas.shared.settings["trackBlur"] as? Bool else { return }
+    print("Play button blur enabled: ", blur)
     
-    charImageView.blurImage(id: trackImage)
-    
-    // Old method to create blur effect
-    let blurEffect = UIBlurEffect(style: .light)
-    let blurredEffectView = UIVisualEffectView(effect: blurEffect)
-    blurredEffectView.frame = charImageView.bounds
-    // charImageView.addSubview(blurredEffectView)
+    if blur {
+      // Create blur effect
+      //charImageView.blur(blurRadius: CGFloat(1.1))
+      //charImageView.image?.ciImage?.applyingGaussianBlur(withSigma: 200.0)
+      
+      charImageView.blurImage(id: trackImage)
+      
+      // Old method to create blur effect
+      // let blurEffect = UIBlurEffect(style: .light)
+      // let blurredEffectView = UIVisualEffectView(effect: blurEffect)
+      // blurredEffectView.frame = charImageView.bounds
+      // charImageView.addSubview(blurredEffectView)
+      
+    }
     
     // Create icon image
     let iconImageView = UIImageView()
-    iconImageView.image = UIImage(named: "play_icon")
+    
+    // Enabling .alwaysTemplate means tintColor can change the colour of the icon
+    iconImageView.image = UIImage(named: "play_icon")?.withRenderingMode(.alwaysTemplate)
+    iconImageView.tintColor = Style.trackIconColor
     iconImageView.frame = charImageView.bounds
     charImageView.addSubview(iconImageView)
     
   }
   
   func removeOverlay() {
+    // print("Hiding image border")
     // Hide image border
     charImageView.layer.borderColor = UIColor.clear.cgColor
-//    charImageView.unBlur()
+    //    charImageView.unBlur()
     
     for subview in charImageView.subviews {
       subview.removeFromSuperview()
@@ -115,6 +132,7 @@ class TrackCollectionViewCell: UICollectionViewCell {
     
   }
   
+  // Original function with text duplication bug
   func setTrack(item: Track, beingPlayed: Bool) {
     print("ERROR: RUNNING WRONG FUNCTION")
     // Create character image
@@ -124,7 +142,9 @@ class TrackCollectionViewCell: UICollectionViewCell {
     
     // Create circular mask
     charImageView.layer.cornerRadius = (charImageView.frame.size.width / 2)
-    charImageView.clipsToBounds = true
+    charImageView.layer.masksToBounds = true
+    // charImageView.mask?.clipsToBounds = true
+    // charImageView.clipsToBounds = true
     
     // Create text field for track name
     let nameLabel: UILabel = {
