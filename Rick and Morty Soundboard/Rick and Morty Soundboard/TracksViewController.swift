@@ -96,6 +96,8 @@ class TracksViewController: UIViewController, UICollectionViewDataSource, UIColl
         wallpaper.blurImage(id: wallpaperFilename, blurValue: 5)
       }
       
+      wallpaper.backgroundColor = UIColor.flatBlack().withAlphaComponent(0.5)
+      
       return wallpaper
       
     }
@@ -311,6 +313,7 @@ class TracksViewController: UIViewController, UICollectionViewDataSource, UIColl
     
     // Play sound
     let track = DataManager.shared.tracks[indexPath.row]
+    print("Trying to play sound: ", track.soundFileName)
     playSound(audioFileName: track.soundFileName)
     
     currentTrackName = track.name

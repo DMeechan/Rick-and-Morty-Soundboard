@@ -11,7 +11,6 @@
 		6509B6C31F3FC5E30089B897 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6509B6C21F3FC5E30089B897 /* AppDelegate.swift */; };
 		6509B6C51F3FC5E30089B897 /* TracksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6509B6C41F3FC5E30089B897 /* TracksViewController.swift */; };
 		6509B6C81F3FC5E30089B897 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6509B6C61F3FC5E30089B897 /* Main.storyboard */; };
-		6509B6CB1F3FC5E30089B897 /* Rick_and_Morty_Soundboard.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6509B6C91F3FC5E30089B897 /* Rick_and_Morty_Soundboard.xcdatamodeld */; };
 		6509B6CD1F3FC5E30089B897 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6509B6CC1F3FC5E30089B897 /* Assets.xcassets */; };
 		6509B6D01F3FC5E30089B897 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6509B6CE1F3FC5E30089B897 /* LaunchScreen.storyboard */; };
 		65291F641F42956C001AA6BC /* StyleManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65291F631F42956C001AA6BC /* StyleManager.swift */; };
@@ -32,7 +31,6 @@
 		6509B6C21F3FC5E30089B897 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6509B6C41F3FC5E30089B897 /* TracksViewController.swift */ = {isa = PBXFileReference; indentWidth = 2; lastKnownFileType = sourcecode.swift; path = TracksViewController.swift; sourceTree = "<group>"; tabWidth = 2; };
 		6509B6C71F3FC5E30089B897 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		6509B6CA1F3FC5E30089B897 /* Rick_and_Morty_Soundboard.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Rick_and_Morty_Soundboard.xcdatamodel; sourceTree = "<group>"; };
 		6509B6CC1F3FC5E30089B897 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6509B6CF1F3FC5E30089B897 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6509B6D11F3FC5E30089B897 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -143,7 +141,6 @@
 		658DBF721F3FE16E000E4472 /* MODEL */ = {
 			isa = PBXGroup;
 			children = (
-				6509B6C91F3FC5E30089B897 /* Rick_and_Morty_Soundboard.xcdatamodeld */,
 				658DBF761F3FE580000E4472 /* trackData.plist */,
 				6509B6CC1F3FC5E30089B897 /* Assets.xcassets */,
 				658DBF741F3FE339000E4472 /* Track.swift */,
@@ -254,19 +251,11 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-Rick and Morty Soundboard/Pods-Rick and Morty Soundboard-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/ChameleonFramework/ChameleonFramework.framework",
 				"${BUILT_PRODUCTS_DIR}/Eureka/Eureka.framework",
-				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
-				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
-				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
-				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ChameleonFramework.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Eureka.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -348,7 +337,6 @@
 				6509B6C51F3FC5E30089B897 /* TracksViewController.swift in Sources */,
 				6509B6C31F3FC5E30089B897 /* AppDelegate.swift in Sources */,
 				65AC7D901F425949000F0F3C /* SettingsTableViewCell.swift in Sources */,
-				6509B6CB1F3FC5E30089B897 /* Rick_and_Morty_Soundboard.xcdatamodeld in Sources */,
 				65AC7D941F42858B000F0F3C /* DataManager.swift in Sources */,
 				65AC7D8E1F41E2C0000F0F3C /* SettingsViewController.swift in Sources */,
 				65291F641F42956C001AA6BC /* StyleManager.swift in Sources */,
@@ -524,19 +512,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		6509B6C91F3FC5E30089B897 /* Rick_and_Morty_Soundboard.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				6509B6CA1F3FC5E30089B897 /* Rick_and_Morty_Soundboard.xcdatamodel */,
-			);
-			currentVersion = 6509B6CA1F3FC5E30089B897 /* Rick_and_Morty_Soundboard.xcdatamodel */;
-			path = Rick_and_Morty_Soundboard.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 6509B6B71F3FC5E30089B897 /* Project object */;
 }

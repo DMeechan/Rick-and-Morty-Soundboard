@@ -150,6 +150,7 @@ class SettingsFormViewController: FormViewController {
       <<< CheckRow() {
         $0.title = "Show sound button blur"
         $0.tag = "trackBlurTag"
+        $0.value = Datas.shared.settings["trackBlur"] as? Bool
         }.onChange { row in
           Datas.shared.settings.updateValue(row.value!, forKey: "trackBlur")
           

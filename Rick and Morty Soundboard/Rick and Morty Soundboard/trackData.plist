@@ -18,14 +18,54 @@
 		<key>sound</key>
 		<string>wubba lubba dub dub</string>
 	</dict>
-	<dict>
-		<key>name</key>
-		<string>Mr Meeseeks</string>
-		<key>image</key>
-		<string>mr meeseeks</string>
-		<key>sound</key>
-		<string>mr meeseeks</string>
-	</dict>
+  <dict>
+    <key>name</key>
+    <string>Aids</string>
+    <key>image</key>
+    <string>rick</string>
+    <key>sound</key>
+    <string>Aids</string>
+  </dict>
+  <dict>
+    <key>name</key>
+    <string>Allah akbar</string>
+    <key>image</key>
+    <string>rick</string>
+    <key>sound</key>
+    <string>Allah akbar</string>
+  </dict>
+  <dict>
+    <key>name</key>
+    <string>I outrank you</string>
+    <key>image</key>
+    <string>rick</string>
+    <key>sound</key>
+    <string>I outrank you</string>
+  </dict>
+  <dict>
+    <key>name</key>
+    <string>Pretty concise Morty</string>
+    <key>image</key>
+    <string>rick</string>
+    <key>sound</key>
+    <string>Pretty concise Morty</string>
+  </dict>
+  <dict>
+    <key>name</key>
+    <string>Up your butt</string>
+    <key>image</key>
+    <string>rick</string>
+    <key>sound</key>
+    <string>Up your butt</string>
+  </dict>
+  <dict>
+    <key>name</key>
+    <string>You're our boy dawg</string>
+    <key>image</key>
+    <string>rick</string>
+    <key>sound</key>
+    <string>You're our boy dawg</string>
+  </dict>
 	<dict>
 		<key>name</key>
 		<string>Tiny Rick</string>
@@ -34,22 +74,14 @@
 		<key>sound</key>
 		<string>tiny rick</string>
 	</dict>
-	<dict>
-		<key>name</key>
-		<string>Aids</string>
-		<key>image</key>
-		<string>rick</string>
-		<key>sound</key>
-		<string>Aids</string>
-	</dict>
-	<dict>
-		<key>name</key>
-		<string>Allah akbar</string>
-		<key>image</key>
-		<string>rick</string>
-		<key>sound</key>
-		<string>Allah akbar</string>
-	</dict>
+  <dict>
+    <key>name</key>
+    <string>You can't hide bitch</string>
+    <key>image</key>
+    <string>scary terry</string>
+    <key>sound</key>
+    <string>You can't hide bitch</string>
+  </dict>
 	<dict>
 		<key>name</key>
 		<string>Aw bitch</string>
@@ -62,33 +94,25 @@
     <key>name</key>
     <string>Call me snowball</string>
     <key>image</key>
-    <string>snufflessnuffles</string>
+    <string>snuffles</string>
     <key>sound</key>
     <string>Call me snowball</string>
   </dict>
   <dict>
     <key>name</key>
-    <string>I outrank you</string>
+    <string>Where are my testicles</string>
     <key>image</key>
-    <string>rick</string>
+    <string>snuffles</string>
     <key>sound</key>
-    <string>I outrank you</string>
+    <string>Where are my testicles</string>
   </dict>
   <dict>
     <key>name</key>
     <string>Latino student</string>
     <key>image</key>
-    <string>rick</string>
+    <string>principle</string>
     <key>sound</key>
     <string>Latino student</string>
-  </dict>
-  <dict>
-    <key>name</key>
-    <string>Pretty concise Morty</string>
-    <key>image</key>
-    <string>rick</string>
-    <key>sound</key>
-    <string>Pretty concise Morty</string>
   </dict>
   <dict>
     <key>name</key>
@@ -108,46 +132,6 @@
   </dict>
   <dict>
     <key>name</key>
-    <string>Squeeze them</string>
-    <key>image</key>
-    <string>morty</string>
-    <key>sound</key>
-    <string>Squeeze them</string>
-  </dict>
-  <dict>
-    <key>name</key>
-    <string>Up your butt</string>
-    <key>image</key>
-    <string>rick</string>
-    <key>sound</key>
-    <string>Up your butt</string>
-  </dict>
-  <dict>
-    <key>name</key>
-    <string>Where are my testicles</string>
-    <key>image</key>
-    <string>snuffles</string>
-    <key>sound</key>
-    <string>Where are my testicles</string>
-  </dict>
-  <dict>
-    <key>name</key>
-    <string>You can't hide bitch</string>
-    <key>image</key>
-    <string>scary terry</string>
-    <key>sound</key>
-    <string>You can't hide bitch</string>
-  </dict>
-  <dict>
-    <key>name</key>
-    <string>You don't know me</string>
-    <key>image</key>
-    <string>rick</string>
-    <key>sound</key>
-    <string>You don't know me</string>
-  </dict>
-  <dict>
-    <key>name</key>
     <string>You're a monster</string>
     <key>image</key>
     <string>morty</string>
@@ -156,11 +140,11 @@
   </dict>
   <dict>
     <key>name</key>
-    <string>You're our boy dawg</string>
+    <string>Mr Meeseeks</string>
     <key>image</key>
-    <string>rick</string>
+    <string>mr meeseeks</string>
     <key>sound</key>
-    <string>You're our boy dawg</string>
+    <string>mr meeseeks</string>
   </dict>
   </array>
 </plist>

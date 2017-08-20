@@ -9,10 +9,10 @@ target 'Rick and Morty Soundboard' do
   # pod "LBTAComponents"
   pod 'ChameleonFramework/Swift'
   pod 'Eureka'
-  pod 'Firebase/Core'
+  # pod 'Firebase/Core'
   pod 'Google-Mobile-Ads-SDK'
 
-  pod 'RealmSwift'
+  # pod 'RealmSwift'
   
   # pod 'Motif'
 

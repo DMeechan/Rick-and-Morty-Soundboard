@@ -7,15 +7,12 @@
 //
 
 import Foundation
-import RealmSwift
 
 typealias Datas = DataManager
 
 class DataManager {
   
   static let shared = Datas()
-  
-  let realm = try! Realm()
   
   var tracks = [Track]()
   var settings: [String: Any] = [:]
@@ -34,7 +31,7 @@ class DataManager {
     importSettings()
     importTrackData()
     
-    saveData()
+    // saveData()
     
   }
   
@@ -52,13 +49,13 @@ class DataManager {
         print(dictFromJSON)
       }
       
-      print(jsonToString(json: jsonData))
+      // print(jsonToString(json: jsonData))
       
-      try! realm.write {
-        let jsonDecoded = try JSONSerialization.jsonObject(with: jsonData, options: [])
-        //realm.create(jsonDecoded)
-        
-      }
+//      try! realm.write {
+//        let jsonDecoded = try JSONSerialization.jsonObject(with: jsonData, options: [])
+//        //realm.create(jsonDecoded)
+//        
+//      }
       
     } catch {
       print(error.localizedDescription)
