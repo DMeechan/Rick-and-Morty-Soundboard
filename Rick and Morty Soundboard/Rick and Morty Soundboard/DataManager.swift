@@ -19,8 +19,26 @@ class DataManager {
   
   let wallpapers: [String] = [
     "None",
-    "Eating",
-    "Criminal Rick"
+    "I don't give a fuck",
+    "Running poster",
+    "Meeseek",
+    "Family",
+    "Running Rick",
+    "Show me what you got",
+    "Drugs",
+    "2 bros",
+    "Game of Thrones",
+    "Back to the Future",
+    "Galactic ad",
+    "Evil Morty babes",
+    "Human shield",
+    "Piloting",
+    "Portal",
+    "Cromulon",
+    "Butter Bot",
+    "Jail Rick",
+    "Eating"
+    
   ]
   
   init() {
@@ -51,11 +69,11 @@ class DataManager {
       
       // print(jsonToString(json: jsonData))
       
-//      try! realm.write {
-//        let jsonDecoded = try JSONSerialization.jsonObject(with: jsonData, options: [])
-//        //realm.create(jsonDecoded)
-//        
-//      }
+      //      try! realm.write {
+      //        let jsonDecoded = try JSONSerialization.jsonObject(with: jsonData, options: [])
+      //        //realm.create(jsonDecoded)
+      //
+      //      }
       
     } catch {
       print(error.localizedDescription)
@@ -63,18 +81,18 @@ class DataManager {
     }
   }
   
-
-//  func jsonToString(json: Any){
-//    do {
-//      let data1 =  try JSONSerialization.data(withJSONObject: json, options: JSONSerialization.WritingOptions.prettyPrinted) // first of all convert json to the data
-//      let convertedString = String(data: data1, encoding: String.Encoding.utf8) // the data will be converted to the string
-////      print(convertedString)
-//      
-//    } catch let myJSONError {
-//      print(myJSONError)
-//    }
-//    
-//  }
+  
+  //  func jsonToString(json: Any){
+  //    do {
+  //      let data1 =  try JSONSerialization.data(withJSONObject: json, options: JSONSerialization.WritingOptions.prettyPrinted) // first of all convert json to the data
+  //      let convertedString = String(data: data1, encoding: String.Encoding.utf8) // the data will be converted to the string
+  ////      print(convertedString)
+  //
+  //    } catch let myJSONError {
+  //      print(myJSONError)
+  //    }
+  //
+  //  }
   
   
   func getWallpaperFilename() -> String {
@@ -110,7 +128,7 @@ class DataManager {
   
   func importSettings() {
     settings  = [
-      "wallpaper": "Eating",
+      "wallpaper": "Jail Rick",
       "theme": Style.themes[0],
       "wallpaperBlur": false,
       "trackBlur": false,
