@@ -6,7 +6,8 @@
   "data" : [
     {
       "idiom" : "universal",
-      "filename" : "You can't hide bitch_sound.mp3"
+      "filename" : "You can't hide.m4a",
+      "universal-type-identifier" : "com.apple.m4a-audio"
     }
   ]
 }

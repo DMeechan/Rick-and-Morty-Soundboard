@@ -6,7 +6,8 @@
   "data" : [
     {
       "idiom" : "universal",
-      "filename" : "wubba lubba dub dub_sound.m4a"
+      "filename" : "Wubba Lubba Dub Dub.m4a",
+      "universal-type-identifier" : "com.apple.m4a-audio"
     }
   ]
 }

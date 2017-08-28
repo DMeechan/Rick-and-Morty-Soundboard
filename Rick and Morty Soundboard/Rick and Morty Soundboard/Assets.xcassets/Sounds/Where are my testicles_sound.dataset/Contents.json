@@ -6,7 +6,8 @@
   "data" : [
     {
       "idiom" : "universal",
-      "filename" : "Where are my testicles_sound.mp3"
+      "filename" : "Where Are My Testicles.m4a",
+      "universal-type-identifier" : "com.apple.m4a-audio"
     }
   ]
 }

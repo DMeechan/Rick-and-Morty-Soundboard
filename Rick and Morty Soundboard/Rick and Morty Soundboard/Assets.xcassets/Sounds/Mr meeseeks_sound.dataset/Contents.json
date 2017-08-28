@@ -6,7 +6,8 @@
   "data" : [
     {
       "idiom" : "universal",
-      "filename" : "mr meeseeks_sound.m4a"
+      "filename" : "Mr Meeseeks.m4a",
+      "universal-type-identifier" : "com.apple.m4a-audio"
     }
   ]
 }

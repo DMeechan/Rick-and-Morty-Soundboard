@@ -6,7 +6,8 @@
   "data" : [
     {
       "idiom" : "universal",
-      "filename" : "You're our boy dawg_sound.mp3"
+      "filename" : "You're Our Boy, Dawg.m4a",
+      "universal-type-identifier" : "com.apple.m4a-audio"
     }
   ]
 }

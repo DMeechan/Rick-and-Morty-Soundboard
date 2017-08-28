@@ -6,7 +6,8 @@
   "data" : [
     {
       "idiom" : "universal",
-      "filename" : "Squeeze them_sound.mp3"
+      "filename" : "Squeeze them Morty.m4a",
+      "universal-type-identifier" : "com.apple.m4a-audio"
     }
   ]
 }

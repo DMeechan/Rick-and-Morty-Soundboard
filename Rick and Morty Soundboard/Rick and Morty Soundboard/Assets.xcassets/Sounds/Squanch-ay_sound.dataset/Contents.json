@@ -6,7 +6,8 @@
   "data" : [
     {
       "idiom" : "universal",
-      "filename" : "Squanch-ay_sound.mp3"
+      "filename" : "En-Squanch-Ay.m4a",
+      "universal-type-identifier" : "com.apple.m4a-audio"
     }
   ]
 }

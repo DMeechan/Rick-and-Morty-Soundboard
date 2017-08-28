@@ -6,7 +6,8 @@
   "data" : [
     {
       "idiom" : "universal",
-      "filename" : "Aw bitch_sound.mp3"
+      "filename" : "Aw Bitch.m4a",
+      "universal-type-identifier" : "com.apple.m4a-audio"
     }
   ]
 }

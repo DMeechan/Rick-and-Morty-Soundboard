@@ -6,7 +6,8 @@
   "data" : [
     {
       "idiom" : "universal",
-      "filename" : "I outrank you_sound.mp3"
+      "filename" : "I outrank you.m4a",
+      "universal-type-identifier" : "com.apple.m4a-audio"
     }
   ]
 }

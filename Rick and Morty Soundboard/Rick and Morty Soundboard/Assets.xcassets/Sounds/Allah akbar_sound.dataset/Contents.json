@@ -6,7 +6,8 @@
   "data" : [
     {
       "idiom" : "universal",
-      "filename" : "Allah akbar_sound.mp3"
+      "filename" : "Allah Akbar.m4a",
+      "universal-type-identifier" : "com.apple.m4a-audio"
     }
   ]
 }
