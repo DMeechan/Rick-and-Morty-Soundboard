@@ -137,7 +137,7 @@ struct StyleManager {
     
     settingsIconColor = primary
     
-    trackFont = UIFont.systemFont(ofSize: 14, weight: UIFontWeightRegular)
+    trackFont = UIFont.systemFont(ofSize: 14, weight: UIFontWeightMedium)
     
     // Settings View
     

@@ -9,7 +9,6 @@
 import UIKit
 import AVFoundation
 import GoogleMobileAds
-// import FirebaseAnalytics
 
 class TracksViewController: UIViewController, UICollectionViewDataSource, UICollectionViewDelegate, UICollectionViewDelegateFlowLayout, AVAudioPlayerDelegate {
   
@@ -292,9 +291,9 @@ class TracksViewController: UIViewController, UICollectionViewDataSource, UIColl
     cell.setTrack(track: track)
     
     // Check if the cell is being played currently
-    if track.name == currentTrackName {
+    if track.sound == currentTrackName {
       // Track is being played
-      cell.showPlayOverlay(trackImage: track.image)
+      cell.showPlayOverlay(trackImage: (track.character))
       
     } else {
       cell.removeOverlay()
@@ -313,12 +312,29 @@ class TracksViewController: UIViewController, UICollectionViewDataSource, UIColl
     
     // Play sound
     let track = DataManager.shared.tracks[indexPath.row]
-    print("Trying to play sound: ", track.soundFileName)
-    playSound(audioFileName: track.soundFileName)
+    print("Trying to play sound: ", track.sound)
+    playSound(audioFileName: (track.sound + "_sound"))
     
-    currentTrackName = track.name
+    currentTrackName = track.sound
     
     collectionView.reloadData()
+    
+//    let trackNameWithoutSpaces = track.sound.components(separatedBy: " ").filter({ !$0.isEmpty } ).joined(separator: "_")
+//    let trackNameWithoutCommas = trackNameWithoutSpaces.components(separatedBy: ",").filter({ !$0.isEmpty } ).joined(separator: "_")
+//    let trackNameWithoutApostrophes = trackNameWithoutCommas.components(separatedBy: "'").filter({ !$0.isEmpty } ).joined(separator: "_")
+//    
+//    let trackNameUnderscored = trackNameWithoutApostrophes
+    
+    // Replace whitespace with _
+    let trackWithoutSpaces = track.sound.replacingOccurrences(of: "\\s", with: "_", options: .regularExpression, range: nil)
+    
+    // Remove non-alphanumerics
+    let trackWithoutPunctuation = trackWithoutSpaces.replacingOccurrences(of: "\\W", with: "", options: .regularExpression, range: nil)
+    
+    let trackNameUnderscored = trackWithoutPunctuation
+    
+    
+    Datas.logEvent(eventName: "Clicked_\(trackNameUnderscored)")
     
   }
   

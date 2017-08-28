@@ -9,7 +9,7 @@
 import UIKit
 // import CoreData
 import ChameleonFramework
-// import Firebase
+import Firebase
 import GoogleMobileAds
 
 @UIApplicationMain
@@ -32,7 +32,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     let adMobID = "ca-app-pub-4605466962808569~2812542748"
     GADMobileAds.configure(withApplicationID: adMobID)
     
-    // FirebaseApp.configure()
+    FirebaseApp.configure()
     
     return true
   }

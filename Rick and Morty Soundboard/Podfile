@@ -6,14 +6,14 @@ target 'Rick and Morty Soundboard' do
   use_frameworks!
 
   # Pods for Rick and Morty Soundboard
-  # pod "LBTAComponents"
   pod 'ChameleonFramework/Swift'
   pod 'Eureka'
-  # pod 'Firebase/Core'
+  pod 'Firebase/Core'
   pod 'Google-Mobile-Ads-SDK'
 
   # pod 'RealmSwift'
   
+  # pod "LBTAComponents"
   # pod 'Motif'
 
 end

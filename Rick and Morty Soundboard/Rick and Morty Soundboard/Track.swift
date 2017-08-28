@@ -8,29 +8,47 @@
 
 import UIKit
 
+let blurredImageCache = NSCache<AnyObject, AnyObject>()
+
 class Track {
   
-  var name: String = "jerry"
-  var image: String = "jerry_char"
-  var soundFileName: String = "lick my balls_sound"
+  var sound: String = ""
+  var character: String = ""
+  
+//  var name: String = "jerry"
+//  var image: String = "jerry_char"
+//  var soundFileName: String = "lick my balls_sound"
   
   init(dataDictionary: [String: String]) {
-    name = dataDictionary["name"]!
+    // New way to import tracks
+    sound = dataDictionary["sound"]!
+    character = dataDictionary["character"]!
     
-    image = dataDictionary["image"]!
-    image.append("_char")
+    character.append("_char")
+//    sound.append("_sound")
     
-    soundFileName = dataDictionary["sound"]!
-    soundFileName.append("_sound")
+    
+    // Original way of importing tracks
+    
+//    name = dataDictionary["name"]!
+//    image = dataDictionary["image"]!
+//    
+//    image.append("_char")
+//    
+//    soundFileName = dataDictionary["sound"]!
+//    soundFileName.append("_sound")
     
   }
   
   init() {
     
-    name = "rick_char"
-    image = "rick_char"
-    soundFileName = "lick my balls_sound"
+    sound = "lick my balls"
+    character = "rick_char"
     
+//    name = "rick_char"
+//    image = "rick_char"
+//    soundFileName = "lick my balls_sound"
+//    
   }
   
   class func newTrack(dataDictionary: [String: String]) -> Track {
@@ -40,8 +58,8 @@ class Track {
   
   func isUnique() -> Bool {
     for existingTrack in DataManager.shared.tracks {
-      if self.name == existingTrack.name {
-        print("Track \(self.name) has a duplicate! Attempting to correct.")
+      if self.sound == existingTrack.sound {
+        print("Track \(self.sound) has a duplicate! Attempting to correct.")
         return false
         
       }
@@ -52,8 +70,6 @@ class Track {
   }
   
 }
-
-let blurredImageCache = NSCache<AnyObject, AnyObject>()
 
 extension UIImageView {
   

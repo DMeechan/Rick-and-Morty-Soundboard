@@ -79,9 +79,10 @@ class TrackCollectionViewCell: UICollectionViewCell {
     // Create circular mask
     // print("Setting track and adding circular mask")
     
-    nameLabel.text = track.name
+    nameLabel.text = track.sound
     
-    let image = UIImage(named: track.image)
+    let imageName = track.character
+    let image = UIImage(named: imageName)
     charImageView.layer.cornerRadius = (CGFloat(TrackCollectionViewCell.imageWidth / 2))
     charImageView.image = image
     
@@ -135,8 +136,9 @@ class TrackCollectionViewCell: UICollectionViewCell {
   // Original function with text duplication bug
   func setTrack(item: Track, beingPlayed: Bool) {
     print("ERROR: RUNNING WRONG FUNCTION")
+    
     // Create character image
-    let charImageView = UIImageView(image: UIImage(named: item.image))
+    let charImageView = UIImageView(image: UIImage(named: item.character))
     charImageView.frame = CGRect(x: 0, y: 0, width: 80, height: 80)
     charImageView.contentMode = .scaleToFill
     
@@ -155,7 +157,7 @@ class TrackCollectionViewCell: UICollectionViewCell {
       
     }()
     
-    nameLabel.text = item.name
+    nameLabel.text = item.sound
     
     // Create overlays if being played
     print("Being played: \(beingPlayed)")

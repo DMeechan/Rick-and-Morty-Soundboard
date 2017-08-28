@@ -7,265 +7,325 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		02F07D843F3B3151880D1E67205C11A0 /* Core.swift in Sources */ = {isa = PBXBuildFile; fileRef = C816A21127043ED56F258A4E2486DD8F /* Core.swift */; };
-		03DCD393DF69EE6DE4AD424B1192DD02 /* UIViewController+Chameleon.h in Headers */ = {isa = PBXBuildFile; fileRef = 6636FAB654EFCFC06C9BA0BE49E3119E /* UIViewController+Chameleon.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		04A9A536DFAF3C5EC723F92EED127215 /* SegmentedRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B679F74B9E2F9A5B2E29EB0CCBE3E7 /* SegmentedRow.swift */; };
-		0B2FCAF300C1B74DA6343E48B7D5F3F6 /* PickerInlineRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F58CA51350FC1E40802AB412FB6A16 /* PickerInlineRow.swift */; };
-		0C19B0ADBDDF9D1F35443473DD32F58C /* Form.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602CED0074BF7CB21C92BE5D6BF7F162 /* Form.swift */; };
-		0D7F425CFB628271BFB6FCFF8201BF4F /* UIButton+Chameleon.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F5D7731334C33E98A512B660E53C5C8 /* UIButton+Chameleon.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0F47F6ABDFD61B71965C06B833435E53 /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 102AE23737B146EE762BB1EB9E442B78 /* Protocols.swift */; };
-		139A9CEDE5163F58CBB1A3A135DAD6A3 /* UIImage+ChameleonPrivate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D04AE18E1606BDE32ABD956263A8FBD /* UIImage+ChameleonPrivate.m */; };
-		144A795542A55FCA27F839FD8B3848AD /* CellType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F69EF43FBD0D4390959E4675CB9C74 /* CellType.swift */; };
-		17048D78835182A0B4E9D7926DA75DAD /* PopoverSelectorRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF539BA42322B84A8F53B8FA0340E8B1 /* PopoverSelectorRow.swift */; };
-		1772EAFC71C30BD931A9585212CA03AC /* Row.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D9605027D6B29E14E1FD99C2E5F071 /* Row.swift */; };
-		17A3FB1B471D1C1A61BCFBBF5831D845 /* RowControllerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789BA2DBA8754DB6ED1B530B52E2868F /* RowControllerType.swift */; };
-		17B9BEBB70A67227C4E46DDF607B176D /* Pods-Rick and Morty Soundboard-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 89369750CD0399A2C12A3FAE10F15EAB /* Pods-Rick and Morty Soundboard-dummy.m */; };
-		1ACA00A9EC125081B88B9228462431B8 /* ButtonRowWithPresent.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3EE0C3765381137ACC0C4315D74B50 /* ButtonRowWithPresent.swift */; };
-		1B704F3C816C4532F9B7FDFE0625732E /* ChameleonFramework-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D10EC35AB918FBD7F88DE7F1E67BD1F1 /* ChameleonFramework-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1C5B941F79B39828B27EAAD3C9AF7B4B /* PickerRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34B96335FA524694ECEFDAF96ACCE66D /* PickerRow.swift */; };
-		1D4CD70DC32B037FCD6320FE079695D5 /* CheckRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7845E4DE122EF04144D027F38754853D /* CheckRow.swift */; };
-		1EEFBE2820F6BEAC9BAD184673293C9E /* NavigationAccessoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51180605C44A448059A776D4867ED537 /* NavigationAccessoryView.swift */; };
-		2189F5569BACCE66FD41F5E58FF351B8 /* DateInlineRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8891973D84CBA215E1CA23923DC0AEE /* DateInlineRow.swift */; };
-		23E6887F5ADC8D4917BC12B079864E1D /* FieldRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D94581AC13F07D2A764E6D572F2A535 /* FieldRow.swift */; };
-		25A70264F9301E7603D9883777DE8050 /* SelectorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FDF80B8A5E15E5D5856EC017E9A339E /* SelectorViewController.swift */; };
-		265A3BCF8B426717E8EE1CAD4341F99A /* DateFieldRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D83877C0A64DDC4912BF70C75262C1 /* DateFieldRow.swift */; };
-		28500C67AF0CB1EB34B53FFA93C3D27F /* ListCheckRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 703E084F1AA3E95746DEE9714612B0F6 /* ListCheckRow.swift */; };
-		29DBA0C923DE13772022DB52DBAF3CEE /* PushRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 104B4F5B800972E2A88A89929CB72997 /* PushRow.swift */; };
-		29F74E8A334254C68C6720E3B247CE32 /* NSArray+Chameleon.h in Headers */ = {isa = PBXBuildFile; fileRef = 710BD23259AE3A074FD23CC3F69B3131 /* NSArray+Chameleon.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2A179EA67ECDDBB23F30CF0B0A71A617 /* ActionSheetRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBCCAE1731B77E4DBB39687333EA4C00 /* ActionSheetRow.swift */; };
-		2DDDE2C06FB4DCC639CFD100F224D6FD /* UIColor+Chameleon.m in Sources */ = {isa = PBXBuildFile; fileRef = 10BBA8CA9BE41D3D9C2CC43A21E66221 /* UIColor+Chameleon.m */; };
-		306BD477167820D6CDECDCE1D7445ECD /* SliderRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65CBB2A081083D420E92644C96C8F3AD /* SliderRow.swift */; };
+		02F07D843F3B3151880D1E67205C11A0 /* Core.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EE38631EE42BF76B969C99BAFAA410E /* Core.swift */; };
+		03DCD393DF69EE6DE4AD424B1192DD02 /* UIViewController+Chameleon.h in Headers */ = {isa = PBXBuildFile; fileRef = F2B8237BC743F2AD6E9EAE907ED4E325 /* UIViewController+Chameleon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04A9A536DFAF3C5EC723F92EED127215 /* SegmentedRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 903F2725C7306DF6E31BECCBA4CE5213 /* SegmentedRow.swift */; };
+		05B1F02560378D28FEBD4E8F6D293216 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECB56A22A987E846FF65248DA108CAD2 /* Foundation.framework */; };
+		0B2FCAF300C1B74DA6343E48B7D5F3F6 /* PickerInlineRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7DC722FAD491688B0FF5797A675D7D /* PickerInlineRow.swift */; };
+		0C19B0ADBDDF9D1F35443473DD32F58C /* Form.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A20DBD24958D314746DA4DA8E3AFBAC /* Form.swift */; };
+		0D7F425CFB628271BFB6FCFF8201BF4F /* UIButton+Chameleon.h in Headers */ = {isa = PBXBuildFile; fileRef = 88B08695BBF9AE79EECC19CFFA240FFD /* UIButton+Chameleon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0F47F6ABDFD61B71965C06B833435E53 /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E30036B7DAB7F1727A5D768261E611C /* Protocols.swift */; };
+		139A9CEDE5163F58CBB1A3A135DAD6A3 /* UIImage+ChameleonPrivate.m in Sources */ = {isa = PBXBuildFile; fileRef = 961E1FA90DBB316A9DAA55CDA565129A /* UIImage+ChameleonPrivate.m */; };
+		144A795542A55FCA27F839FD8B3848AD /* CellType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F723747C5565F658F932AA5E3BBD4D /* CellType.swift */; };
+		17048D78835182A0B4E9D7926DA75DAD /* PopoverSelectorRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3468672B8E51B2DD62A1E348FB1C0DC /* PopoverSelectorRow.swift */; };
+		1772EAFC71C30BD931A9585212CA03AC /* Row.swift in Sources */ = {isa = PBXBuildFile; fileRef = C768DC29B69860A0BD4E2CD4F950EB05 /* Row.swift */; };
+		17A3FB1B471D1C1A61BCFBBF5831D845 /* RowControllerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12B769BA280B0ACF7D8D7D497A76885 /* RowControllerType.swift */; };
+		1ACA00A9EC125081B88B9228462431B8 /* ButtonRowWithPresent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AC8BC51F90226098606340B4A9BFF25 /* ButtonRowWithPresent.swift */; };
+		1B704F3C816C4532F9B7FDFE0625732E /* ChameleonFramework-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DB69B380C4BEAA9C632256270723A03 /* ChameleonFramework-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1C5B941F79B39828B27EAAD3C9AF7B4B /* PickerRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8CE3EFCB46B876C2346A4F587D91C5 /* PickerRow.swift */; };
+		1D4CD70DC32B037FCD6320FE079695D5 /* CheckRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFBCDDB5AF93E8FBED1089314709358 /* CheckRow.swift */; };
+		1EEFBE2820F6BEAC9BAD184673293C9E /* NavigationAccessoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2756F919226F4A555C8E33E82DB56A /* NavigationAccessoryView.swift */; };
+		2189F5569BACCE66FD41F5E58FF351B8 /* DateInlineRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FC7666A8D34D9B7ADAFA0BCB6249FD0 /* DateInlineRow.swift */; };
+		23E6887F5ADC8D4917BC12B079864E1D /* FieldRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A66DF4113A3DB326B43754F69A601023 /* FieldRow.swift */; };
+		25A70264F9301E7603D9883777DE8050 /* SelectorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C1EB00E1ABF498CAD79A330B02B8FA /* SelectorViewController.swift */; };
+		265A3BCF8B426717E8EE1CAD4341F99A /* DateFieldRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4306DE485A6A59792210B2B63EA3CA /* DateFieldRow.swift */; };
+		28500C67AF0CB1EB34B53FFA93C3D27F /* ListCheckRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6ACDB2F8E67396BBB86485CD510B85 /* ListCheckRow.swift */; };
+		29DBA0C923DE13772022DB52DBAF3CEE /* PushRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960473D0B4FE2EC71B31284889C34722 /* PushRow.swift */; };
+		29F74E8A334254C68C6720E3B247CE32 /* NSArray+Chameleon.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BC1D91FC8C25EACF8149B1A71A3F9CB /* NSArray+Chameleon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		29FEADDF2086FDEA7D5BA87DD23B08C6 /* pb_decode.h in Headers */ = {isa = PBXBuildFile; fileRef = 19F914F0DBB8B723F1459D11FB12A832 /* pb_decode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2A179EA67ECDDBB23F30CF0B0A71A617 /* ActionSheetRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F4B65C1E52277BB9DC650F609A4888 /* ActionSheetRow.swift */; };
+		2DDDE2C06FB4DCC639CFD100F224D6FD /* UIColor+Chameleon.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C7497DA698D7B79B3B34DE3006E726A /* UIColor+Chameleon.m */; };
+		306BD477167820D6CDECDCE1D7445ECD /* SliderRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B97A824FBE76481F7A9856265B866A5 /* SliderRow.swift */; };
 		34D751AECD252A6F375328CB8BB48D4B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5F748DA8F98E61F788C3488D6BA25DD /* QuartzCore.framework */; };
-		3D08C4F4E2E65D192D317AED0A8237B3 /* UIColor+ChameleonPrivate.m in Sources */ = {isa = PBXBuildFile; fileRef = C05FB1D280A4FA7AEDCAD7B53D2A954A /* UIColor+ChameleonPrivate.m */; };
-		3E89604392C5EBDC5E27937AA57C5AC0 /* SwitchRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F121E3561B9BCD52C8A21FD9354E995B /* SwitchRow.swift */; };
-		3F0D960DBEF20736A7A505A9250942F1 /* Eureka-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EB4890EF71C6C01E9CE0BC0EB2523A28 /* Eureka-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		44117424757A5E62D87B8BF4B41A4207 /* UIColor+ChameleonPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 89C23D77ACAFB801D37DCF1290485026 /* UIColor+ChameleonPrivate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		459048ECD9FAA42B77566EC56ECAD793 /* UINavigationController+Chameleon.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F43B64FD80CC714FB1A8D51F59EBC51 /* UINavigationController+Chameleon.m */; };
-		4EA524A2BD2D970745B89DAADDF7719E /* PresenterRowType.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B53CE4F78CC44FCC9D56644CC281ED /* PresenterRowType.swift */; };
-		51F62349D05FCB3B6E1E8AD406DEEFE7 /* Section.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDEFADBBE317BE2299F8C50ACEF3D883 /* Section.swift */; };
-		57F029A6EAD66812E9B0C1319AFE527B /* LabelRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3BBB581FC52FD6D7E893754871DEDD3 /* LabelRow.swift */; };
-		59947C008333007F823B0922EE87F96B /* MultipleSelectorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A9119A4B3F2FC7A778721DDABCDB622 /* MultipleSelectorViewController.swift */; };
-		5A380E0127635057397F45AFBD13B255 /* Eureka-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FC7909E84F47D115357B7D50F4F80D0 /* Eureka-dummy.m */; };
-		5D647533060C688C633E15C86553B868 /* DatePickerRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8A820E5D87433154A7FE32D24A1BA5 /* DatePickerRow.swift */; };
-		5EA9F0ED011B06DEFA8542EEE72508C3 /* UIViewController+Chameleon.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B74CD37AFF3C555DA1FDC439F4BC776 /* UIViewController+Chameleon.m */; };
-		604286A8F8A2ACB063BDF97B09D4987C /* UILabel+Chameleon.h in Headers */ = {isa = PBXBuildFile; fileRef = 167E7E7904CB0AD4D3373510F7BE27FF /* UILabel+Chameleon.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		654744F1D8E5A8DB4711E81DC6CC99C3 /* AlertRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC4ECB2C810C1D0F54107D55D53976F /* AlertRow.swift */; };
-		6712100A2CCB9B987281A02F6778473C /* NSArray+Chameleon.m in Sources */ = {isa = PBXBuildFile; fileRef = 280A4EC8406FCD875FFC2D29FA512AF0 /* NSArray+Chameleon.m */; };
+		392F2CF142BAA751AC1BB61D8B757D98 /* pb.h in Headers */ = {isa = PBXBuildFile; fileRef = 574C3DD396980D7B704977679B09802C /* pb.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3A50F5C8ECED9627F2EBD97F61BD376D /* pb_common.c in Sources */ = {isa = PBXBuildFile; fileRef = 24FAA0BAAF350C31144B78805F16827B /* pb_common.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc -fno-objc-arc -fno-objc-arc"; }; };
+		3D08C4F4E2E65D192D317AED0A8237B3 /* UIColor+ChameleonPrivate.m in Sources */ = {isa = PBXBuildFile; fileRef = 89064FE2469173AB61443A021B4D1C0A /* UIColor+ChameleonPrivate.m */; };
+		3E89604392C5EBDC5E27937AA57C5AC0 /* SwitchRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8122700BE2B2B4BDD8191F9CAB08444B /* SwitchRow.swift */; };
+		3F0D960DBEF20736A7A505A9250942F1 /* Eureka-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FD1E0071BDE3158CA830EC6B8B83234B /* Eureka-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		44117424757A5E62D87B8BF4B41A4207 /* UIColor+ChameleonPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = B17DD7B67A1D7D5EB318D2194C19C3FE /* UIColor+ChameleonPrivate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		459048ECD9FAA42B77566EC56ECAD793 /* UINavigationController+Chameleon.m in Sources */ = {isa = PBXBuildFile; fileRef = 249FA0887639457F36C432DEE2CE652E /* UINavigationController+Chameleon.m */; };
+		468DFD90B6C4DA2F7CFA0C1C89F1B615 /* nanopb-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 22031B68D829FAB7E0D42F9C7C7F8BE7 /* nanopb-dummy.m */; };
+		4EA524A2BD2D970745B89DAADDF7719E /* PresenterRowType.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC1CDCB4195820C2601F2386B7B86F61 /* PresenterRowType.swift */; };
+		51F62349D05FCB3B6E1E8AD406DEEFE7 /* Section.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0953C8C5F029FF5CB5B7203BB53D5F /* Section.swift */; };
+		541C5362289CC44D4F067D097F231250 /* GTMDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 5ED79C7D7D8C10A82D7B6753C16E8B42 /* GTMDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		54F580BF4588159D6A61F21D15591805 /* pb_decode.c in Sources */ = {isa = PBXBuildFile; fileRef = 1E159BE3D63592F320AA4A99F173EB4A /* pb_decode.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc -fno-objc-arc"; }; };
+		55D8D5D912CFD2F3584E4553C2EAD734 /* pb_encode.c in Sources */ = {isa = PBXBuildFile; fileRef = C832ED85E5B320DC6C54B1767B6A2777 /* pb_encode.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc -fno-objc-arc"; }; };
+		57F029A6EAD66812E9B0C1319AFE527B /* LabelRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E2E87623735F174F5AE69AEC5D809ED /* LabelRow.swift */; };
+		59947C008333007F823B0922EE87F96B /* MultipleSelectorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ED929E578FDA5BFD116D3F47614AB0C /* MultipleSelectorViewController.swift */; };
+		5A380E0127635057397F45AFBD13B255 /* Eureka-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AAF044ECEA13FB4D4FA7A14CBD07BFFD /* Eureka-dummy.m */; };
+		5BA8EC6512A2A09C4B03210FC0CB5A98 /* Pods-Rick and Morty Soundboard-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 417E4FAB31293D992B255AD4799E4E82 /* Pods-Rick and Morty Soundboard-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5D647533060C688C633E15C86553B868 /* DatePickerRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8EB5ED02300BF86179445A6526B0288 /* DatePickerRow.swift */; };
+		5EA9F0ED011B06DEFA8542EEE72508C3 /* UIViewController+Chameleon.m in Sources */ = {isa = PBXBuildFile; fileRef = BB68213A07ADFE6F3BCAC91BF432B936 /* UIViewController+Chameleon.m */; };
+		5F637C2245A895CE3EA85219D65F054D /* Pods-Rick and Morty Soundboard-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 89369750CD0399A2C12A3FAE10F15EAB /* Pods-Rick and Morty Soundboard-dummy.m */; };
+		604286A8F8A2ACB063BDF97B09D4987C /* UILabel+Chameleon.h in Headers */ = {isa = PBXBuildFile; fileRef = 1349A1AED237D7F77BC50812BB0924A6 /* UILabel+Chameleon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		654744F1D8E5A8DB4711E81DC6CC99C3 /* AlertRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5DAB0E94F6AC1034EB663428D8AEE6 /* AlertRow.swift */; };
+		6712100A2CCB9B987281A02F6778473C /* NSArray+Chameleon.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B463D5AAF7389D38BEAD2EF26853A58 /* NSArray+Chameleon.m */; };
 		6D9F0C77C6996D7FBC0F03AF8E706276 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDBA94A94B982885ECCA1662BE8CD7CF /* UIKit.framework */; };
-		6F9F25DE63532C8DE5077822E6316111 /* DateRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D217467C1DA3F05A56D5817DF47311 /* DateRow.swift */; };
-		76110C1B9D1144D99D2C179DC74121DD /* MultipleSelectorRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A4AC380513D556F9A3C02DADDF38E2 /* MultipleSelectorRow.swift */; };
-		78281D8673FC507089FCFDC439DEDC16 /* Chameleon_.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D50BBF91105F7F8C58206830F2AEA93 /* Chameleon_.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7B19019174C42D7D481C1B120272443B /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95516DB7AD81063AD2EF6C8ABE6E55E8 /* Operators.swift */; };
-		7CE512D69EDD58D7DDD7B66BE6592EED /* DateInlineFieldRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF45538AD9672AE3BCB42C15B664FFFD /* DateInlineFieldRow.swift */; };
-		7D4103D396B2519600255CA676DE1D62 /* BaseRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CFC5A8C64B2FCEF26E37336ACFECF3 /* BaseRow.swift */; };
-		827BD4C80F28C2F7E9521461DA5CBDAE /* RuleURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A124E49DA2D13D24CA0DFB8B5BF0FF3 /* RuleURL.swift */; };
-		833F15A28A0D562548517BCA8EAF23B6 /* ChameleonShorthand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10DC555B2EB6513064F9BEE6A3E68E58 /* ChameleonShorthand.swift */; };
-		83CFC8F573AD5B75191E162E64C7D039 /* UIButton+Chameleon.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CFBECB0213B89B52AD2A7386B2C88CA /* UIButton+Chameleon.m */; };
-		86F7D970F220974A0E26C3B632C5C74F /* UIImage+ChameleonPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = C04D8DFFC481702A8780E0000A399EEE /* UIImage+ChameleonPrivate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F9F25DE63532C8DE5077822E6316111 /* DateRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6A16B53EEE27F1C34D6177183A6E6CE /* DateRow.swift */; };
+		76110C1B9D1144D99D2C179DC74121DD /* MultipleSelectorRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F763AB89EA4D536EB06D742E6CEAC8 /* MultipleSelectorRow.swift */; };
+		78281D8673FC507089FCFDC439DEDC16 /* Chameleon_.h in Headers */ = {isa = PBXBuildFile; fileRef = F4E348CFE1D87AE019249317A064CE34 /* Chameleon_.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7B19019174C42D7D481C1B120272443B /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5095464931A75454F27524E68A38E7B2 /* Operators.swift */; };
+		7CE512D69EDD58D7DDD7B66BE6592EED /* DateInlineFieldRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F465557D2DABF9962710FCA963A6A95F /* DateInlineFieldRow.swift */; };
+		7D4103D396B2519600255CA676DE1D62 /* BaseRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2958C091AB49CC674DB09B12B6C524A6 /* BaseRow.swift */; };
+		806BAA4E00218D70995697C4400BE7A0 /* pb_common.h in Headers */ = {isa = PBXBuildFile; fileRef = 0ED34E88BEA319F31565FA6AE779BA58 /* pb_common.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		81E4B6988FF26F9249B79C6C8CC667B4 /* GoogleToolboxForMac-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E462BE54A481AE95A7D0C16AC2C1BC4 /* GoogleToolboxForMac-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		827BD4C80F28C2F7E9521461DA5CBDAE /* RuleURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C3B45C230FC47539E904E450722C7F /* RuleURL.swift */; };
+		833F15A28A0D562548517BCA8EAF23B6 /* ChameleonShorthand.swift in Sources */ = {isa = PBXBuildFile; fileRef = C30EC3153B57C21D49C4E62066195D47 /* ChameleonShorthand.swift */; };
+		83CFC8F573AD5B75191E162E64C7D039 /* UIButton+Chameleon.m in Sources */ = {isa = PBXBuildFile; fileRef = 59407684D3D8B19C0A582EB0FE179A3B /* UIButton+Chameleon.m */; };
+		86F7D970F220974A0E26C3B632C5C74F /* UIImage+ChameleonPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FE8306177648CE450022B787D34BAC2 /* UIImage+ChameleonPrivate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8E610F054B0F5FDBBB26323A0C73F4F9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECB56A22A987E846FF65248DA108CAD2 /* Foundation.framework */; };
-		8ECF929AC5E737EBEB542283886D5E07 /* UIView+ChameleonPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D51F70FDD081846AF85498AFA5E23B8 /* UIView+ChameleonPrivate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		95E542740750F827BE2EBE3DE6F62D0E /* ChameleonFramework-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AFEC9FBA607AC8FDFE42D669BE95F30A /* ChameleonFramework-dummy.m */; };
-		987A9AA62B48BC871C21106E68F9257E /* RuleEmail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDF3FE18F306E12B59D4C8EF2F773FC /* RuleEmail.swift */; };
-		9926EF73DC7EFCBD50D322671328B24F /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319C75C821368DAFE082A7C28B46CBDF /* Cell.swift */; };
-		99BC63A28EB55DCDC2CA8EAC1886E077 /* StepperRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB63EDF908AC121EF0D9255D1DBD7CD /* StepperRow.swift */; };
-		9A3EAF15D3C58FD56A552FD703A9154C /* ChameleonConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BC9275C878DE589A929D0160CD21D59 /* ChameleonConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9B6AD39C81FAF37861FC0FEC41022146 /* UIAppearance+Swift.h in Headers */ = {isa = PBXBuildFile; fileRef = 4221FAD6F1AE03856F8AECA1986861A0 /* UIAppearance+Swift.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9CD46DF12CFA5C561B75EF20B95EECD0 /* PickerInputRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D5D1E44BC9374F003BA947C1BA13B05 /* PickerInputRow.swift */; };
-		A0E6C2F2A364C6349BD2B79F520A8958 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDECA09E437BA2BC90B14EF6EBD8887 /* Helpers.swift */; };
-		A38A545D1ADAFAB39F6A28B499D9AAB9 /* GenericMultipleSelectorRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E357379F7FA26040243CDF48D51FB62 /* GenericMultipleSelectorRow.swift */; };
-		A5B27A12053041F38D47538E48678881 /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ADB79743D066423E7DC0B1C663E81B5 /* Validation.swift */; };
-		A664D0A12D5F3DBD08A7E8DFE3AE83E2 /* UIView+ChameleonPrivate.m in Sources */ = {isa = PBXBuildFile; fileRef = 100ACF88DF6EC234EA5669DC10512C1E /* UIView+ChameleonPrivate.m */; };
-		AA0CDD726F8156D06FDFE3C6FAB27C52 /* ButtonRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6903678673F5E6DAA0A82C9E76CDD07E /* ButtonRow.swift */; };
-		AA7012D4A2E0818B5D6C2BAA5DFA3CD2 /* RuleEqualsToRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4AE1B02EEE77AA0040808D2555BFBA0 /* RuleEqualsToRow.swift */; };
+		8ECF929AC5E737EBEB542283886D5E07 /* UIView+ChameleonPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = DF96469FDE70CD5EA10395156E432BC5 /* UIView+ChameleonPrivate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		93D51748565CFEB9490FBA7DA993C5C0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECB56A22A987E846FF65248DA108CAD2 /* Foundation.framework */; };
+		95E542740750F827BE2EBE3DE6F62D0E /* ChameleonFramework-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 057F6A618737C8D0FF48AEBC73E746F1 /* ChameleonFramework-dummy.m */; };
+		987A9AA62B48BC871C21106E68F9257E /* RuleEmail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830C1C8F59B1DC7683952063578C4369 /* RuleEmail.swift */; };
+		9926EF73DC7EFCBD50D322671328B24F /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8307467C3B69B1B0D9962A9501E9D14 /* Cell.swift */; };
+		99BC63A28EB55DCDC2CA8EAC1886E077 /* StepperRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D378FB8BB542F01A4484AE58583BEF /* StepperRow.swift */; };
+		9A3EAF15D3C58FD56A552FD703A9154C /* ChameleonConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = F32EED43B06319307F9C6A0F5A9A2220 /* ChameleonConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B6AD39C81FAF37861FC0FEC41022146 /* UIAppearance+Swift.h in Headers */ = {isa = PBXBuildFile; fileRef = 76FC059CF20BFF7BAD9D7FC5FCDFEAB4 /* UIAppearance+Swift.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9CD46DF12CFA5C561B75EF20B95EECD0 /* PickerInputRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 990F19CF3FE864CA8D75232F0736E6AB /* PickerInputRow.swift */; };
+		A0E6C2F2A364C6349BD2B79F520A8958 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38E6B2BECC0760F90321ABE314FB046 /* Helpers.swift */; };
+		A38A545D1ADAFAB39F6A28B499D9AAB9 /* GenericMultipleSelectorRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB918C332B0ADAB7CCE736D2E3DD3D9 /* GenericMultipleSelectorRow.swift */; };
+		A5B27A12053041F38D47538E48678881 /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6E9E832C41DF017DD09572207151EB6 /* Validation.swift */; };
+		A664D0A12D5F3DBD08A7E8DFE3AE83E2 /* UIView+ChameleonPrivate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D63A4753DB569728C6BFEB198315376 /* UIView+ChameleonPrivate.m */; };
+		A864D76180FA590937434778FBDAB84F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECB56A22A987E846FF65248DA108CAD2 /* Foundation.framework */; };
+		AA0CDD726F8156D06FDFE3C6FAB27C52 /* ButtonRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E9084B0370B21BD2AAEBE6635D811B0 /* ButtonRow.swift */; };
+		AA7012D4A2E0818B5D6C2BAA5DFA3CD2 /* RuleEqualsToRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB55AF8EFFBA7AD0449622CDCF367E3D /* RuleEqualsToRow.swift */; };
 		AD5D905ABDE0ED57B623A541EB1DBC20 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDBA94A94B982885ECCA1662BE8CD7CF /* UIKit.framework */; };
-		ADF7479F10F1DE6C7A3808F8B0D878E6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECB56A22A987E846FF65248DA108CAD2 /* Foundation.framework */; };
-		B26038F91C7C4CC322D7F25C5D16FE9E /* ChameleonConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 862759EA7BB781FDA4CAB6EE3BA12CB8 /* ChameleonConstants.m */; };
-		B3B5B10201D9BA6470173163A6F6725E /* SelectorAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEAD941501AB52406C9CD6E8BD37354 /* SelectorAlertController.swift */; };
-		B4EA53699AA19822E674188743266B2B /* ChameleonMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = D6171DD631BB3BFC318857DE2775DF54 /* ChameleonMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B5BA32808AFF5DC9C2723CD85931B9DB /* TextAreaRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D0E02A22409676152FC735B1758E932 /* TextAreaRow.swift */; };
-		BB04DAD5C6DCAE93C15FED1090520610 /* RuleRequired.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F2442371D75294795AB617B2785329A /* RuleRequired.swift */; };
-		BD6FEBF93A8FB23057B38BC52342AF19 /* Eureka.bundle in Resources */ = {isa = PBXBuildFile; fileRef = DE70C023D9701E88E48483EDD1E2D649 /* Eureka.bundle */; };
-		BFA97401155C4E14893D9AA1E0D1EC80 /* UINavigationController+Chameleon.h in Headers */ = {isa = PBXBuildFile; fileRef = 906D508B387D62A066B2F6CF57793F2C /* UINavigationController+Chameleon.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BFE53EDC99E6B10F19E85ECBD01FB33E /* RowType.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1AEB5C5F53D9B53290EC582EEE607E /* RowType.swift */; };
-		C3C8BB46937DD0BBC7FBE25E298052F8 /* UIAppearance+Swift.m in Sources */ = {isa = PBXBuildFile; fileRef = 30E2CECDC5EE80E29A7142945E86E085 /* UIAppearance+Swift.m */; };
-		C657B4C0DFB6C3BE1119C1BB8CAD4C78 /* RuleLength.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A3EEAE201E209670BF09BE1A175942 /* RuleLength.swift */; };
-		CCAB89C5B0F52B0F69DBED084DDFCFBB /* OptionsRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44AFDFF25757626E3B1B4B04039C874D /* OptionsRow.swift */; };
-		D9284875BF00A2033E41A8252CE907A5 /* SelectableSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13F41EECD11793046283EF166264C6C1 /* SelectableSection.swift */; };
-		DB5214501DA0045F69B3F336F0AB11E8 /* SelectorRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C954D8BC0E50A96DFDFC2A32F8BB3565 /* SelectorRow.swift */; };
-		DB5FB611FB6EBF2F2BA7B78FE0CED535 /* UIColor+Chameleon.h in Headers */ = {isa = PBXBuildFile; fileRef = BE84518195C186DDB9A9E2057C209C98 /* UIColor+Chameleon.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DE6DF70A452BF20CB858BA7072AAE3EA /* RowProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 812E965D66AE18AD03FA477BCB132CA7 /* RowProtocols.swift */; };
-		E0946CE4B110F2A64041FAB63546FB48 /* RuleRange.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E15F6F23446C05DACB93034A54FC3A /* RuleRange.swift */; };
-		E490A481C69CE189A0814626B1251FB4 /* RuleClosure.swift in Sources */ = {isa = PBXBuildFile; fileRef = B648AD6383F9114E31205FCF682CC7A5 /* RuleClosure.swift */; };
-		E585A7898FC181529FD2704BEF4CE992 /* DecimalFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9015A5AA24EF6CF97494FD33A3AF69AB /* DecimalFormatter.swift */; };
-		E7FA38FEAF957D69E92153FBAFB3DB40 /* Chameleon_.m in Sources */ = {isa = PBXBuildFile; fileRef = 0802EBF41F5551256F023C88CC0B05CC /* Chameleon_.m */; };
+		B26038F91C7C4CC322D7F25C5D16FE9E /* ChameleonConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C34D84AFB1F0B3C52DB069D7825D1D0 /* ChameleonConstants.m */; };
+		B3B5B10201D9BA6470173163A6F6725E /* SelectorAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A76718451D5F028ACA39F5F47D3C1F /* SelectorAlertController.swift */; };
+		B4EA53699AA19822E674188743266B2B /* ChameleonMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = E1EC026FB4F4368833E000DD2E4D085D /* ChameleonMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B5BA32808AFF5DC9C2723CD85931B9DB /* TextAreaRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B0D96BE28E9450BB2B2E779B20488C /* TextAreaRow.swift */; };
+		BB04DAD5C6DCAE93C15FED1090520610 /* RuleRequired.swift in Sources */ = {isa = PBXBuildFile; fileRef = 737D008CDF1D79B3FA333048F7D31EC8 /* RuleRequired.swift */; };
+		BD6FEBF93A8FB23057B38BC52342AF19 /* Eureka.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2ACFFD8CEF35D8501A2223F09FB8117E /* Eureka.bundle */; };
+		BFA97401155C4E14893D9AA1E0D1EC80 /* UINavigationController+Chameleon.h in Headers */ = {isa = PBXBuildFile; fileRef = 7665C59169BA1D3C2089DD8F8843FF1A /* UINavigationController+Chameleon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BFE53EDC99E6B10F19E85ECBD01FB33E /* RowType.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE9E415C1847F35EAF6F8C27A2CE730 /* RowType.swift */; };
+		C3C8BB46937DD0BBC7FBE25E298052F8 /* UIAppearance+Swift.m in Sources */ = {isa = PBXBuildFile; fileRef = 312F70F6CF79BD5071BCDF409D07895B /* UIAppearance+Swift.m */; };
+		C657B4C0DFB6C3BE1119C1BB8CAD4C78 /* RuleLength.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD28EFC6807E235502A8A0A4BA49359 /* RuleLength.swift */; };
+		CCAB89C5B0F52B0F69DBED084DDFCFBB /* OptionsRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1625961F77621DB8520DD642871BB072 /* OptionsRow.swift */; };
+		D9284875BF00A2033E41A8252CE907A5 /* SelectableSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = B85C91114F0799D8B6B5556843C3B795 /* SelectableSection.swift */; };
+		DB5214501DA0045F69B3F336F0AB11E8 /* SelectorRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69E45210F5A7286F1E5148A24D637BB6 /* SelectorRow.swift */; };
+		DB5FB611FB6EBF2F2BA7B78FE0CED535 /* UIColor+Chameleon.h in Headers */ = {isa = PBXBuildFile; fileRef = D70605A22FE40048B4A400E59A31ED1F /* UIColor+Chameleon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DBFECCB0BBE3F11CC41A3C1A8C4879D3 /* GTMNSData+zlib.h in Headers */ = {isa = PBXBuildFile; fileRef = C4E88672775D112DB1D525FDBD53FFF9 /* GTMNSData+zlib.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE6DF70A452BF20CB858BA7072AAE3EA /* RowProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F1583867E4D73D357DEC6174EC3D36 /* RowProtocols.swift */; };
+		E0946CE4B110F2A64041FAB63546FB48 /* RuleRange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31470C85BC89BD1D1EAA45845D3EBAAF /* RuleRange.swift */; };
+		E181395E73163EB702FCE9A21403D67B /* pb_encode.h in Headers */ = {isa = PBXBuildFile; fileRef = BBE17B1DC0FBCA57BCA3FDB963451B6D /* pb_encode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E490A481C69CE189A0814626B1251FB4 /* RuleClosure.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46D7E4DD21A3F49821F61C61D2AEDB9 /* RuleClosure.swift */; };
+		E585A7898FC181529FD2704BEF4CE992 /* DecimalFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDA9A40D66BE4F6C8BFB524EBA26ECC /* DecimalFormatter.swift */; };
+		E7FA38FEAF957D69E92153FBAFB3DB40 /* Chameleon_.m in Sources */ = {isa = PBXBuildFile; fileRef = 933E464C33CF449A1BB34EAB7F442E1A /* Chameleon_.m */; };
 		E87D2FB41E6EB857013EB020297C08DF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECB56A22A987E846FF65248DA108CAD2 /* Foundation.framework */; };
 		E91202612969D2BDB5A801F81AE96FFB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3292CC8DBF6352C2BF2B949CB548248F /* CoreGraphics.framework */; };
-		E92B5113A74D07D38C8137460AE0E3C7 /* RuleRegExp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42801EDA8E9E7DFFC8EFE57BF79AED3F /* RuleRegExp.swift */; };
-		EC786817C5CEBCD51A4C9EC9B883ED6F /* ChameleonEnums.h in Headers */ = {isa = PBXBuildFile; fileRef = 29557A6259F25E1CB0EFFD99583A69F7 /* ChameleonEnums.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		ED4DBD1E13182AA813DC1237FA6E3A42 /* Chameleon.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BB986379F71640FC124C693BA8BCB3A /* Chameleon.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F1681F8D16AD91A13187576F524783A8 /* HeaderFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1724FA51BE7739A0FCE626BC8C22039E /* HeaderFooterView.swift */; };
-		F2095372A5BB341F1B5469F634EA6687 /* FieldsRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF26BA59832DDC150E74C6A53E3D6F2A /* FieldsRow.swift */; };
-		F635212E6AC9C740072EE920EAD57A03 /* Pods-Rick and Morty Soundboard-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 417E4FAB31293D992B255AD4799E4E82 /* Pods-Rick and Morty Soundboard-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FB82C1293D7DDE0D3E2E6D68CDD5852C /* UILabel+Chameleon.m in Sources */ = {isa = PBXBuildFile; fileRef = C67C72BF2F1660CCD5A6D09E5FC2DAD2 /* UILabel+Chameleon.m */; };
-		FC505268B5A20F0F00D3BC0A9FF66F99 /* SelectableRowType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94FF063FD29F58C8CEDCF8591F7146DC /* SelectableRowType.swift */; };
-		FF0168C08BB3555924897006B4AD36DA /* InlineRowType.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4CFBAFFDD6D0EBD79351108EAF9358 /* InlineRowType.swift */; };
+		E92B5113A74D07D38C8137460AE0E3C7 /* RuleRegExp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7069844436FD19197DB9B1FBE7816973 /* RuleRegExp.swift */; };
+		EC786817C5CEBCD51A4C9EC9B883ED6F /* ChameleonEnums.h in Headers */ = {isa = PBXBuildFile; fileRef = 045B511D4B322CDA39EB47E82316DFFC /* ChameleonEnums.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ED4DBD1E13182AA813DC1237FA6E3A42 /* Chameleon.h in Headers */ = {isa = PBXBuildFile; fileRef = 806236F28DD874EBD39D28C062AF15B3 /* Chameleon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F1681F8D16AD91A13187576F524783A8 /* HeaderFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63950E68A4D6C1886647B8051B2C2202 /* HeaderFooterView.swift */; };
+		F2095372A5BB341F1B5469F634EA6687 /* FieldsRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39CE19D29F82D9D8AAA11A2851F8F5DE /* FieldsRow.swift */; };
+		F7D889906DECB078EAAECB9D4A320E9C /* GTMNSData+zlib.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C637F577A74901F9AFBDE6EF0FC81D9 /* GTMNSData+zlib.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		F9D92BA503505CB48EF4ECF0DDF57686 /* nanopb-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 49FEB6879864ECC776C4F40DD65995CC /* nanopb-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FAC3F3CAABA60EF76069431C5BB5032A /* GoogleToolboxForMac-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B271DBF4A3CEFDBC4918533F1C2D1D75 /* GoogleToolboxForMac-dummy.m */; };
+		FB82C1293D7DDE0D3E2E6D68CDD5852C /* UILabel+Chameleon.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE0B009FFE5E03CFEC9DE987F51137E /* UILabel+Chameleon.m */; };
+		FC505268B5A20F0F00D3BC0A9FF66F99 /* SelectableRowType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B938006ACB118C13A938FCBBB9CFE1F /* SelectableRowType.swift */; };
+		FF0168C08BB3555924897006B4AD36DA /* InlineRowType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 085673008861C51167BBC60F2C143FA2 /* InlineRowType.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		1F7C16895F8E092AA0222EDC5C8F137C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 76BD4592010354D6C23D6ECCA20D83A8;
-			remoteInfo = ChameleonFramework;
-		};
-		D800FA69B468C3D27543A3CDD2CED35B /* PBXContainerItemProxy */ = {
+		4736B4407FB518EE8FCFAD1033AA140C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 675A114988AE198732ED4AD726408964;
 			remoteInfo = Eureka;
 		};
+		4EBF3CDF0578DE83EF5128121B37262F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 76BD4592010354D6C23D6ECCA20D83A8;
+			remoteInfo = ChameleonFramework;
+		};
+		7AC1C20955EA97F4893373FDCBEDB532 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E4DD95323C54A78F879DAB0F1508B8E7;
+			remoteInfo = nanopb;
+		};
+		B12A211C50EFD43CC31878F2179F8E08 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 00103D6C821BE85971C563025527BA5D;
+			remoteInfo = GoogleToolboxForMac;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00A3EEAE201E209670BF09BE1A175942 /* RuleLength.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RuleLength.swift; path = Source/Validations/RuleLength.swift; sourceTree = "<group>"; };
 		0404AECCF2457820A0553BE09E54ADD3 /* Pods-Rick and Morty Soundboard.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Rick and Morty Soundboard.modulemap"; sourceTree = "<group>"; };
-		04B679F74B9E2F9A5B2E29EB0CCBE3E7 /* SegmentedRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SegmentedRow.swift; path = Source/Rows/SegmentedRow.swift; sourceTree = "<group>"; };
-		0802EBF41F5551256F023C88CC0B05CC /* Chameleon_.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Chameleon_.m; path = "Pod/Classes/Objective-C/Chameleon_.m"; sourceTree = "<group>"; };
-		0B74CD37AFF3C555DA1FDC439F4BC776 /* UIViewController+Chameleon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+Chameleon.m"; path = "Pod/Classes/Objective-C/UIViewController+Chameleon.m"; sourceTree = "<group>"; };
-		100ACF88DF6EC234EA5669DC10512C1E /* UIView+ChameleonPrivate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+ChameleonPrivate.m"; path = "Pod/Classes/Objective-C/UIView+ChameleonPrivate.m"; sourceTree = "<group>"; };
-		102AE23737B146EE762BB1EB9E442B78 /* Protocols.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Protocols.swift; path = Source/Rows/Common/Protocols.swift; sourceTree = "<group>"; };
-		104B4F5B800972E2A88A89929CB72997 /* PushRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PushRow.swift; path = Source/Rows/PushRow.swift; sourceTree = "<group>"; };
-		10BBA8CA9BE41D3D9C2CC43A21E66221 /* UIColor+Chameleon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+Chameleon.m"; path = "Pod/Classes/Objective-C/UIColor+Chameleon.m"; sourceTree = "<group>"; };
-		10DC555B2EB6513064F9BEE6A3E68E58 /* ChameleonShorthand.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChameleonShorthand.swift; path = Pod/Classes/Swift/ChameleonShorthand.swift; sourceTree = "<group>"; };
-		13F41EECD11793046283EF166264C6C1 /* SelectableSection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SelectableSection.swift; path = Source/Core/SelectableSection.swift; sourceTree = "<group>"; };
-		167E7E7904CB0AD4D3373510F7BE27FF /* UILabel+Chameleon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UILabel+Chameleon.h"; path = "Pod/Classes/Objective-C/UILabel+Chameleon.h"; sourceTree = "<group>"; };
-		1724FA51BE7739A0FCE626BC8C22039E /* HeaderFooterView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeaderFooterView.swift; path = Source/Core/HeaderFooterView.swift; sourceTree = "<group>"; };
-		1BC9275C878DE589A929D0160CD21D59 /* ChameleonConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ChameleonConstants.h; path = "Pod/Classes/Objective-C/ChameleonConstants.h"; sourceTree = "<group>"; };
-		1BDECA09E437BA2BC90B14EF6EBD8887 /* Helpers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Helpers.swift; path = Source/Core/Helpers.swift; sourceTree = "<group>"; };
-		1BEAD941501AB52406C9CD6E8BD37354 /* SelectorAlertController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SelectorAlertController.swift; path = Source/Rows/Controllers/SelectorAlertController.swift; sourceTree = "<group>"; };
+		04348EA99B953061066FD75109CC4ECD /* GoogleToolboxForMac.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GoogleToolboxForMac.framework; path = GoogleToolboxForMac.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		045B511D4B322CDA39EB47E82316DFFC /* ChameleonEnums.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ChameleonEnums.h; path = "Pod/Classes/Objective-C/ChameleonEnums.h"; sourceTree = "<group>"; };
+		057F6A618737C8D0FF48AEBC73E746F1 /* ChameleonFramework-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ChameleonFramework-dummy.m"; sourceTree = "<group>"; };
+		085673008861C51167BBC60F2C143FA2 /* InlineRowType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InlineRowType.swift; path = Source/Core/InlineRowType.swift; sourceTree = "<group>"; };
+		0A0768C6594196C63EDBF49251035523 /* ChameleonFramework-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ChameleonFramework-prefix.pch"; sourceTree = "<group>"; };
+		0C7497DA698D7B79B3B34DE3006E726A /* UIColor+Chameleon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+Chameleon.m"; path = "Pod/Classes/Objective-C/UIColor+Chameleon.m"; sourceTree = "<group>"; };
+		0ED34E88BEA319F31565FA6AE779BA58 /* pb_common.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = pb_common.h; sourceTree = "<group>"; };
+		11F723747C5565F658F932AA5E3BBD4D /* CellType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CellType.swift; path = Source/Core/CellType.swift; sourceTree = "<group>"; };
+		1349A1AED237D7F77BC50812BB0924A6 /* UILabel+Chameleon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UILabel+Chameleon.h"; path = "Pod/Classes/Objective-C/UILabel+Chameleon.h"; sourceTree = "<group>"; };
+		14B71FDC8419352B273F44415F0751DD /* nanopb.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = nanopb.framework; path = nanopb.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		15C3B45C230FC47539E904E450722C7F /* RuleURL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RuleURL.swift; path = Source/Validations/RuleURL.swift; sourceTree = "<group>"; };
+		1625961F77621DB8520DD642871BB072 /* OptionsRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OptionsRow.swift; path = Source/Rows/Common/OptionsRow.swift; sourceTree = "<group>"; };
+		19F914F0DBB8B723F1459D11FB12A832 /* pb_decode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = pb_decode.h; sourceTree = "<group>"; };
+		1A11231A8DF8FAF1E704247FD939E467 /* ChameleonFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ChameleonFramework.framework; path = ChameleonFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A6ACDB2F8E67396BBB86485CD510B85 /* ListCheckRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ListCheckRow.swift; path = Source/Rows/SelectableRows/ListCheckRow.swift; sourceTree = "<group>"; };
 		1CABEE465EBDD05F271D6BE6CA13AE32 /* Pods-Rick and Morty Soundboard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Rick and Morty Soundboard.debug.xcconfig"; sourceTree = "<group>"; };
-		1CFBECB0213B89B52AD2A7386B2C88CA /* UIButton+Chameleon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+Chameleon.m"; path = "Pod/Classes/Objective-C/UIButton+Chameleon.m"; sourceTree = "<group>"; };
-		1E9699D0473D36CFFAB32ACA9FA08149 /* Eureka.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Eureka.xcconfig; sourceTree = "<group>"; };
-		1FD05B3972179DE73EB9B89281E3D973 /* ChameleonFramework.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ChameleonFramework.xcconfig; sourceTree = "<group>"; };
+		1DB69B380C4BEAA9C632256270723A03 /* ChameleonFramework-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ChameleonFramework-umbrella.h"; sourceTree = "<group>"; };
+		1E159BE3D63592F320AA4A99F173EB4A /* pb_decode.c */ = {isa = PBXFileReference; includeInIndex = 1; path = pb_decode.c; sourceTree = "<group>"; };
+		1E30036B7DAB7F1727A5D768261E611C /* Protocols.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Protocols.swift; path = Source/Rows/Common/Protocols.swift; sourceTree = "<group>"; };
+		1FB918C332B0ADAB7CCE736D2E3DD3D9 /* GenericMultipleSelectorRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GenericMultipleSelectorRow.swift; path = Source/Rows/Common/GenericMultipleSelectorRow.swift; sourceTree = "<group>"; };
+		1FE8306177648CE450022B787D34BAC2 /* UIImage+ChameleonPrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+ChameleonPrivate.h"; path = "Pod/Classes/Objective-C/UIImage+ChameleonPrivate.h"; sourceTree = "<group>"; };
 		2173A5B31279E33E4EC285AB977EE5D5 /* Pods-Rick and Morty Soundboard-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Rick and Morty Soundboard-acknowledgements.plist"; sourceTree = "<group>"; };
-		22F58CA51350FC1E40802AB412FB6A16 /* PickerInlineRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PickerInlineRow.swift; path = Source/Rows/PickerInlineRow.swift; sourceTree = "<group>"; };
-		280A4EC8406FCD875FFC2D29FA512AF0 /* NSArray+Chameleon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+Chameleon.m"; path = "Pod/Classes/Objective-C/NSArray+Chameleon.m"; sourceTree = "<group>"; };
-		29557A6259F25E1CB0EFFD99583A69F7 /* ChameleonEnums.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ChameleonEnums.h; path = "Pod/Classes/Objective-C/ChameleonEnums.h"; sourceTree = "<group>"; };
-		2D50BBF91105F7F8C58206830F2AEA93 /* Chameleon_.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Chameleon_.h; path = "Pod/Classes/Objective-C/Chameleon_.h"; sourceTree = "<group>"; };
-		2D5D1E44BC9374F003BA947C1BA13B05 /* PickerInputRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PickerInputRow.swift; path = Source/Rows/PickerInputRow.swift; sourceTree = "<group>"; };
-		30E2CECDC5EE80E29A7142945E86E085 /* UIAppearance+Swift.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIAppearance+Swift.m"; path = "Pod/Classes/Objective-C/UIAppearance+Swift.m"; sourceTree = "<group>"; };
-		319C75C821368DAFE082A7C28B46CBDF /* Cell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Cell.swift; path = Source/Core/Cell.swift; sourceTree = "<group>"; };
+		22031B68D829FAB7E0D42F9C7C7F8BE7 /* nanopb-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "nanopb-dummy.m"; sourceTree = "<group>"; };
+		249FA0887639457F36C432DEE2CE652E /* UINavigationController+Chameleon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UINavigationController+Chameleon.m"; path = "Pod/Classes/Objective-C/UINavigationController+Chameleon.m"; sourceTree = "<group>"; };
+		24D0A3DACA4934B253974AB9CF6D192B /* GoogleToolboxForMac.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = GoogleToolboxForMac.modulemap; sourceTree = "<group>"; };
+		24FAA0BAAF350C31144B78805F16827B /* pb_common.c */ = {isa = PBXFileReference; includeInIndex = 1; path = pb_common.c; sourceTree = "<group>"; };
+		2958C091AB49CC674DB09B12B6C524A6 /* BaseRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BaseRow.swift; path = Source/Core/BaseRow.swift; sourceTree = "<group>"; };
+		2ACFFD8CEF35D8501A2223F09FB8117E /* Eureka.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = Eureka.bundle; path = Source/Resources/Eureka.bundle; sourceTree = "<group>"; };
+		2B97A824FBE76481F7A9856265B866A5 /* SliderRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SliderRow.swift; path = Source/Rows/SliderRow.swift; sourceTree = "<group>"; };
+		2BB0C3FC2EA69B5A4EDBC76B7507FA84 /* nanopb.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = nanopb.xcconfig; sourceTree = "<group>"; };
+		2E164A11437BCF83233D87CC7F973A12 /* nanopb.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = nanopb.modulemap; sourceTree = "<group>"; };
+		2E457642A716B9C65136CE609BE269E9 /* GoogleToolboxForMac-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GoogleToolboxForMac-prefix.pch"; sourceTree = "<group>"; };
+		2FD28EFC6807E235502A8A0A4BA49359 /* RuleLength.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RuleLength.swift; path = Source/Validations/RuleLength.swift; sourceTree = "<group>"; };
+		312F70F6CF79BD5071BCDF409D07895B /* UIAppearance+Swift.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIAppearance+Swift.m"; path = "Pod/Classes/Objective-C/UIAppearance+Swift.m"; sourceTree = "<group>"; };
+		31470C85BC89BD1D1EAA45845D3EBAAF /* RuleRange.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RuleRange.swift; path = Source/Validations/RuleRange.swift; sourceTree = "<group>"; };
 		3292CC8DBF6352C2BF2B949CB548248F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
-		34B96335FA524694ECEFDAF96ACCE66D /* PickerRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PickerRow.swift; path = Source/Rows/PickerRow.swift; sourceTree = "<group>"; };
-		3CC4ECB2C810C1D0F54107D55D53976F /* AlertRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AlertRow.swift; path = Source/Rows/AlertRow.swift; sourceTree = "<group>"; };
-		3D51F70FDD081846AF85498AFA5E23B8 /* UIView+ChameleonPrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+ChameleonPrivate.h"; path = "Pod/Classes/Objective-C/UIView+ChameleonPrivate.h"; sourceTree = "<group>"; };
-		3D94581AC13F07D2A764E6D572F2A535 /* FieldRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FieldRow.swift; path = Source/Rows/Common/FieldRow.swift; sourceTree = "<group>"; };
-		3EE980C34C8B79A4EFFFDAC416913AC3 /* ChameleonFramework.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = ChameleonFramework.modulemap; sourceTree = "<group>"; };
+		34D378FB8BB542F01A4484AE58583BEF /* StepperRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StepperRow.swift; path = Source/Rows/StepperRow.swift; sourceTree = "<group>"; };
+		352BAFEABC6D67B80377B0023A21A924 /* ChameleonFramework.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = ChameleonFramework.modulemap; sourceTree = "<group>"; };
+		38F763AB89EA4D536EB06D742E6CEAC8 /* MultipleSelectorRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipleSelectorRow.swift; path = Source/Rows/MultipleSelectorRow.swift; sourceTree = "<group>"; };
+		39CE19D29F82D9D8AAA11A2851F8F5DE /* FieldsRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FieldsRow.swift; path = Source/Rows/FieldsRow.swift; sourceTree = "<group>"; };
+		3A20DBD24958D314746DA4DA8E3AFBAC /* Form.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Form.swift; path = Source/Core/Form.swift; sourceTree = "<group>"; };
+		3C34D84AFB1F0B3C52DB069D7825D1D0 /* ChameleonConstants.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ChameleonConstants.m; path = "Pod/Classes/Objective-C/ChameleonConstants.m"; sourceTree = "<group>"; };
+		3C637F577A74901F9AFBDE6EF0FC81D9 /* GTMNSData+zlib.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "GTMNSData+zlib.m"; path = "Foundation/GTMNSData+zlib.m"; sourceTree = "<group>"; };
+		3EE38631EE42BF76B969C99BAFAA410E /* Core.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Core.swift; path = Source/Core/Core.swift; sourceTree = "<group>"; };
 		417E4FAB31293D992B255AD4799E4E82 /* Pods-Rick and Morty Soundboard-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Rick and Morty Soundboard-umbrella.h"; sourceTree = "<group>"; };
-		4221FAD6F1AE03856F8AECA1986861A0 /* UIAppearance+Swift.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIAppearance+Swift.h"; path = "Pod/Classes/Objective-C/UIAppearance+Swift.h"; sourceTree = "<group>"; };
-		42801EDA8E9E7DFFC8EFE57BF79AED3F /* RuleRegExp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RuleRegExp.swift; path = Source/Validations/RuleRegExp.swift; sourceTree = "<group>"; };
-		44AFDFF25757626E3B1B4B04039C874D /* OptionsRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OptionsRow.swift; path = Source/Rows/Common/OptionsRow.swift; sourceTree = "<group>"; };
-		4A9119A4B3F2FC7A778721DDABCDB622 /* MultipleSelectorViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipleSelectorViewController.swift; path = Source/Rows/Controllers/MultipleSelectorViewController.swift; sourceTree = "<group>"; };
-		4BB986379F71640FC124C693BA8BCB3A /* Chameleon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Chameleon.h; path = "Pod/Classes/Objective-C/Chameleon.h"; sourceTree = "<group>"; };
-		4EDF3FE18F306E12B59D4C8EF2F773FC /* RuleEmail.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RuleEmail.swift; path = Source/Validations/RuleEmail.swift; sourceTree = "<group>"; };
-		51180605C44A448059A776D4867ED537 /* NavigationAccessoryView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NavigationAccessoryView.swift; path = Source/Core/NavigationAccessoryView.swift; sourceTree = "<group>"; };
-		51D83877C0A64DDC4912BF70C75262C1 /* DateFieldRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DateFieldRow.swift; path = Source/Rows/Common/DateFieldRow.swift; sourceTree = "<group>"; };
-		5F43B64FD80CC714FB1A8D51F59EBC51 /* UINavigationController+Chameleon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UINavigationController+Chameleon.m"; path = "Pod/Classes/Objective-C/UINavigationController+Chameleon.m"; sourceTree = "<group>"; };
-		5F5D7731334C33E98A512B660E53C5C8 /* UIButton+Chameleon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+Chameleon.h"; path = "Pod/Classes/Objective-C/UIButton+Chameleon.h"; sourceTree = "<group>"; };
-		602CED0074BF7CB21C92BE5D6BF7F162 /* Form.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Form.swift; path = Source/Core/Form.swift; sourceTree = "<group>"; };
+		49FEB6879864ECC776C4F40DD65995CC /* nanopb-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "nanopb-umbrella.h"; sourceTree = "<group>"; };
+		4A5DAB0E94F6AC1034EB663428D8AEE6 /* AlertRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AlertRow.swift; path = Source/Rows/AlertRow.swift; sourceTree = "<group>"; };
+		4AC8BC51F90226098606340B4A9BFF25 /* ButtonRowWithPresent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ButtonRowWithPresent.swift; path = Source/Rows/ButtonRowWithPresent.swift; sourceTree = "<group>"; };
+		4B6C9252113116415A76A484F783105F /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseInstanceID.framework; path = Frameworks/FirebaseInstanceID.framework; sourceTree = "<group>"; };
+		4BC1D91FC8C25EACF8149B1A71A3F9CB /* NSArray+Chameleon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+Chameleon.h"; path = "Pod/Classes/Objective-C/NSArray+Chameleon.h"; sourceTree = "<group>"; };
+		4BFBCDDB5AF93E8FBED1089314709358 /* CheckRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CheckRow.swift; path = Source/Rows/CheckRow.swift; sourceTree = "<group>"; };
+		4C2C46F70A77FF138300AF5BA86F5451 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D9BFCCBE6EFF8735ED8B8556C6BF799 /* Eureka.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Eureka.modulemap; sourceTree = "<group>"; };
+		5095464931A75454F27524E68A38E7B2 /* Operators.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Operators.swift; path = Source/Core/Operators.swift; sourceTree = "<group>"; };
+		574C3DD396980D7B704977679B09802C /* pb.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = pb.h; sourceTree = "<group>"; };
+		59407684D3D8B19C0A582EB0FE179A3B /* UIButton+Chameleon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+Chameleon.m"; path = "Pod/Classes/Objective-C/UIButton+Chameleon.m"; sourceTree = "<group>"; };
+		5B938006ACB118C13A938FCBBB9CFE1F /* SelectableRowType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SelectableRowType.swift; path = Source/Core/SelectableRowType.swift; sourceTree = "<group>"; };
+		5E462BE54A481AE95A7D0C16AC2C1BC4 /* GoogleToolboxForMac-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GoogleToolboxForMac-umbrella.h"; sourceTree = "<group>"; };
+		5ED79C7D7D8C10A82D7B6753C16E8B42 /* GTMDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
 		6071C0D303CED9222C4B5B3BED2C2854 /* Pods-Rick and Morty Soundboard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Rick and Morty Soundboard.release.xcconfig"; sourceTree = "<group>"; };
-		6381990ED2DB784F89BE12CC9D76BE2D /* Eureka.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Eureka.framework; path = Eureka.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		64A4AC380513D556F9A3C02DADDF38E2 /* MultipleSelectorRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipleSelectorRow.swift; path = Source/Rows/MultipleSelectorRow.swift; sourceTree = "<group>"; };
-		65CBB2A081083D420E92644C96C8F3AD /* SliderRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SliderRow.swift; path = Source/Rows/SliderRow.swift; sourceTree = "<group>"; };
-		6636FAB654EFCFC06C9BA0BE49E3119E /* UIViewController+Chameleon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+Chameleon.h"; path = "Pod/Classes/Objective-C/UIViewController+Chameleon.h"; sourceTree = "<group>"; };
-		6903678673F5E6DAA0A82C9E76CDD07E /* ButtonRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ButtonRow.swift; path = Source/Rows/ButtonRow.swift; sourceTree = "<group>"; };
-		6A124E49DA2D13D24CA0DFB8B5BF0FF3 /* RuleURL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RuleURL.swift; path = Source/Validations/RuleURL.swift; sourceTree = "<group>"; };
-		703E084F1AA3E95746DEE9714612B0F6 /* ListCheckRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ListCheckRow.swift; path = Source/Rows/SelectableRows/ListCheckRow.swift; sourceTree = "<group>"; };
-		710BD23259AE3A074FD23CC3F69B3131 /* NSArray+Chameleon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+Chameleon.h"; path = "Pod/Classes/Objective-C/NSArray+Chameleon.h"; sourceTree = "<group>"; };
-		7365C7881FE6CB06B3C942FDCA1A2635 /* ChameleonFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ChameleonFramework.framework; path = ChameleonFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		73A54262B3DEA250A7584FFCA2E70E15 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7845E4DE122EF04144D027F38754853D /* CheckRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CheckRow.swift; path = Source/Rows/CheckRow.swift; sourceTree = "<group>"; };
-		789BA2DBA8754DB6ED1B530B52E2868F /* RowControllerType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RowControllerType.swift; path = Source/Core/RowControllerType.swift; sourceTree = "<group>"; };
-		7B8A820E5D87433154A7FE32D24A1BA5 /* DatePickerRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DatePickerRow.swift; path = Source/Rows/DatePickerRow.swift; sourceTree = "<group>"; };
-		7DB6B0ECC9BBBC55A77603D3CC448F84 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7F2442371D75294795AB617B2785329A /* RuleRequired.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RuleRequired.swift; path = Source/Validations/RuleRequired.swift; sourceTree = "<group>"; };
-		7FDF80B8A5E15E5D5856EC017E9A339E /* SelectorViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SelectorViewController.swift; path = Source/Rows/Controllers/SelectorViewController.swift; sourceTree = "<group>"; };
-		812E965D66AE18AD03FA477BCB132CA7 /* RowProtocols.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RowProtocols.swift; path = Source/Core/RowProtocols.swift; sourceTree = "<group>"; };
+		61A76718451D5F028ACA39F5F47D3C1F /* SelectorAlertController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SelectorAlertController.swift; path = Source/Rows/Controllers/SelectorAlertController.swift; sourceTree = "<group>"; };
+		62EE0EBAFFE4B4DB8D50AA088691A305 /* Eureka-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Eureka-prefix.pch"; sourceTree = "<group>"; };
+		63950E68A4D6C1886647B8051B2C2202 /* HeaderFooterView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeaderFooterView.swift; path = Source/Core/HeaderFooterView.swift; sourceTree = "<group>"; };
+		69E45210F5A7286F1E5148A24D637BB6 /* SelectorRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SelectorRow.swift; path = Source/Rows/Common/SelectorRow.swift; sourceTree = "<group>"; };
+		6C7DC722FAD491688B0FF5797A675D7D /* PickerInlineRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PickerInlineRow.swift; path = Source/Rows/PickerInlineRow.swift; sourceTree = "<group>"; };
+		6E2E87623735F174F5AE69AEC5D809ED /* LabelRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LabelRow.swift; path = Source/Rows/LabelRow.swift; sourceTree = "<group>"; };
+		6FC7666A8D34D9B7ADAFA0BCB6249FD0 /* DateInlineRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DateInlineRow.swift; path = Source/Rows/DateInlineRow.swift; sourceTree = "<group>"; };
+		7069844436FD19197DB9B1FBE7816973 /* RuleRegExp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RuleRegExp.swift; path = Source/Validations/RuleRegExp.swift; sourceTree = "<group>"; };
+		737D008CDF1D79B3FA333048F7D31EC8 /* RuleRequired.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RuleRequired.swift; path = Source/Validations/RuleRequired.swift; sourceTree = "<group>"; };
+		7665C59169BA1D3C2089DD8F8843FF1A /* UINavigationController+Chameleon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UINavigationController+Chameleon.h"; path = "Pod/Classes/Objective-C/UINavigationController+Chameleon.h"; sourceTree = "<group>"; };
+		76FC059CF20BFF7BAD9D7FC5FCDFEAB4 /* UIAppearance+Swift.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIAppearance+Swift.h"; path = "Pod/Classes/Objective-C/UIAppearance+Swift.h"; sourceTree = "<group>"; };
+		7E9084B0370B21BD2AAEBE6635D811B0 /* ButtonRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ButtonRow.swift; path = Source/Rows/ButtonRow.swift; sourceTree = "<group>"; };
+		806236F28DD874EBD39D28C062AF15B3 /* Chameleon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Chameleon.h; path = "Pod/Classes/Objective-C/Chameleon.h"; sourceTree = "<group>"; };
+		8122700BE2B2B4BDD8191F9CAB08444B /* SwitchRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwitchRow.swift; path = Source/Rows/SwitchRow.swift; sourceTree = "<group>"; };
+		830C1C8F59B1DC7683952063578C4369 /* RuleEmail.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RuleEmail.swift; path = Source/Validations/RuleEmail.swift; sourceTree = "<group>"; };
 		85947102E55DC1B9090C0081186ED16A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		862759EA7BB781FDA4CAB6EE3BA12CB8 /* ChameleonConstants.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ChameleonConstants.m; path = "Pod/Classes/Objective-C/ChameleonConstants.m"; sourceTree = "<group>"; };
-		87F69EF43FBD0D4390959E4675CB9C74 /* CellType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CellType.swift; path = Source/Core/CellType.swift; sourceTree = "<group>"; };
+		88B08695BBF9AE79EECC19CFFA240FFD /* UIButton+Chameleon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+Chameleon.h"; path = "Pod/Classes/Objective-C/UIButton+Chameleon.h"; sourceTree = "<group>"; };
+		88F1583867E4D73D357DEC6174EC3D36 /* RowProtocols.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RowProtocols.swift; path = Source/Core/RowProtocols.swift; sourceTree = "<group>"; };
+		89064FE2469173AB61443A021B4D1C0A /* UIColor+ChameleonPrivate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+ChameleonPrivate.m"; path = "Pod/Classes/Objective-C/UIColor+ChameleonPrivate.m"; sourceTree = "<group>"; };
 		89369750CD0399A2C12A3FAE10F15EAB /* Pods-Rick and Morty Soundboard-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Rick and Morty Soundboard-dummy.m"; sourceTree = "<group>"; };
-		89438FC8663C318284EF4F1B92516064 /* Pods_Rick_and_Morty_Soundboard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Rick_and_Morty_Soundboard.framework; path = "Pods-Rick and Morty Soundboard.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		89C23D77ACAFB801D37DCF1290485026 /* UIColor+ChameleonPrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+ChameleonPrivate.h"; path = "Pod/Classes/Objective-C/UIColor+ChameleonPrivate.h"; sourceTree = "<group>"; };
-		8A973CC739AD7B235DE4B610D1028E93 /* ChameleonFramework-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ChameleonFramework-prefix.pch"; sourceTree = "<group>"; };
-		8D04AE18E1606BDE32ABD956263A8FBD /* UIImage+ChameleonPrivate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+ChameleonPrivate.m"; path = "Pod/Classes/Objective-C/UIImage+ChameleonPrivate.m"; sourceTree = "<group>"; };
-		8D0E02A22409676152FC735B1758E932 /* TextAreaRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TextAreaRow.swift; path = Source/Rows/TextAreaRow.swift; sourceTree = "<group>"; };
-		8E357379F7FA26040243CDF48D51FB62 /* GenericMultipleSelectorRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GenericMultipleSelectorRow.swift; path = Source/Rows/Common/GenericMultipleSelectorRow.swift; sourceTree = "<group>"; };
-		8FB63EDF908AC121EF0D9255D1DBD7CD /* StepperRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StepperRow.swift; path = Source/Rows/StepperRow.swift; sourceTree = "<group>"; };
-		8FC7909E84F47D115357B7D50F4F80D0 /* Eureka-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Eureka-dummy.m"; sourceTree = "<group>"; };
-		9015A5AA24EF6CF97494FD33A3AF69AB /* DecimalFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DecimalFormatter.swift; path = Source/Rows/Common/DecimalFormatter.swift; sourceTree = "<group>"; };
-		906D508B387D62A066B2F6CF57793F2C /* UINavigationController+Chameleon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UINavigationController+Chameleon.h"; path = "Pod/Classes/Objective-C/UINavigationController+Chameleon.h"; sourceTree = "<group>"; };
+		8B463D5AAF7389D38BEAD2EF26853A58 /* NSArray+Chameleon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+Chameleon.m"; path = "Pod/Classes/Objective-C/NSArray+Chameleon.m"; sourceTree = "<group>"; };
+		8D63A4753DB569728C6BFEB198315376 /* UIView+ChameleonPrivate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+ChameleonPrivate.m"; path = "Pod/Classes/Objective-C/UIView+ChameleonPrivate.m"; sourceTree = "<group>"; };
+		903F2725C7306DF6E31BECCBA4CE5213 /* SegmentedRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SegmentedRow.swift; path = Source/Rows/SegmentedRow.swift; sourceTree = "<group>"; };
+		933E464C33CF449A1BB34EAB7F442E1A /* Chameleon_.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Chameleon_.m; path = "Pod/Classes/Objective-C/Chameleon_.m"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		94FF063FD29F58C8CEDCF8591F7146DC /* SelectableRowType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SelectableRowType.swift; path = Source/Core/SelectableRowType.swift; sourceTree = "<group>"; };
-		95516DB7AD81063AD2EF6C8ABE6E55E8 /* Operators.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Operators.swift; path = Source/Core/Operators.swift; sourceTree = "<group>"; };
-		99D217467C1DA3F05A56D5817DF47311 /* DateRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DateRow.swift; path = Source/Rows/DateRow.swift; sourceTree = "<group>"; };
-		9ADB79743D066423E7DC0B1C663E81B5 /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Core/Validation.swift; sourceTree = "<group>"; };
-		A2667BCE5E11C8D8BD682BD454D83B03 /* Eureka-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Eureka-prefix.pch"; sourceTree = "<group>"; };
-		A4AE1B02EEE77AA0040808D2555BFBA0 /* RuleEqualsToRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RuleEqualsToRow.swift; path = Source/Validations/RuleEqualsToRow.swift; sourceTree = "<group>"; };
-		A4D9605027D6B29E14E1FD99C2E5F071 /* Row.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Row.swift; path = Source/Core/Row.swift; sourceTree = "<group>"; };
+		960473D0B4FE2EC71B31284889C34722 /* PushRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PushRow.swift; path = Source/Rows/PushRow.swift; sourceTree = "<group>"; };
+		961E1FA90DBB316A9DAA55CDA565129A /* UIImage+ChameleonPrivate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+ChameleonPrivate.m"; path = "Pod/Classes/Objective-C/UIImage+ChameleonPrivate.m"; sourceTree = "<group>"; };
+		990F19CF3FE864CA8D75232F0736E6AB /* PickerInputRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PickerInputRow.swift; path = Source/Rows/PickerInputRow.swift; sourceTree = "<group>"; };
+		9ED929E578FDA5BFD116D3F47614AB0C /* MultipleSelectorViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipleSelectorViewController.swift; path = Source/Rows/Controllers/MultipleSelectorViewController.swift; sourceTree = "<group>"; };
+		9F0953C8C5F029FF5CB5B7203BB53D5F /* Section.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Section.swift; path = Source/Core/Section.swift; sourceTree = "<group>"; };
+		A20DBA2E7228A4237B99AB4646F53A20 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A38E6B2BECC0760F90321ABE314FB046 /* Helpers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Helpers.swift; path = Source/Core/Helpers.swift; sourceTree = "<group>"; };
+		A66DF4113A3DB326B43754F69A601023 /* FieldRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FieldRow.swift; path = Source/Rows/Common/FieldRow.swift; sourceTree = "<group>"; };
+		A6F4B65C1E52277BB9DC650F609A4888 /* ActionSheetRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActionSheetRow.swift; path = Source/Rows/ActionSheetRow.swift; sourceTree = "<group>"; };
+		A8EB5ED02300BF86179445A6526B0288 /* DatePickerRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DatePickerRow.swift; path = Source/Rows/DatePickerRow.swift; sourceTree = "<group>"; };
 		AAC2F1596E85924534E23DC0237189B2 /* Pods-Rick and Morty Soundboard-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Rick and Morty Soundboard-acknowledgements.markdown"; sourceTree = "<group>"; };
-		AFEC9FBA607AC8FDFE42D669BE95F30A /* ChameleonFramework-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ChameleonFramework-dummy.m"; sourceTree = "<group>"; };
-		B3BBB581FC52FD6D7E893754871DEDD3 /* LabelRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LabelRow.swift; path = Source/Rows/LabelRow.swift; sourceTree = "<group>"; };
-		B5D5529A36B253D9165456C9DC76A9CB /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMobileAds.framework; path = Frameworks/frameworks/GoogleMobileAds.framework; sourceTree = "<group>"; };
-		B648AD6383F9114E31205FCF682CC7A5 /* RuleClosure.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RuleClosure.swift; path = Source/Validations/RuleClosure.swift; sourceTree = "<group>"; };
-		BBCCAE1731B77E4DBB39687333EA4C00 /* ActionSheetRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActionSheetRow.swift; path = Source/Rows/ActionSheetRow.swift; sourceTree = "<group>"; };
+		AAF044ECEA13FB4D4FA7A14CBD07BFFD /* Eureka-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Eureka-dummy.m"; sourceTree = "<group>"; };
+		AB42EA35DA6E97B394D88D82583EC5EE /* ChameleonFramework.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ChameleonFramework.xcconfig; sourceTree = "<group>"; };
+		AB55AF8EFFBA7AD0449622CDCF367E3D /* RuleEqualsToRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RuleEqualsToRow.swift; path = Source/Validations/RuleEqualsToRow.swift; sourceTree = "<group>"; };
+		ACDA9A40D66BE4F6C8BFB524EBA26ECC /* DecimalFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DecimalFormatter.swift; path = Source/Rows/Common/DecimalFormatter.swift; sourceTree = "<group>"; };
+		AE4306DE485A6A59792210B2B63EA3CA /* DateFieldRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DateFieldRow.swift; path = Source/Rows/Common/DateFieldRow.swift; sourceTree = "<group>"; };
+		AF456AB655C31844365B543A28CCB15D /* nanopb-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "nanopb-prefix.pch"; sourceTree = "<group>"; };
+		AF71EB16D20B23C25732A8BCFD8B565E /* FirebaseCoreDiagnostics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseCoreDiagnostics.framework; path = Frameworks/FirebaseCoreDiagnostics.framework; sourceTree = "<group>"; };
+		B0950B2AEB7F91757FDD4B43D5A95A34 /* Eureka.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Eureka.framework; path = Eureka.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B17DD7B67A1D7D5EB318D2194C19C3FE /* UIColor+ChameleonPrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+ChameleonPrivate.h"; path = "Pod/Classes/Objective-C/UIColor+ChameleonPrivate.h"; sourceTree = "<group>"; };
+		B271DBF4A3CEFDBC4918533F1C2D1D75 /* GoogleToolboxForMac-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GoogleToolboxForMac-dummy.m"; sourceTree = "<group>"; };
+		B85C91114F0799D8B6B5556843C3B795 /* SelectableSection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SelectableSection.swift; path = Source/Core/SelectableSection.swift; sourceTree = "<group>"; };
+		BB68213A07ADFE6F3BCAC91BF432B936 /* UIViewController+Chameleon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+Chameleon.m"; path = "Pod/Classes/Objective-C/UIViewController+Chameleon.m"; sourceTree = "<group>"; };
+		BBC6135ED8170C3C1F37CA8C3DE075DA /* GoogleToolboxForMac.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleToolboxForMac.xcconfig; sourceTree = "<group>"; };
+		BBC8CA4E028347FE05A732E0B96D31B9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BBE17B1DC0FBCA57BCA3FDB963451B6D /* pb_encode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = pb_encode.h; sourceTree = "<group>"; };
+		BC1CDCB4195820C2601F2386B7B86F61 /* PresenterRowType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PresenterRowType.swift; path = Source/Core/PresenterRowType.swift; sourceTree = "<group>"; };
+		BC2756F919226F4A555C8E33E82DB56A /* NavigationAccessoryView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NavigationAccessoryView.swift; path = Source/Core/NavigationAccessoryView.swift; sourceTree = "<group>"; };
 		BDC5CBACE161BC9AEB69A528227425EB /* Pods-Rick and Morty Soundboard-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Rick and Morty Soundboard-resources.sh"; sourceTree = "<group>"; };
-		BE84518195C186DDB9A9E2057C209C98 /* UIColor+Chameleon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+Chameleon.h"; path = "Pod/Classes/Objective-C/UIColor+Chameleon.h"; sourceTree = "<group>"; };
-		BF26BA59832DDC150E74C6A53E3D6F2A /* FieldsRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FieldsRow.swift; path = Source/Rows/FieldsRow.swift; sourceTree = "<group>"; };
-		C04D8DFFC481702A8780E0000A399EEE /* UIImage+ChameleonPrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+ChameleonPrivate.h"; path = "Pod/Classes/Objective-C/UIImage+ChameleonPrivate.h"; sourceTree = "<group>"; };
-		C05FB1D280A4FA7AEDCAD7B53D2A954A /* UIColor+ChameleonPrivate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+ChameleonPrivate.m"; path = "Pod/Classes/Objective-C/UIColor+ChameleonPrivate.m"; sourceTree = "<group>"; };
-		C67C72BF2F1660CCD5A6D09E5FC2DAD2 /* UILabel+Chameleon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UILabel+Chameleon.m"; path = "Pod/Classes/Objective-C/UILabel+Chameleon.m"; sourceTree = "<group>"; };
-		C816A21127043ED56F258A4E2486DD8F /* Core.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Core.swift; path = Source/Core/Core.swift; sourceTree = "<group>"; };
-		C954D8BC0E50A96DFDFC2A32F8BB3565 /* SelectorRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SelectorRow.swift; path = Source/Rows/Common/SelectorRow.swift; sourceTree = "<group>"; };
-		CF539BA42322B84A8F53B8FA0340E8B1 /* PopoverSelectorRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PopoverSelectorRow.swift; path = Source/Rows/PopoverSelectorRow.swift; sourceTree = "<group>"; };
-		D10EC35AB918FBD7F88DE7F1E67BD1F1 /* ChameleonFramework-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ChameleonFramework-umbrella.h"; sourceTree = "<group>"; };
-		D5E15F6F23446C05DACB93034A54FC3A /* RuleRange.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RuleRange.swift; path = Source/Validations/RuleRange.swift; sourceTree = "<group>"; };
-		D6171DD631BB3BFC318857DE2775DF54 /* ChameleonMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ChameleonMacros.h; path = "Pod/Classes/Objective-C/ChameleonMacros.h"; sourceTree = "<group>"; };
-		D8891973D84CBA215E1CA23923DC0AEE /* DateInlineRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DateInlineRow.swift; path = Source/Rows/DateInlineRow.swift; sourceTree = "<group>"; };
-		DB7B3CD6317E7722D80C2FF3BF8F9E13 /* Eureka.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Eureka.modulemap; sourceTree = "<group>"; };
-		DDEFADBBE317BE2299F8C50ACEF3D883 /* Section.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Section.swift; path = Source/Core/Section.swift; sourceTree = "<group>"; };
-		DE70C023D9701E88E48483EDD1E2D649 /* Eureka.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = Eureka.bundle; path = Source/Resources/Eureka.bundle; sourceTree = "<group>"; };
-		DF45538AD9672AE3BCB42C15B664FFFD /* DateInlineFieldRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DateInlineFieldRow.swift; path = Source/Rows/Common/DateInlineFieldRow.swift; sourceTree = "<group>"; };
+		C30EC3153B57C21D49C4E62066195D47 /* ChameleonShorthand.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChameleonShorthand.swift; path = Pod/Classes/Swift/ChameleonShorthand.swift; sourceTree = "<group>"; };
+		C329977649DFF2D1F4279EC3B724427D /* Pods_Rick_and_Morty_Soundboard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Rick_and_Morty_Soundboard.framework; path = "Pods-Rick and Morty Soundboard.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4E88672775D112DB1D525FDBD53FFF9 /* GTMNSData+zlib.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GTMNSData+zlib.h"; path = "Foundation/GTMNSData+zlib.h"; sourceTree = "<group>"; };
+		C768DC29B69860A0BD4E2CD4F950EB05 /* Row.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Row.swift; path = Source/Core/Row.swift; sourceTree = "<group>"; };
+		C832ED85E5B320DC6C54B1767B6A2777 /* pb_encode.c */ = {isa = PBXFileReference; includeInIndex = 1; path = pb_encode.c; sourceTree = "<group>"; };
+		CEE0B009FFE5E03CFEC9DE987F51137E /* UILabel+Chameleon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UILabel+Chameleon.m"; path = "Pod/Classes/Objective-C/UILabel+Chameleon.m"; sourceTree = "<group>"; };
+		CFBC4B40334B1758902A687ADBA6C180 /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAnalytics.framework; path = Frameworks/FirebaseAnalytics.framework; sourceTree = "<group>"; };
+		D0E98CA2B91484727806BD84D80F4DF0 /* FirebaseNanoPB.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseNanoPB.framework; path = Frameworks/FirebaseNanoPB.framework; sourceTree = "<group>"; };
+		D12B769BA280B0ACF7D8D7D497A76885 /* RowControllerType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RowControllerType.swift; path = Source/Core/RowControllerType.swift; sourceTree = "<group>"; };
+		D468465FA0DFC46348B992487E9AC5CE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D70605A22FE40048B4A400E59A31ED1F /* UIColor+Chameleon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+Chameleon.h"; path = "Pod/Classes/Objective-C/UIColor+Chameleon.h"; sourceTree = "<group>"; };
+		D8307467C3B69B1B0D9962A9501E9D14 /* Cell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Cell.swift; path = Source/Core/Cell.swift; sourceTree = "<group>"; };
+		DF96469FDE70CD5EA10395156E432BC5 /* UIView+ChameleonPrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+ChameleonPrivate.h"; path = "Pod/Classes/Objective-C/UIView+ChameleonPrivate.h"; sourceTree = "<group>"; };
 		E1A5510627CB346535D69589B0B9EE0E /* Pods-Rick and Morty Soundboard-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Rick and Morty Soundboard-frameworks.sh"; sourceTree = "<group>"; };
+		E1EC026FB4F4368833E000DD2E4D085D /* ChameleonMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ChameleonMacros.h; path = "Pod/Classes/Objective-C/ChameleonMacros.h"; sourceTree = "<group>"; };
+		E44111CE372117026283DF3CB5051E55 /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMobileAds.framework; path = Frameworks/frameworks/GoogleMobileAds.framework; sourceTree = "<group>"; };
 		E5F748DA8F98E61F788C3488D6BA25DD /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
-		EB4890EF71C6C01E9CE0BC0EB2523A28 /* Eureka-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Eureka-umbrella.h"; sourceTree = "<group>"; };
-		EC1AEB5C5F53D9B53290EC582EEE607E /* RowType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RowType.swift; path = Source/Core/RowType.swift; sourceTree = "<group>"; };
+		E6A16B53EEE27F1C34D6177183A6E6CE /* DateRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DateRow.swift; path = Source/Rows/DateRow.swift; sourceTree = "<group>"; };
+		E6E9E832C41DF017DD09572207151EB6 /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Core/Validation.swift; sourceTree = "<group>"; };
+		EBE9E415C1847F35EAF6F8C27A2CE730 /* RowType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RowType.swift; path = Source/Core/RowType.swift; sourceTree = "<group>"; };
 		ECB56A22A987E846FF65248DA108CAD2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		F121E3561B9BCD52C8A21FD9354E995B /* SwitchRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwitchRow.swift; path = Source/Rows/SwitchRow.swift; sourceTree = "<group>"; };
-		F4CFC5A8C64B2FCEF26E37336ACFECF3 /* BaseRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BaseRow.swift; path = Source/Core/BaseRow.swift; sourceTree = "<group>"; };
-		F9B53CE4F78CC44FCC9D56644CC281ED /* PresenterRowType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PresenterRowType.swift; path = Source/Core/PresenterRowType.swift; sourceTree = "<group>"; };
-		FC3EE0C3765381137ACC0C4315D74B50 /* ButtonRowWithPresent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ButtonRowWithPresent.swift; path = Source/Rows/ButtonRowWithPresent.swift; sourceTree = "<group>"; };
-		FC4CFBAFFDD6D0EBD79351108EAF9358 /* InlineRowType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InlineRowType.swift; path = Source/Core/InlineRowType.swift; sourceTree = "<group>"; };
+		F0618420D72E6AD3E5C254B63AEBD716 /* Eureka.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Eureka.xcconfig; sourceTree = "<group>"; };
+		F0A60D04B2FB47997F0B59C824796826 /* Firebase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Firebase.h; path = Core/Sources/Firebase.h; sourceTree = "<group>"; };
+		F1B0D96BE28E9450BB2B2E779B20488C /* TextAreaRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TextAreaRow.swift; path = Source/Rows/TextAreaRow.swift; sourceTree = "<group>"; };
+		F2B8237BC743F2AD6E9EAE907ED4E325 /* UIViewController+Chameleon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+Chameleon.h"; path = "Pod/Classes/Objective-C/UIViewController+Chameleon.h"; sourceTree = "<group>"; };
+		F2D8DF14270CEA794DFDA1A20903C868 /* FirebaseCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseCore.framework; path = Frameworks/FirebaseCore.framework; sourceTree = "<group>"; };
+		F32EED43B06319307F9C6A0F5A9A2220 /* ChameleonConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ChameleonConstants.h; path = "Pod/Classes/Objective-C/ChameleonConstants.h"; sourceTree = "<group>"; };
+		F3468672B8E51B2DD62A1E348FB1C0DC /* PopoverSelectorRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PopoverSelectorRow.swift; path = Source/Rows/PopoverSelectorRow.swift; sourceTree = "<group>"; };
+		F3C1EB00E1ABF498CAD79A330B02B8FA /* SelectorViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SelectorViewController.swift; path = Source/Rows/Controllers/SelectorViewController.swift; sourceTree = "<group>"; };
+		F465557D2DABF9962710FCA963A6A95F /* DateInlineFieldRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DateInlineFieldRow.swift; path = Source/Rows/Common/DateInlineFieldRow.swift; sourceTree = "<group>"; };
+		F46D7E4DD21A3F49821F61C61D2AEDB9 /* RuleClosure.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RuleClosure.swift; path = Source/Validations/RuleClosure.swift; sourceTree = "<group>"; };
+		F4E348CFE1D87AE019249317A064CE34 /* Chameleon_.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Chameleon_.h; path = "Pod/Classes/Objective-C/Chameleon_.h"; sourceTree = "<group>"; };
+		FD1E0071BDE3158CA830EC6B8B83234B /* Eureka-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Eureka-umbrella.h"; sourceTree = "<group>"; };
 		FDBA94A94B982885ECCA1662BE8CD7CF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		FE8CE3EFCB46B876C2346A4F587D91C5 /* PickerRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PickerRow.swift; path = Source/Rows/PickerRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		971041836592E28ADEEDA495A96A62A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05B1F02560378D28FEBD4E8F6D293216 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9A459D8E0AC5F79ADD60D9F6F4B8F1CB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				8E610F054B0F5FDBBB26323A0C73F4F9 /* Foundation.framework in Frameworks */,
 				AD5D905ABDE0ED57B623A541EB1DBC20 /* UIKit.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9B7144AF73872D49CC9C22359E353C75 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				ADF7479F10F1DE6C7A3808F8B0D878E6 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,9 +340,48 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F514EB1137C7932EC8C0799239933F9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A864D76180FA590937434778FBDAB84F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9BC43EEAF05BCB201B3D28C244AA7E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93D51748565CFEB9490FBA7DA993C5C0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0618A6C1656F7A460FEF5E621C2DC8C0 /* decode */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = decode;
+			sourceTree = "<group>";
+		};
+		0ACDD966B8A3169EB7E22105F71E38BF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4B6C9252113116415A76A484F783105F /* FirebaseInstanceID.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0B62089EFCFFE6DE19E8CCC73CFC6421 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				F0A60D04B2FB47997F0B59C824796826 /* Firebase.h */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
 		14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -291,112 +390,207 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		255F507DB6EC6BA7CB9B078DC2C401F9 /* Eureka */ = {
+		1B728CAADF4761F2458E23A1E5AC4A81 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				BBCCAE1731B77E4DBB39687333EA4C00 /* ActionSheetRow.swift */,
-				3CC4ECB2C810C1D0F54107D55D53976F /* AlertRow.swift */,
-				F4CFC5A8C64B2FCEF26E37336ACFECF3 /* BaseRow.swift */,
-				6903678673F5E6DAA0A82C9E76CDD07E /* ButtonRow.swift */,
-				FC3EE0C3765381137ACC0C4315D74B50 /* ButtonRowWithPresent.swift */,
-				319C75C821368DAFE082A7C28B46CBDF /* Cell.swift */,
-				87F69EF43FBD0D4390959E4675CB9C74 /* CellType.swift */,
-				7845E4DE122EF04144D027F38754853D /* CheckRow.swift */,
-				C816A21127043ED56F258A4E2486DD8F /* Core.swift */,
-				51D83877C0A64DDC4912BF70C75262C1 /* DateFieldRow.swift */,
-				DF45538AD9672AE3BCB42C15B664FFFD /* DateInlineFieldRow.swift */,
-				D8891973D84CBA215E1CA23923DC0AEE /* DateInlineRow.swift */,
-				7B8A820E5D87433154A7FE32D24A1BA5 /* DatePickerRow.swift */,
-				99D217467C1DA3F05A56D5817DF47311 /* DateRow.swift */,
-				9015A5AA24EF6CF97494FD33A3AF69AB /* DecimalFormatter.swift */,
-				3D94581AC13F07D2A764E6D572F2A535 /* FieldRow.swift */,
-				BF26BA59832DDC150E74C6A53E3D6F2A /* FieldsRow.swift */,
-				602CED0074BF7CB21C92BE5D6BF7F162 /* Form.swift */,
-				8E357379F7FA26040243CDF48D51FB62 /* GenericMultipleSelectorRow.swift */,
-				1724FA51BE7739A0FCE626BC8C22039E /* HeaderFooterView.swift */,
-				1BDECA09E437BA2BC90B14EF6EBD8887 /* Helpers.swift */,
-				FC4CFBAFFDD6D0EBD79351108EAF9358 /* InlineRowType.swift */,
-				B3BBB581FC52FD6D7E893754871DEDD3 /* LabelRow.swift */,
-				703E084F1AA3E95746DEE9714612B0F6 /* ListCheckRow.swift */,
-				64A4AC380513D556F9A3C02DADDF38E2 /* MultipleSelectorRow.swift */,
-				4A9119A4B3F2FC7A778721DDABCDB622 /* MultipleSelectorViewController.swift */,
-				51180605C44A448059A776D4867ED537 /* NavigationAccessoryView.swift */,
-				95516DB7AD81063AD2EF6C8ABE6E55E8 /* Operators.swift */,
-				44AFDFF25757626E3B1B4B04039C874D /* OptionsRow.swift */,
-				22F58CA51350FC1E40802AB412FB6A16 /* PickerInlineRow.swift */,
-				2D5D1E44BC9374F003BA947C1BA13B05 /* PickerInputRow.swift */,
-				34B96335FA524694ECEFDAF96ACCE66D /* PickerRow.swift */,
-				CF539BA42322B84A8F53B8FA0340E8B1 /* PopoverSelectorRow.swift */,
-				F9B53CE4F78CC44FCC9D56644CC281ED /* PresenterRowType.swift */,
-				102AE23737B146EE762BB1EB9E442B78 /* Protocols.swift */,
-				104B4F5B800972E2A88A89929CB72997 /* PushRow.swift */,
-				A4D9605027D6B29E14E1FD99C2E5F071 /* Row.swift */,
-				789BA2DBA8754DB6ED1B530B52E2868F /* RowControllerType.swift */,
-				812E965D66AE18AD03FA477BCB132CA7 /* RowProtocols.swift */,
-				EC1AEB5C5F53D9B53290EC582EEE607E /* RowType.swift */,
-				B648AD6383F9114E31205FCF682CC7A5 /* RuleClosure.swift */,
-				4EDF3FE18F306E12B59D4C8EF2F773FC /* RuleEmail.swift */,
-				A4AE1B02EEE77AA0040808D2555BFBA0 /* RuleEqualsToRow.swift */,
-				00A3EEAE201E209670BF09BE1A175942 /* RuleLength.swift */,
-				D5E15F6F23446C05DACB93034A54FC3A /* RuleRange.swift */,
-				42801EDA8E9E7DFFC8EFE57BF79AED3F /* RuleRegExp.swift */,
-				7F2442371D75294795AB617B2785329A /* RuleRequired.swift */,
-				6A124E49DA2D13D24CA0DFB8B5BF0FF3 /* RuleURL.swift */,
-				DDEFADBBE317BE2299F8C50ACEF3D883 /* Section.swift */,
-				04B679F74B9E2F9A5B2E29EB0CCBE3E7 /* SegmentedRow.swift */,
-				94FF063FD29F58C8CEDCF8591F7146DC /* SelectableRowType.swift */,
-				13F41EECD11793046283EF166264C6C1 /* SelectableSection.swift */,
-				1BEAD941501AB52406C9CD6E8BD37354 /* SelectorAlertController.swift */,
-				C954D8BC0E50A96DFDFC2A32F8BB3565 /* SelectorRow.swift */,
-				7FDF80B8A5E15E5D5856EC017E9A339E /* SelectorViewController.swift */,
-				65CBB2A081083D420E92644C96C8F3AD /* SliderRow.swift */,
-				8FB63EDF908AC121EF0D9255D1DBD7CD /* StepperRow.swift */,
-				F121E3561B9BCD52C8A21FD9354E995B /* SwitchRow.swift */,
-				8D0E02A22409676152FC735B1758E932 /* TextAreaRow.swift */,
-				9ADB79743D066423E7DC0B1C663E81B5 /* Validation.swift */,
-				D3F4862356D45AE30C3896312F537EBE /* Resources */,
-				647E41161FF7AFD1B55C833C0D00A56B /* Support Files */,
+				E44111CE372117026283DF3CB5051E55 /* GoogleMobileAds.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2153D665445778CCB25D365BAC8B4F5A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F2D8DF14270CEA794DFDA1A20903C868 /* FirebaseCore.framework */,
+				AF71EB16D20B23C25732A8BCFD8B565E /* FirebaseCoreDiagnostics.framework */,
+				D0E98CA2B91484727806BD84D80F4DF0 /* FirebaseNanoPB.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		28AD25F345E7D3240206691D2B0DCF9A /* FirebaseInstanceID */ = {
+			isa = PBXGroup;
+			children = (
+				0ACDD966B8A3169EB7E22105F71E38BF /* Frameworks */,
+			);
+			name = FirebaseInstanceID;
+			path = FirebaseInstanceID;
+			sourceTree = "<group>";
+		};
+		2F43F248EBF89D794914010F8F880E24 /* Defines */ = {
+			isa = PBXGroup;
+			children = (
+				5ED79C7D7D8C10A82D7B6753C16E8B42 /* GTMDefines.h */,
+			);
+			name = Defines;
+			sourceTree = "<group>";
+		};
+		3512B44374069F1F72AE36D366ABFF85 /* encode */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = encode;
+			sourceTree = "<group>";
+		};
+		44FED7212ECFAB01950B88BD10FD4639 /* Google-Mobile-Ads-SDK */ = {
+			isa = PBXGroup;
+			children = (
+				1B728CAADF4761F2458E23A1E5AC4A81 /* Frameworks */,
+			);
+			name = "Google-Mobile-Ads-SDK";
+			path = "Google-Mobile-Ads-SDK";
+			sourceTree = "<group>";
+		};
+		528AE8D608BFDAFD6AEBCE7F805A5E9E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2ACFFD8CEF35D8501A2223F09FB8117E /* Eureka.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		5AEFE6E696F6BB390AF9B35ED13C40B8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				24D0A3DACA4934B253974AB9CF6D192B /* GoogleToolboxForMac.modulemap */,
+				BBC6135ED8170C3C1F37CA8C3DE075DA /* GoogleToolboxForMac.xcconfig */,
+				B271DBF4A3CEFDBC4918533F1C2D1D75 /* GoogleToolboxForMac-dummy.m */,
+				2E457642A716B9C65136CE609BE269E9 /* GoogleToolboxForMac-prefix.pch */,
+				5E462BE54A481AE95A7D0C16AC2C1BC4 /* GoogleToolboxForMac-umbrella.h */,
+				D468465FA0DFC46348B992487E9AC5CE /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/GoogleToolboxForMac";
+			sourceTree = "<group>";
+		};
+		5CC6A52B529F2265FC672135A7217C67 /* Default */ = {
+			isa = PBXGroup;
+			children = (
+				806236F28DD874EBD39D28C062AF15B3 /* Chameleon.h */,
+				F4E348CFE1D87AE019249317A064CE34 /* Chameleon_.h */,
+				933E464C33CF449A1BB34EAB7F442E1A /* Chameleon_.m */,
+				F32EED43B06319307F9C6A0F5A9A2220 /* ChameleonConstants.h */,
+				3C34D84AFB1F0B3C52DB069D7825D1D0 /* ChameleonConstants.m */,
+				045B511D4B322CDA39EB47E82316DFFC /* ChameleonEnums.h */,
+				E1EC026FB4F4368833E000DD2E4D085D /* ChameleonMacros.h */,
+				4BC1D91FC8C25EACF8149B1A71A3F9CB /* NSArray+Chameleon.h */,
+				8B463D5AAF7389D38BEAD2EF26853A58 /* NSArray+Chameleon.m */,
+				76FC059CF20BFF7BAD9D7FC5FCDFEAB4 /* UIAppearance+Swift.h */,
+				312F70F6CF79BD5071BCDF409D07895B /* UIAppearance+Swift.m */,
+				88B08695BBF9AE79EECC19CFFA240FFD /* UIButton+Chameleon.h */,
+				59407684D3D8B19C0A582EB0FE179A3B /* UIButton+Chameleon.m */,
+				D70605A22FE40048B4A400E59A31ED1F /* UIColor+Chameleon.h */,
+				0C7497DA698D7B79B3B34DE3006E726A /* UIColor+Chameleon.m */,
+				B17DD7B67A1D7D5EB318D2194C19C3FE /* UIColor+ChameleonPrivate.h */,
+				89064FE2469173AB61443A021B4D1C0A /* UIColor+ChameleonPrivate.m */,
+				1FE8306177648CE450022B787D34BAC2 /* UIImage+ChameleonPrivate.h */,
+				961E1FA90DBB316A9DAA55CDA565129A /* UIImage+ChameleonPrivate.m */,
+				1349A1AED237D7F77BC50812BB0924A6 /* UILabel+Chameleon.h */,
+				CEE0B009FFE5E03CFEC9DE987F51137E /* UILabel+Chameleon.m */,
+				7665C59169BA1D3C2089DD8F8843FF1A /* UINavigationController+Chameleon.h */,
+				249FA0887639457F36C432DEE2CE652E /* UINavigationController+Chameleon.m */,
+				DF96469FDE70CD5EA10395156E432BC5 /* UIView+ChameleonPrivate.h */,
+				8D63A4753DB569728C6BFEB198315376 /* UIView+ChameleonPrivate.m */,
+				F2B8237BC743F2AD6E9EAE907ED4E325 /* UIViewController+Chameleon.h */,
+				BB68213A07ADFE6F3BCAC91BF432B936 /* UIViewController+Chameleon.m */,
+			);
+			name = Default;
+			sourceTree = "<group>";
+		};
+		7040392F2ED5079D57DC1BB7A85AB9E7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CFBC4B40334B1758902A687ADBA6C180 /* FirebaseAnalytics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7423E0555F01240283C0CE693AB1CB86 /* nanopb */ = {
+			isa = PBXGroup;
+			children = (
+				574C3DD396980D7B704977679B09802C /* pb.h */,
+				24FAA0BAAF350C31144B78805F16827B /* pb_common.c */,
+				0ED34E88BEA319F31565FA6AE779BA58 /* pb_common.h */,
+				1E159BE3D63592F320AA4A99F173EB4A /* pb_decode.c */,
+				19F914F0DBB8B723F1459D11FB12A832 /* pb_decode.h */,
+				C832ED85E5B320DC6C54B1767B6A2777 /* pb_encode.c */,
+				BBE17B1DC0FBCA57BCA3FDB963451B6D /* pb_encode.h */,
+				0618A6C1656F7A460FEF5E621C2DC8C0 /* decode */,
+				3512B44374069F1F72AE36D366ABFF85 /* encode */,
+				DED18264C4A24DD9473334628583FA50 /* Support Files */,
+			);
+			name = nanopb;
+			path = nanopb;
+			sourceTree = "<group>";
+		};
+		7642C01A5DDD2D721467FAD0F594AE28 /* Eureka */ = {
+			isa = PBXGroup;
+			children = (
+				A6F4B65C1E52277BB9DC650F609A4888 /* ActionSheetRow.swift */,
+				4A5DAB0E94F6AC1034EB663428D8AEE6 /* AlertRow.swift */,
+				2958C091AB49CC674DB09B12B6C524A6 /* BaseRow.swift */,
+				7E9084B0370B21BD2AAEBE6635D811B0 /* ButtonRow.swift */,
+				4AC8BC51F90226098606340B4A9BFF25 /* ButtonRowWithPresent.swift */,
+				D8307467C3B69B1B0D9962A9501E9D14 /* Cell.swift */,
+				11F723747C5565F658F932AA5E3BBD4D /* CellType.swift */,
+				4BFBCDDB5AF93E8FBED1089314709358 /* CheckRow.swift */,
+				3EE38631EE42BF76B969C99BAFAA410E /* Core.swift */,
+				AE4306DE485A6A59792210B2B63EA3CA /* DateFieldRow.swift */,
+				F465557D2DABF9962710FCA963A6A95F /* DateInlineFieldRow.swift */,
+				6FC7666A8D34D9B7ADAFA0BCB6249FD0 /* DateInlineRow.swift */,
+				A8EB5ED02300BF86179445A6526B0288 /* DatePickerRow.swift */,
+				E6A16B53EEE27F1C34D6177183A6E6CE /* DateRow.swift */,
+				ACDA9A40D66BE4F6C8BFB524EBA26ECC /* DecimalFormatter.swift */,
+				A66DF4113A3DB326B43754F69A601023 /* FieldRow.swift */,
+				39CE19D29F82D9D8AAA11A2851F8F5DE /* FieldsRow.swift */,
+				3A20DBD24958D314746DA4DA8E3AFBAC /* Form.swift */,
+				1FB918C332B0ADAB7CCE736D2E3DD3D9 /* GenericMultipleSelectorRow.swift */,
+				63950E68A4D6C1886647B8051B2C2202 /* HeaderFooterView.swift */,
+				A38E6B2BECC0760F90321ABE314FB046 /* Helpers.swift */,
+				085673008861C51167BBC60F2C143FA2 /* InlineRowType.swift */,
+				6E2E87623735F174F5AE69AEC5D809ED /* LabelRow.swift */,
+				1A6ACDB2F8E67396BBB86485CD510B85 /* ListCheckRow.swift */,
+				38F763AB89EA4D536EB06D742E6CEAC8 /* MultipleSelectorRow.swift */,
+				9ED929E578FDA5BFD116D3F47614AB0C /* MultipleSelectorViewController.swift */,
+				BC2756F919226F4A555C8E33E82DB56A /* NavigationAccessoryView.swift */,
+				5095464931A75454F27524E68A38E7B2 /* Operators.swift */,
+				1625961F77621DB8520DD642871BB072 /* OptionsRow.swift */,
+				6C7DC722FAD491688B0FF5797A675D7D /* PickerInlineRow.swift */,
+				990F19CF3FE864CA8D75232F0736E6AB /* PickerInputRow.swift */,
+				FE8CE3EFCB46B876C2346A4F587D91C5 /* PickerRow.swift */,
+				F3468672B8E51B2DD62A1E348FB1C0DC /* PopoverSelectorRow.swift */,
+				BC1CDCB4195820C2601F2386B7B86F61 /* PresenterRowType.swift */,
+				1E30036B7DAB7F1727A5D768261E611C /* Protocols.swift */,
+				960473D0B4FE2EC71B31284889C34722 /* PushRow.swift */,
+				C768DC29B69860A0BD4E2CD4F950EB05 /* Row.swift */,
+				D12B769BA280B0ACF7D8D7D497A76885 /* RowControllerType.swift */,
+				88F1583867E4D73D357DEC6174EC3D36 /* RowProtocols.swift */,
+				EBE9E415C1847F35EAF6F8C27A2CE730 /* RowType.swift */,
+				F46D7E4DD21A3F49821F61C61D2AEDB9 /* RuleClosure.swift */,
+				830C1C8F59B1DC7683952063578C4369 /* RuleEmail.swift */,
+				AB55AF8EFFBA7AD0449622CDCF367E3D /* RuleEqualsToRow.swift */,
+				2FD28EFC6807E235502A8A0A4BA49359 /* RuleLength.swift */,
+				31470C85BC89BD1D1EAA45845D3EBAAF /* RuleRange.swift */,
+				7069844436FD19197DB9B1FBE7816973 /* RuleRegExp.swift */,
+				737D008CDF1D79B3FA333048F7D31EC8 /* RuleRequired.swift */,
+				15C3B45C230FC47539E904E450722C7F /* RuleURL.swift */,
+				9F0953C8C5F029FF5CB5B7203BB53D5F /* Section.swift */,
+				903F2725C7306DF6E31BECCBA4CE5213 /* SegmentedRow.swift */,
+				5B938006ACB118C13A938FCBBB9CFE1F /* SelectableRowType.swift */,
+				B85C91114F0799D8B6B5556843C3B795 /* SelectableSection.swift */,
+				61A76718451D5F028ACA39F5F47D3C1F /* SelectorAlertController.swift */,
+				69E45210F5A7286F1E5148A24D637BB6 /* SelectorRow.swift */,
+				F3C1EB00E1ABF498CAD79A330B02B8FA /* SelectorViewController.swift */,
+				2B97A824FBE76481F7A9856265B866A5 /* SliderRow.swift */,
+				34D378FB8BB542F01A4484AE58583BEF /* StepperRow.swift */,
+				8122700BE2B2B4BDD8191F9CAB08444B /* SwitchRow.swift */,
+				F1B0D96BE28E9450BB2B2E779B20488C /* TextAreaRow.swift */,
+				E6E9E832C41DF017DD09572207151EB6 /* Validation.swift */,
+				528AE8D608BFDAFD6AEBCE7F805A5E9E /* Resources */,
+				A4BDF07C23F444533817F008BA36EE50 /* Support Files */,
 			);
 			name = Eureka;
 			path = Eureka;
-			sourceTree = "<group>";
-		};
-		419890ED8F6DEF646A0D1D99789B039E /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				96343D5ED415FC49E70CF30F8E29CF4C /* ChameleonFramework */,
-				255F507DB6EC6BA7CB9B078DC2C401F9 /* Eureka */,
-				7E7F020EFBA2DD4A3F07E1E1B32749AF /* Google-Mobile-Ads-SDK */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		44252742337FECCCB5B109932593BD00 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				3EE980C34C8B79A4EFFFDAC416913AC3 /* ChameleonFramework.modulemap */,
-				1FD05B3972179DE73EB9B89281E3D973 /* ChameleonFramework.xcconfig */,
-				AFEC9FBA607AC8FDFE42D669BE95F30A /* ChameleonFramework-dummy.m */,
-				8A973CC739AD7B235DE4B610D1028E93 /* ChameleonFramework-prefix.pch */,
-				D10EC35AB918FBD7F88DE7F1E67BD1F1 /* ChameleonFramework-umbrella.h */,
-				73A54262B3DEA250A7584FFCA2E70E15 /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/ChameleonFramework";
-			sourceTree = "<group>";
-		};
-		647E41161FF7AFD1B55C833C0D00A56B /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				DB7B3CD6317E7722D80C2FF3BF8F9E13 /* Eureka.modulemap */,
-				1E9699D0473D36CFFAB32ACA9FA08149 /* Eureka.xcconfig */,
-				8FC7909E84F47D115357B7D50F4F80D0 /* Eureka-dummy.m */,
-				A2667BCE5E11C8D8BD682BD454D83B03 /* Eureka-prefix.pch */,
-				EB4890EF71C6C01E9CE0BC0EB2523A28 /* Eureka-umbrella.h */,
-				7DB6B0ECC9BBBC55A77603D3CC448F84 /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/Eureka";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -404,29 +598,10 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */,
-				419890ED8F6DEF646A0D1D99789B039E /* Pods */,
-				8282CD048E394F60A7A13F582D7A4B2D /* Products */,
+				AAB4CCDE67AF9DE6FDDB905BE80597D8 /* Pods */,
+				FA19C41AF3C242BE8FDED04CB827C6A3 /* Products */,
 				D8CFD7E03ADCB079612D7C91F5570053 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		7E7F020EFBA2DD4A3F07E1E1B32749AF /* Google-Mobile-Ads-SDK */ = {
-			isa = PBXGroup;
-			children = (
-				D33345E70A5D1344F7E7934EBA98A35B /* Frameworks */,
-			);
-			name = "Google-Mobile-Ads-SDK";
-			path = "Google-Mobile-Ads-SDK";
-			sourceTree = "<group>";
-		};
-		8282CD048E394F60A7A13F582D7A4B2D /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				7365C7881FE6CB06B3C942FDCA1A2635 /* ChameleonFramework.framework */,
-				6381990ED2DB784F89BE12CC9D76BE2D /* Eureka.framework */,
-				89438FC8663C318284EF4F1B92516064 /* Pods_Rick_and_Morty_Soundboard.framework */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		8F8FEF3140598EAB2B3D56BB84B5389A /* iOS */ = {
@@ -440,65 +615,82 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		96343D5ED415FC49E70CF30F8E29CF4C /* ChameleonFramework */ = {
+		90D9C3053E6946F22F73831DFC10196E /* ChameleonFramework */ = {
 			isa = PBXGroup;
 			children = (
-				AE8A410782151C7F00A061AAFE7C1581 /* Default */,
-				44252742337FECCCB5B109932593BD00 /* Support Files */,
-				F68F784F293341441BF0A78DCFB34D7B /* Swift */,
+				5CC6A52B529F2265FC672135A7217C67 /* Default */,
+				EF4F582AC86E1EC235E97783B622F3AA /* Support Files */,
+				D5982EB4A2E87F9929FBDA595BADADF0 /* Swift */,
 			);
 			name = ChameleonFramework;
 			path = ChameleonFramework;
 			sourceTree = "<group>";
 		};
-		AE8A410782151C7F00A061AAFE7C1581 /* Default */ = {
+		A4BDF07C23F444533817F008BA36EE50 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				4BB986379F71640FC124C693BA8BCB3A /* Chameleon.h */,
-				2D50BBF91105F7F8C58206830F2AEA93 /* Chameleon_.h */,
-				0802EBF41F5551256F023C88CC0B05CC /* Chameleon_.m */,
-				1BC9275C878DE589A929D0160CD21D59 /* ChameleonConstants.h */,
-				862759EA7BB781FDA4CAB6EE3BA12CB8 /* ChameleonConstants.m */,
-				29557A6259F25E1CB0EFFD99583A69F7 /* ChameleonEnums.h */,
-				D6171DD631BB3BFC318857DE2775DF54 /* ChameleonMacros.h */,
-				710BD23259AE3A074FD23CC3F69B3131 /* NSArray+Chameleon.h */,
-				280A4EC8406FCD875FFC2D29FA512AF0 /* NSArray+Chameleon.m */,
-				4221FAD6F1AE03856F8AECA1986861A0 /* UIAppearance+Swift.h */,
-				30E2CECDC5EE80E29A7142945E86E085 /* UIAppearance+Swift.m */,
-				5F5D7731334C33E98A512B660E53C5C8 /* UIButton+Chameleon.h */,
-				1CFBECB0213B89B52AD2A7386B2C88CA /* UIButton+Chameleon.m */,
-				BE84518195C186DDB9A9E2057C209C98 /* UIColor+Chameleon.h */,
-				10BBA8CA9BE41D3D9C2CC43A21E66221 /* UIColor+Chameleon.m */,
-				89C23D77ACAFB801D37DCF1290485026 /* UIColor+ChameleonPrivate.h */,
-				C05FB1D280A4FA7AEDCAD7B53D2A954A /* UIColor+ChameleonPrivate.m */,
-				C04D8DFFC481702A8780E0000A399EEE /* UIImage+ChameleonPrivate.h */,
-				8D04AE18E1606BDE32ABD956263A8FBD /* UIImage+ChameleonPrivate.m */,
-				167E7E7904CB0AD4D3373510F7BE27FF /* UILabel+Chameleon.h */,
-				C67C72BF2F1660CCD5A6D09E5FC2DAD2 /* UILabel+Chameleon.m */,
-				906D508B387D62A066B2F6CF57793F2C /* UINavigationController+Chameleon.h */,
-				5F43B64FD80CC714FB1A8D51F59EBC51 /* UINavigationController+Chameleon.m */,
-				3D51F70FDD081846AF85498AFA5E23B8 /* UIView+ChameleonPrivate.h */,
-				100ACF88DF6EC234EA5669DC10512C1E /* UIView+ChameleonPrivate.m */,
-				6636FAB654EFCFC06C9BA0BE49E3119E /* UIViewController+Chameleon.h */,
-				0B74CD37AFF3C555DA1FDC439F4BC776 /* UIViewController+Chameleon.m */,
+				4D9BFCCBE6EFF8735ED8B8556C6BF799 /* Eureka.modulemap */,
+				F0618420D72E6AD3E5C254B63AEBD716 /* Eureka.xcconfig */,
+				AAF044ECEA13FB4D4FA7A14CBD07BFFD /* Eureka-dummy.m */,
+				62EE0EBAFFE4B4DB8D50AA088691A305 /* Eureka-prefix.pch */,
+				FD1E0071BDE3158CA830EC6B8B83234B /* Eureka-umbrella.h */,
+				BBC8CA4E028347FE05A732E0B96D31B9 /* Info.plist */,
 			);
-			name = Default;
+			name = "Support Files";
+			path = "../Target Support Files/Eureka";
 			sourceTree = "<group>";
 		};
-		D33345E70A5D1344F7E7934EBA98A35B /* Frameworks */ = {
+		A7A46FD45DFDD080B5CD330359B01689 /* GoogleToolboxForMac */ = {
 			isa = PBXGroup;
 			children = (
-				B5D5529A36B253D9165456C9DC76A9CB /* GoogleMobileAds.framework */,
+				2F43F248EBF89D794914010F8F880E24 /* Defines */,
+				E3596322BDC72E2AC46EB35C892F9055 /* NSData+zlib */,
+				5AEFE6E696F6BB390AF9B35ED13C40B8 /* Support Files */,
 			);
-			name = Frameworks;
+			name = GoogleToolboxForMac;
+			path = GoogleToolboxForMac;
 			sourceTree = "<group>";
 		};
-		D3F4862356D45AE30C3896312F537EBE /* Resources */ = {
+		AAB4CCDE67AF9DE6FDDB905BE80597D8 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				DE70C023D9701E88E48483EDD1E2D649 /* Eureka.bundle */,
+				90D9C3053E6946F22F73831DFC10196E /* ChameleonFramework */,
+				7642C01A5DDD2D721467FAD0F594AE28 /* Eureka */,
+				AFBB7FEE76BED59C781B2225B5437CD0 /* Firebase */,
+				C2C4D76E7F918D4B15AB21A983E9A051 /* FirebaseAnalytics */,
+				DDB2F1B0B7C4282FE87E7377BFF66D94 /* FirebaseCore */,
+				28AD25F345E7D3240206691D2B0DCF9A /* FirebaseInstanceID */,
+				44FED7212ECFAB01950B88BD10FD4639 /* Google-Mobile-Ads-SDK */,
+				A7A46FD45DFDD080B5CD330359B01689 /* GoogleToolboxForMac */,
+				7423E0555F01240283C0CE693AB1CB86 /* nanopb */,
 			);
-			name = Resources;
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AFBB7FEE76BED59C781B2225B5437CD0 /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				0B62089EFCFFE6DE19E8CCC73CFC6421 /* Core */,
+			);
+			name = Firebase;
+			path = Firebase;
+			sourceTree = "<group>";
+		};
+		C2C4D76E7F918D4B15AB21A983E9A051 /* FirebaseAnalytics */ = {
+			isa = PBXGroup;
+			children = (
+				7040392F2ED5079D57DC1BB7A85AB9E7 /* Frameworks */,
+			);
+			name = FirebaseAnalytics;
+			path = FirebaseAnalytics;
+			sourceTree = "<group>";
+		};
+		D5982EB4A2E87F9929FBDA595BADADF0 /* Swift */ = {
+			isa = PBXGroup;
+			children = (
+				C30EC3153B57C21D49C4E62066195D47 /* ChameleonShorthand.swift */,
+			);
+			name = Swift;
 			sourceTree = "<group>";
 		};
 		D8CFD7E03ADCB079612D7C91F5570053 /* Targets Support Files */ = {
@@ -507,6 +699,52 @@
 				EFBBC414ABC9EEDA556FADB278AC1A07 /* Pods-Rick and Morty Soundboard */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		DDB2F1B0B7C4282FE87E7377BFF66D94 /* FirebaseCore */ = {
+			isa = PBXGroup;
+			children = (
+				2153D665445778CCB25D365BAC8B4F5A /* Frameworks */,
+			);
+			name = FirebaseCore;
+			path = FirebaseCore;
+			sourceTree = "<group>";
+		};
+		DED18264C4A24DD9473334628583FA50 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A20DBA2E7228A4237B99AB4646F53A20 /* Info.plist */,
+				2E164A11437BCF83233D87CC7F973A12 /* nanopb.modulemap */,
+				2BB0C3FC2EA69B5A4EDBC76B7507FA84 /* nanopb.xcconfig */,
+				22031B68D829FAB7E0D42F9C7C7F8BE7 /* nanopb-dummy.m */,
+				AF456AB655C31844365B543A28CCB15D /* nanopb-prefix.pch */,
+				49FEB6879864ECC776C4F40DD65995CC /* nanopb-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/nanopb";
+			sourceTree = "<group>";
+		};
+		E3596322BDC72E2AC46EB35C892F9055 /* NSData+zlib */ = {
+			isa = PBXGroup;
+			children = (
+				C4E88672775D112DB1D525FDBD53FFF9 /* GTMNSData+zlib.h */,
+				3C637F577A74901F9AFBDE6EF0FC81D9 /* GTMNSData+zlib.m */,
+			);
+			name = "NSData+zlib";
+			sourceTree = "<group>";
+		};
+		EF4F582AC86E1EC235E97783B622F3AA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				352BAFEABC6D67B80377B0023A21A924 /* ChameleonFramework.modulemap */,
+				AB42EA35DA6E97B394D88D82583EC5EE /* ChameleonFramework.xcconfig */,
+				057F6A618737C8D0FF48AEBC73E746F1 /* ChameleonFramework-dummy.m */,
+				0A0768C6594196C63EDBF49251035523 /* ChameleonFramework-prefix.pch */,
+				1DB69B380C4BEAA9C632256270723A03 /* ChameleonFramework-umbrella.h */,
+				4C2C46F70A77FF138300AF5BA86F5451 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ChameleonFramework";
 			sourceTree = "<group>";
 		};
 		EFBBC414ABC9EEDA556FADB278AC1A07 /* Pods-Rick and Morty Soundboard */ = {
@@ -527,12 +765,16 @@
 			path = "Target Support Files/Pods-Rick and Morty Soundboard";
 			sourceTree = "<group>";
 		};
-		F68F784F293341441BF0A78DCFB34D7B /* Swift */ = {
+		FA19C41AF3C242BE8FDED04CB827C6A3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				10DC555B2EB6513064F9BEE6A3E68E58 /* ChameleonShorthand.swift */,
+				1A11231A8DF8FAF1E704247FD939E467 /* ChameleonFramework.framework */,
+				B0950B2AEB7F91757FDD4B43D5A95A34 /* Eureka.framework */,
+				04348EA99B953061066FD75109CC4ECD /* GoogleToolboxForMac.framework */,
+				14B71FDC8419352B273F44415F0751DD /* nanopb.framework */,
+				C329977649DFF2D1F4279EC3B724427D /* Pods_Rick_and_Morty_Soundboard.framework */,
 			);
-			name = Swift;
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -546,11 +788,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7D245ABC65B102F5EF39237411E2396D /* Headers */ = {
+		4547B9AF8085A499AA35614798F8F9E4 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F635212E6AC9C740072EE920EAD57A03 /* Pods-Rick and Morty Soundboard-umbrella.h in Headers */,
+				F9D92BA503505CB48EF4ECF0DDF57686 /* nanopb-umbrella.h in Headers */,
+				392F2CF142BAA751AC1BB61D8B757D98 /* pb.h in Headers */,
+				806BAA4E00218D70995697C4400BE7A0 /* pb_common.h in Headers */,
+				29FEADDF2086FDEA7D5BA87DD23B08C6 /* pb_decode.h in Headers */,
+				E181395E73163EB702FCE9A21403D67B /* pb_encode.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FAC0854CBD5DD7712360ECA4A1B8711 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BA8EC6512A2A09C4B03210FC0CB5A98 /* Pods-Rick and Morty Soundboard-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -577,26 +831,34 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FDA600FDC48ED17BA03DA2D85D4EDA97 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81E4B6988FF26F9249B79C6C8CC667B4 /* GoogleToolboxForMac-umbrella.h in Headers */,
+				541C5362289CC44D4F067D097F231250 /* GTMDefines.h in Headers */,
+				DBFECCB0BBE3F11CC41A3C1A8C4879D3 /* GTMNSData+zlib.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		055C306F488CA37DBDC25F12EF16563B /* Pods-Rick and Morty Soundboard */ = {
+		00103D6C821BE85971C563025527BA5D /* GoogleToolboxForMac */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 649A1A88214C13374796DC53C6808F69 /* Build configuration list for PBXNativeTarget "Pods-Rick and Morty Soundboard" */;
+			buildConfigurationList = C43D9CA5106C6CCEF973B7EDF833947B /* Build configuration list for PBXNativeTarget "GoogleToolboxForMac" */;
 			buildPhases = (
-				031AE64CAB1C96646E8509934273E300 /* Sources */,
-				9B7144AF73872D49CC9C22359E353C75 /* Frameworks */,
-				7D245ABC65B102F5EF39237411E2396D /* Headers */,
+				63D7DA997053F6B5D01DE8CB5817CB51 /* Sources */,
+				F9BC43EEAF05BCB201B3D28C244AA7E1 /* Frameworks */,
+				FDA600FDC48ED17BA03DA2D85D4EDA97 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				9DC0E5A83410C3359277547E3D55C6C9 /* PBXTargetDependency */,
-				95A5FF71DD675633128462193C3985CF /* PBXTargetDependency */,
 			);
-			name = "Pods-Rick and Morty Soundboard";
-			productName = "Pods-Rick and Morty Soundboard";
-			productReference = 89438FC8663C318284EF4F1B92516064 /* Pods_Rick_and_Morty_Soundboard.framework */;
+			name = GoogleToolboxForMac;
+			productName = GoogleToolboxForMac;
+			productReference = 04348EA99B953061066FD75109CC4ECD /* GoogleToolboxForMac.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		675A114988AE198732ED4AD726408964 /* Eureka */ = {
@@ -614,7 +876,7 @@
 			);
 			name = Eureka;
 			productName = Eureka;
-			productReference = 6381990ED2DB784F89BE12CC9D76BE2D /* Eureka.framework */;
+			productReference = B0950B2AEB7F91757FDD4B43D5A95A34 /* Eureka.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		76BD4592010354D6C23D6ECCA20D83A8 /* ChameleonFramework */ = {
@@ -631,7 +893,45 @@
 			);
 			name = ChameleonFramework;
 			productName = ChameleonFramework;
-			productReference = 7365C7881FE6CB06B3C942FDCA1A2635 /* ChameleonFramework.framework */;
+			productReference = 1A11231A8DF8FAF1E704247FD939E467 /* ChameleonFramework.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8397D79E2CD2A706496E3675E98FE735 /* Pods-Rick and Morty Soundboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 73E9EA6CF461DAA0EE5652AA2BD5C862 /* Build configuration list for PBXNativeTarget "Pods-Rick and Morty Soundboard" */;
+			buildPhases = (
+				FD7A204A4D455C76DEC71F7E891528CE /* Sources */,
+				F514EB1137C7932EC8C0799239933F9B /* Frameworks */,
+				4FAC0854CBD5DD7712360ECA4A1B8711 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4B79EF0F844A1F8373303C96E2958F2E /* PBXTargetDependency */,
+				B4E6F2A84B2D32DFB32DD9CCA2CB7279 /* PBXTargetDependency */,
+				B4742BA2E0114CEF7DAF64F0ED3B59AC /* PBXTargetDependency */,
+				1A69A905882F88F0F8DC2CE51F2ACBB8 /* PBXTargetDependency */,
+			);
+			name = "Pods-Rick and Morty Soundboard";
+			productName = "Pods-Rick and Morty Soundboard";
+			productReference = C329977649DFF2D1F4279EC3B724427D /* Pods_Rick_and_Morty_Soundboard.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E4DD95323C54A78F879DAB0F1508B8E7 /* nanopb */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F118B0FA84AC9116AB2E480C302C3999 /* Build configuration list for PBXNativeTarget "nanopb" */;
+			buildPhases = (
+				238527BE8D494586023F2A2B8A60D242 /* Sources */,
+				971041836592E28ADEEDA495A96A62A2 /* Frameworks */,
+				4547B9AF8085A499AA35614798F8F9E4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = nanopb;
+			productName = nanopb;
+			productReference = 14B71FDC8419352B273F44415F0751DD /* nanopb.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -651,13 +951,15 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 8282CD048E394F60A7A13F582D7A4B2D /* Products */;
+			productRefGroup = FA19C41AF3C242BE8FDED04CB827C6A3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				76BD4592010354D6C23D6ECCA20D83A8 /* ChameleonFramework */,
 				675A114988AE198732ED4AD726408964 /* Eureka */,
-				055C306F488CA37DBDC25F12EF16563B /* Pods-Rick and Morty Soundboard */,
+				00103D6C821BE85971C563025527BA5D /* GoogleToolboxForMac */,
+				E4DD95323C54A78F879DAB0F1508B8E7 /* nanopb */,
+				8397D79E2CD2A706496E3675E98FE735 /* Pods-Rick and Morty Soundboard */,
 			);
 		};
 /* End PBXProject section */
@@ -674,11 +976,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		031AE64CAB1C96646E8509934273E300 /* Sources */ = {
+		238527BE8D494586023F2A2B8A60D242 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				17B9BEBB70A67227C4E46DDF607B176D /* Pods-Rick and Morty Soundboard-dummy.m in Sources */,
+				468DFD90B6C4DA2F7CFA0C1C89F1B615 /* nanopb-dummy.m in Sources */,
+				3A50F5C8ECED9627F2EBD97F61BD376D /* pb_common.c in Sources */,
+				54F580BF4588159D6A61F21D15591805 /* pb_decode.c in Sources */,
+				55D8D5D912CFD2F3584E4553C2EAD734 /* pb_encode.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63D7DA997053F6B5D01DE8CB5817CB51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAC3F3CAABA60EF76069431C5BB5032A /* GoogleToolboxForMac-dummy.m in Sources */,
+				F7D889906DECB078EAAECB9D4A320E9C /* GTMNSData+zlib.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -771,27 +1085,81 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FD7A204A4D455C76DEC71F7E891528CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F637C2245A895CE3EA85219D65F054D /* Pods-Rick and Morty Soundboard-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		95A5FF71DD675633128462193C3985CF /* PBXTargetDependency */ = {
+		1A69A905882F88F0F8DC2CE51F2ACBB8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = Eureka;
-			target = 675A114988AE198732ED4AD726408964 /* Eureka */;
-			targetProxy = D800FA69B468C3D27543A3CDD2CED35B /* PBXContainerItemProxy */;
+			name = nanopb;
+			target = E4DD95323C54A78F879DAB0F1508B8E7 /* nanopb */;
+			targetProxy = 7AC1C20955EA97F4893373FDCBEDB532 /* PBXContainerItemProxy */;
 		};
-		9DC0E5A83410C3359277547E3D55C6C9 /* PBXTargetDependency */ = {
+		4B79EF0F844A1F8373303C96E2958F2E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = ChameleonFramework;
 			target = 76BD4592010354D6C23D6ECCA20D83A8 /* ChameleonFramework */;
-			targetProxy = 1F7C16895F8E092AA0222EDC5C8F137C /* PBXContainerItemProxy */;
+			targetProxy = 4EBF3CDF0578DE83EF5128121B37262F /* PBXContainerItemProxy */;
+		};
+		B4742BA2E0114CEF7DAF64F0ED3B59AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GoogleToolboxForMac;
+			target = 00103D6C821BE85971C563025527BA5D /* GoogleToolboxForMac */;
+			targetProxy = B12A211C50EFD43CC31878F2179F8E08 /* PBXContainerItemProxy */;
+		};
+		B4E6F2A84B2D32DFB32DD9CCA2CB7279 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Eureka;
+			target = 675A114988AE198732ED4AD726408964 /* Eureka */;
+			targetProxy = 4736B4407FB518EE8FCFAD1033AA140C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		319EFDA581D17E312B29D85515846653 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBC6135ED8170C3C1F37CA8C3DE075DA /* GoogleToolboxForMac.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/GoogleToolboxForMac/GoogleToolboxForMac-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GoogleToolboxForMac/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GoogleToolboxForMac/GoogleToolboxForMac.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = GoogleToolboxForMac;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		3C9F11682FC62738BCF7A0EFCA79DB15 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1E9699D0473D36CFFAB32ACA9FA08149 /* Eureka.xcconfig */;
+			baseConfigurationReference = F0618420D72E6AD3E5C254B63AEBD716 /* Eureka.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -826,7 +1194,7 @@
 		};
 		57D4FA96D6532AAE1F5BA7C9D8F5878C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1FD05B3972179DE73EB9B89281E3D973 /* ChameleonFramework.xcconfig */;
+			baseConfigurationReference = AB42EA35DA6E97B394D88D82583EC5EE /* ChameleonFramework.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -859,9 +1227,43 @@
 			};
 			name = Debug;
 		};
+		6B1D8016538E37E0292A8FD57ECB2F81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBC6135ED8170C3C1F37CA8C3DE075DA /* GoogleToolboxForMac.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/GoogleToolboxForMac/GoogleToolboxForMac-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GoogleToolboxForMac/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GoogleToolboxForMac/GoogleToolboxForMac.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = GoogleToolboxForMac;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		6C71CE471A8881012AD3AA328700C341 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1FD05B3972179DE73EB9B89281E3D973 /* ChameleonFramework.xcconfig */;
+			baseConfigurationReference = AB42EA35DA6E97B394D88D82583EC5EE /* ChameleonFramework.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -887,6 +1289,40 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6FF1286C5C6238BA4D96BF6E25B6093E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2BB0C3FC2EA69B5A4EDBC76B7507FA84 /* nanopb.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/nanopb/nanopb-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/nanopb/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/nanopb/nanopb.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = nanopb;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -943,43 +1379,39 @@
 			};
 			name = Debug;
 		};
-		A1EB33BBA65A9925CF42675636A8CD97 /* Release */ = {
+		AD19D2D7DBE90801322BE1AADDFB213E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6071C0D303CED9222C4B5B3BED2C2854 /* Pods-Rick and Morty Soundboard.release.xcconfig */;
+			baseConfigurationReference = 2BB0C3FC2EA69B5A4EDBC76B7507FA84 /* nanopb.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-Rick and Morty Soundboard/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/nanopb/nanopb-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/nanopb/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Rick and Morty Soundboard/Pods-Rick and Morty Soundboard.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_Rick_and_Morty_Soundboard;
+				MODULEMAP_FILE = "Target Support Files/nanopb/nanopb.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = nanopb;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		C03B8870130C98D1B02B59D003687524 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1025,7 +1457,42 @@
 			};
 			name = Release;
 		};
-		D59D983FB35D02793662AC2AA7F03D0C /* Debug */ = {
+		ED4B96B6223E4FE5E164B39C8FD4FC89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0618420D72E6AD3E5C254B63AEBD716 /* Eureka.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Eureka/Eureka-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Eureka/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Eureka/Eureka.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Eureka;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F36F677A514EEEA0E679EC963F80D84F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1CABEE465EBDD05F271D6BE6CA13AE32 /* Pods-Rick and Morty Soundboard.debug.xcconfig */;
 			buildSettings = {
@@ -1064,40 +1531,43 @@
 			};
 			name = Debug;
 		};
-		ED4B96B6223E4FE5E164B39C8FD4FC89 /* Debug */ = {
+		FE14B084A134960214AC083AA97771AF /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1E9699D0473D36CFFAB32ACA9FA08149 /* Eureka.xcconfig */;
+			baseConfigurationReference = 6071C0D303CED9222C4B5B3BED2C2854 /* Pods-Rick and Morty Soundboard.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Eureka/Eureka-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Eureka/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-Rick and Morty Soundboard/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Eureka/Eureka.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = Eureka;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Rick and Morty Soundboard/Pods-Rick and Morty Soundboard.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Rick_and_Morty_Soundboard;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
@@ -1129,11 +1599,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		649A1A88214C13374796DC53C6808F69 /* Build configuration list for PBXNativeTarget "Pods-Rick and Morty Soundboard" */ = {
+		73E9EA6CF461DAA0EE5652AA2BD5C862 /* Build configuration list for PBXNativeTarget "Pods-Rick and Morty Soundboard" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D59D983FB35D02793662AC2AA7F03D0C /* Debug */,
-				A1EB33BBA65A9925CF42675636A8CD97 /* Release */,
+				F36F677A514EEEA0E679EC963F80D84F /* Debug */,
+				FE14B084A134960214AC083AA97771AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C43D9CA5106C6CCEF973B7EDF833947B /* Build configuration list for PBXNativeTarget "GoogleToolboxForMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				319EFDA581D17E312B29D85515846653 /* Debug */,
+				6B1D8016538E37E0292A8FD57ECB2F81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F118B0FA84AC9116AB2E480C302C3999 /* Build configuration list for PBXNativeTarget "nanopb" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD19D2D7DBE90801322BE1AADDFB213E /* Debug */,
+				6FF1286C5C6238BA4D96BF6E25B6093E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

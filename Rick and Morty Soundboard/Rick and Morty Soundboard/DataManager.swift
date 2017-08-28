@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import Firebase
 
 typealias Datas = DataManager
 
@@ -19,7 +20,6 @@ class DataManager {
   
   let wallpapers: [String] = [
     "None",
-    "I don't give a fuck",
     "Running poster",
     "Meeseek",
     "Family",
@@ -28,7 +28,6 @@ class DataManager {
     "Drugs",
     "2 bros",
     "Game of Thrones",
-    "Back to the Future",
     "Galactic ad",
     "Evil Morty babes",
     "Human shield",
@@ -115,7 +114,8 @@ class DataManager {
       let track = Track(dataDictionary: item)
       
       if track.isUnique() == false {
-        track.name += "2"
+        print("WARNING: \(track.sound) is not unique!")
+        track.sound += "2"
       }
       
       items.append(track)
@@ -134,7 +134,8 @@ class DataManager {
       "trackBlur": false,
       "simultaneousPlayback": false,
       "enableFavourites": false,
-      "isDeveloper": true
+      "isDeveloper": true,
+      "tracksClicked": 0
     ]
   }
   
@@ -145,6 +146,18 @@ class DataManager {
     //    }
     //
     return false
+    
+  }
+  
+  // MARK: Log events
+  
+  static func logEvent(eventName: String) {
+    guard let tracksClicked = Datas.shared.settings["tracksClicked"] as? Int else { return }
+    
+    Analytics.logEvent(eventName, parameters: [
+      "tracksClicked": NSInteger(exactly: tracksClicked)! as NSObject,
+      
+      ])
     
   }
   
