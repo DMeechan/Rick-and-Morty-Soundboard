@@ -130,8 +130,8 @@ class DataManager {
     settings  = [
       "wallpaper": "Jail Rick",
       "theme": Style.themes[0],
-      "wallpaperBlur": false,
-      "trackBlur": false,
+      "wallpaperBlur": true,
+      "trackBlur": true,
       "simultaneousPlayback": false,
       "enableFavourites": false,
       "isDeveloper": true,

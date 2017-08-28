@@ -75,7 +75,7 @@ extension UIImageView {
   
   func blurImage(id: String) {
     
-    blurImage(id: id, blurValue: 2)
+    blurImage(id: id, blurValue: 3)
     
   }
   

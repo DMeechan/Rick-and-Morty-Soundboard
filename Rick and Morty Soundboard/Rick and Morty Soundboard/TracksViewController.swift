@@ -70,6 +70,8 @@ class TracksViewController: UIViewController, UICollectionViewDataSource, UIColl
     print("View has appeared!")
     
     setupViews()
+    
+    loadBannerAd()
     //collectionView?.reloadData()
     
     // settingsButtonClicked()
@@ -172,7 +174,7 @@ class TracksViewController: UIViewController, UICollectionViewDataSource, UIColl
       "favourites": favImageView
       ] as [String : Any]
     
-    addConstraint(visualFormat: "V:|-25-[settings(40)]-10-[collection][favourites(\(favImageViewWidth))]-10-[bannerView(50)]-5-|", items: items)
+    addConstraint(visualFormat: "V:|-25-[settings(40)]-10-[collection][favourites(\(favImageViewWidth))]-0-[bannerView(50)]-0-|", items: items)
     addConstraint(visualFormat: "V:|[wallpaper]|", items: items)
     
     addConstraint(visualFormat: "H:|[wallpaper]|", items: items)
@@ -333,7 +335,12 @@ class TracksViewController: UIViewController, UICollectionViewDataSource, UIColl
     
     let trackNameUnderscored = trackWithoutPunctuation
     
+    // Increment tracksClicked by 1
+    guard let tracksClicked = Datas.shared.settings["tracksClicked"] as? Int else { return }
+    Datas.shared.settings.updateValue((tracksClicked + 1), forKey: "tracksClicked")
+    print("New clicks value: \(Datas.shared.settings["tracksClicked"] as! Int)")
     
+    // Log click event to Firebase
     Datas.logEvent(eventName: "Clicked_\(trackNameUnderscored)")
     
   }

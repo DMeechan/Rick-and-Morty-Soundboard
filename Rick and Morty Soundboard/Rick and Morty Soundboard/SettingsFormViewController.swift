@@ -183,7 +183,8 @@ class SettingsFormViewController: FormViewController {
           
           // Note: Opening App Store via external URLs is a bad idea for experience fluidity
           // let address = "https://smarturl.it/RicknMortySoundboard"
-          let address = "https://itunes.apple.com/app/id1262813325"
+          // https://itunes.apple.com/app/id1262813325 <- 100 app page
+          let address = "https://itunes.apple.com/developer/id1262813324"
           if let appStoreURL = URL(string: address) {
             UIApplication.shared.open(appStoreURL, options: [:], completionHandler: nil)
           }
