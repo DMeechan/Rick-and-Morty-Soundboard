@@ -32,7 +32,6 @@ class DataManager {
     "Evil Morty babes",
     "Human shield",
     "Piloting",
-    "Portal",
     "Cromulon",
     "Butter Bot",
     "Jail Rick",
@@ -128,7 +127,7 @@ class DataManager {
   
   func importSettings() {
     settings  = [
-      "wallpaper": "Jail Rick",
+      "wallpaper": "Eating",
       "theme": Style.themes[0],
       "wallpaperBlur": true,
       "trackBlur": true,
