@@ -64,17 +64,17 @@ class DataManager {
   }
   
 
-  func jsonToString(json: Any){
-    do {
-      let data1 =  try JSONSerialization.data(withJSONObject: json, options: JSONSerialization.WritingOptions.prettyPrinted) // first of all convert json to the data
-      let convertedString = String(data: data1, encoding: String.Encoding.utf8) // the data will be converted to the string
-      print(convertedString) // <-- here is ur string
-      
-    } catch let myJSONError {
-      print(myJSONError)
-    }
-    
-  }
+//  func jsonToString(json: Any){
+//    do {
+//      let data1 =  try JSONSerialization.data(withJSONObject: json, options: JSONSerialization.WritingOptions.prettyPrinted) // first of all convert json to the data
+//      let convertedString = String(data: data1, encoding: String.Encoding.utf8) // the data will be converted to the string
+////      print(convertedString)
+//      
+//    } catch let myJSONError {
+//      print(myJSONError)
+//    }
+//    
+//  }
   
   
   func getWallpaperFilename() -> String {
@@ -111,9 +111,9 @@ class DataManager {
   func importSettings() {
     settings  = [
       "wallpaper": "Eating",
-      "theme": "",
-      "wallpaperBlur": true,
-      "trackBlur": true,
+      "theme": Style.themes[0],
+      "wallpaperBlur": false,
+      "trackBlur": false,
       "simultaneousPlayback": false,
       "enableFavourites": false,
       "isDeveloper": true

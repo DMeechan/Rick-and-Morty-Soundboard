@@ -48,42 +48,60 @@ struct StyleManager {
   init() {
     Style.setupTheme()
   }
-
-  static let themes = [
-    "White", "Meeseek Blue", "Green", "Red"
-  ]
   
   static func setThemeWhite() {
     primaryColor = FlatWhite()
     secondaryColor = FlatBlack()
-    DataManager.shared.settings.updateValue("White", forKey: "theme")
+    
+    DataManager.shared.settings.updateValue("Snowball White", forKey: "theme")
     setTheme()
-  
+    
   }
   
   static func setThemeBlue() {
     // Meeseek blue: #64C7EE
     primaryColor = UIColor(red:0.39, green:0.78, blue:0.93, alpha:1.0)
+    secondaryColor = UIColor.white
     
-    // primaryColor = FlatPowderBlue()
-    secondaryColor = FlatNavyBlueDark()
-    DataManager.shared.settings.updateValue("Blue", forKey: "theme")
+    DataManager.shared.settings.updateValue("Meeseek Blue", forKey: "theme")
     setTheme()
     
   }
   
   static func setThemeGreen() {
-    primaryColor = FlatMint()
-    secondaryColor = FlatForestGreenDark()
-    DataManager.shared.settings.updateValue("Green", forKey: "theme")
+    // Pickle Rick:
+    // - light green: #649923 <- in use
+    // - dark green: #4D7F1E
+    // - darker green: #376306
+    
+    primaryColor = UIColor(red:0.39, green:0.60, blue:0.14, alpha:1.0)
+    secondaryColor = UIColor.white
+    
+    // primaryColor = FlatMint()
+    // secondaryColor = FlatForestGreenDark()
+    DataManager.shared.settings.updateValue("Pickle Rick Green", forKey: "theme")
     setTheme()
     
   }
   
-  static func setThemeRed() {
-    primaryColor = FlatWatermelon()
-    secondaryColor = FlatMaroon()
-    DataManager.shared.settings.updateValue("Red", forKey: "theme")
+  static func setThemePink() {
+    // Noob Noob: #DD7290
+    
+    primaryColor = UIColor(red:0.87, green:0.45, blue:0.56, alpha:1.0)
+    secondaryColor = UIColor.white
+    
+    DataManager.shared.settings.updateValue("Noob-Noob Pink", forKey: "theme")
+    setTheme()
+    
+  }
+  
+  static func setThemeOrange() {
+    // Squanchy: #D6A01F
+    
+    primaryColor = UIColor(red:0.84, green:0.63, blue:0.12, alpha:1.0)
+    secondaryColor = UIColor.white
+    
+    DataManager.shared.settings.updateValue("Squanchy Orange", forKey: "theme")
     setTheme()
     
   }
@@ -92,17 +110,24 @@ struct StyleManager {
     setTheme(primary: primaryColor, secondary: secondaryColor)
   }
   
+  static let themes = [
+    "Snowball White", "Meeseek Blue", "Pickle Rick Green", "Noob-Noob Pink", "Squanchy Orange"
+  ]
+  
   static func setTheme(colour: String) {
+    DataManager.shared.settings.updateValue(colour, forKey: "theme")
+    
     switch (colour) {
-    case "White": setThemeWhite()
+    case "Snowball White": setThemeWhite()
     case "Meeseek Blue": setThemeBlue()
-    case "Green": setThemeGreen()
-    case "Red": setThemeRed()
+    case "Pickle Rick Green": setThemeGreen()
+    case "Noob-Noob Pink": setThemePink()
+    case "Squanchy Orange": setThemeOrange()
     default: break
     }
     
   }
-
+  
   static func setTheme(primary: UIColor, secondary: UIColor) {
     
     // Tracks View
@@ -112,11 +137,11 @@ struct StyleManager {
     
     settingsIconColor = primary
     
-    trackFont = UIFont.systemFont(ofSize: 14, weight: UIFontWeightLight)
+    trackFont = UIFont.systemFont(ofSize: 14, weight: UIFontWeightRegular)
     
     // Settings View
     
-    settingsCellBackgroundColor = primary.withAlphaComponent(0.9)
+    settingsCellBackgroundColor = primary.withAlphaComponent(0.7)
     settingsCellTextColor = secondary
     
     settingsFont = UIFont.systemFont(ofSize: 18, weight: UIFontWeightThin)

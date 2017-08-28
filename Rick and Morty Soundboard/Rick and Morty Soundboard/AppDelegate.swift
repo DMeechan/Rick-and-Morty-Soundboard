@@ -20,8 +20,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
   
   func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
     
-    Style.setupTheme()
     DataManager.shared.setup()
+    Style.setupTheme()
     
     // Replace Main.storyboard with code
     window = UIWindow(frame: UIScreen.main.bounds)
