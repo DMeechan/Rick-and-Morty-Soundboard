@@ -358,7 +358,6 @@ class TracksViewController: UIViewController, UICollectionViewDataSource, UIColl
   }
   
   // MARK: Dynamically update cell sizes
-  // TODO: One of these two functions is preventing the nameLabel from appearing
   
   func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
     // let picDimension = self.view.frame.size.width / 4.0
@@ -395,7 +394,7 @@ class TracksViewController: UIViewController, UICollectionViewDataSource, UIColl
   }
   
   func setupSampleSound() {
-    if let sampleSound = NSDataAsset(name: "tiny rick_sound") {
+    if let sampleSound = NSDataAsset(name: "Tiny Rick_sound") {
       do {
         try audioPlayer = AVAudioPlayer(data: sampleSound.data)
         audioPlayer.prepareToPlay()

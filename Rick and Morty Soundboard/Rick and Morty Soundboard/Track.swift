@@ -14,29 +14,29 @@ class Track {
   
   var sound: String = ""
   var character: String = ""
-  
-//  var name: String = "jerry"
-//  var image: String = "jerry_char"
-//  var soundFileName: String = "lick my balls_sound"
+  var category: String = ""
   
   init(dataDictionary: [String: String]) {
-    // New way to import tracks
-    sound = dataDictionary["sound"]!
-    character = dataDictionary["character"]!
+    // Safely import tracks from tracksData.plist using dictionary values
+    
+    if let importedSound = dataDictionary["sound"] {
+      let shortenedSound = importedSound.replacingOccurrences(of: "_sound", with: "")
+      sound = shortenedSound
+      
+    }
+    
+    if let importedCharacter = dataDictionary["character"] {
+      character = importedCharacter
+      
+    }
+    
+    if let importedCategory = dataDictionary["category"] {
+      category = importedCategory
+      
+    }
     
     character.append("_char")
-//    sound.append("_sound")
-    
-    
-    // Original way of importing tracks
-    
-//    name = dataDictionary["name"]!
-//    image = dataDictionary["image"]!
-//    
-//    image.append("_char")
-//    
-//    soundFileName = dataDictionary["sound"]!
-//    soundFileName.append("_sound")
+    // sound.append("_sound")
     
   }
   
@@ -44,11 +44,8 @@ class Track {
     
     sound = "lick my balls"
     character = "rick_char"
+    category = "Other"
     
-//    name = "rick_char"
-//    image = "rick_char"
-//    soundFileName = "lick my balls_sound"
-//    
   }
   
   class func newTrack(dataDictionary: [String: String]) -> Track {

@@ -1,0 +1,2886 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>category</key>
+		<string>Bad guys</string>
+		<key>character</key>
+		<string>Cromulons</string>
+		<key>sound</key>
+		<string>Boo, Not Cool_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Bad guys</string>
+		<key>character</key>
+		<string>Cromulons</string>
+		<key>sound</key>
+		<string>I like what you got_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Bad guys</string>
+		<key>character</key>
+		<string>Cromulons</string>
+		<key>sound</key>
+		<string>Show me what you got_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Bad guys</string>
+		<key>character</key>
+		<string>King Jellybean</string>
+		<key>sound</key>
+		<string>Fuckin tease_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Bad guys</string>
+		<key>character</key>
+		<string>King Jellybean</string>
+		<key>sound</key>
+		<string>Just let this happen_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Bad guys</string>
+		<key>character</key>
+		<string>King Jellybean</string>
+		<key>sound</key>
+		<string>Mr. Jellybean_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Bad guys</string>
+		<key>character</key>
+		<string>Lighthouse Keeper</string>
+		<key>sound</key>
+		<string>Insecure_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Bad guys</string>
+		<key>character</key>
+		<string>Lighthouse Keeper</string>
+		<key>sound</key>
+		<string>Something personal_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Bad guys</string>
+		<key>character</key>
+		<string>Lucius Needful</string>
+		<key>sound</key>
+		<string>Storefront into the forefront_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Bad guys</string>
+		<key>character</key>
+		<string>Scary Terry</string>
+		<key>sound</key>
+		<string>Aw Bitch_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Bad guys</string>
+		<key>character</key>
+		<string>Scary Terry</string>
+		<key>sound</key>
+		<string>Can't hide bitch_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Bad guys</string>
+		<key>character</key>
+		<string>Scary Terry</string>
+		<key>sound</key>
+		<string>Get off my back Bitch_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Bad guys</string>
+		<key>character</key>
+		<string>Scary Terry</string>
+		<key>sound</key>
+		<string>I'm late to class bitch_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Bad guys</string>
+		<key>character</key>
+		<string>Scary Terry</string>
+		<key>sound</key>
+		<string>Welcome To Your Nightmare_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Bad guys</string>
+		<key>character</key>
+		<string>Scary Terry</string>
+		<key>sound</key>
+		<string>You CAN run_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Bad guys</string>
+		<key>character</key>
+		<string>Scary Terry</string>
+		<key>sound</key>
+		<string>You can't hide_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Bad guys</string>
+		<key>character</key>
+		<string>Snowball</string>
+		<key>sound</key>
+		<string>Call Me Snowball_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Bad guys</string>
+		<key>character</key>
+		<string>Snowball</string>
+		<key>sound</key>
+		<string>Where Are My Testicles_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Family</string>
+		<key>character</key>
+		<string>Beth</string>
+		<key>sound</key>
+		<string>He's dead to me_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Family</string>
+		<key>character</key>
+		<string>Beth</string>
+		<key>sound</key>
+		<string>He's not a hot girl_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Family</string>
+		<key>character</key>
+		<string>Beth</string>
+		<key>sound</key>
+		<string>I'm scared you'll keep doing it_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Family</string>
+		<key>character</key>
+		<string>Beth</string>
+		<key>sound</key>
+		<string>In your dreams, bitch_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Family</string>
+		<key>character</key>
+		<string>Beth</string>
+		<key>sound</key>
+		<string>Let's save the measuring_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Family</string>
+		<key>character</key>
+		<string>Beth</string>
+		<key>sound</key>
+		<string>Loving you is work_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Family</string>
+		<key>character</key>
+		<string>Beth</string>
+		<key>sound</key>
+		<string>Majoring in Civics_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Family</string>
+		<key>character</key>
+		<string>Beth</string>
+		<key>sound</key>
+		<string>Making stuff up now'_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Family</string>
+		<key>character</key>
+		<string>Beth</string>
+		<key>sound</key>
+		<string>Screaming deer soul_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Family</string>
+		<key>character</key>
+		<string>Beth</string>
+		<key>sound</key>
+		<string>Shoe fits up your ass_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Family</string>
+		<key>character</key>
+		<string>Beth</string>
+		<key>sound</key>
+		<string>Victim role_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Family</string>
+		<key>character</key>
+		<string>Beth</string>
+		<key>sound</key>
+		<string>YouTube comment_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Family</string>
+		<key>character</key>
+		<string>Dumb Rick</string>
+		<key>sound</key>
+		<string>I don't eat poop_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Family</string>
+		<key>character</key>
+		<string>Summer</string>
+		<key>sound</key>
+		<string>Buh Bye_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Family</string>
+		<key>character</key>
+		<string>Summer</string>
+		<key>sound</key>
+		<string>Having a wiener_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Family</string>
+		<key>character</key>
+		<string>Summer</string>
+		<key>sound</key>
+		<string>I'm ignoring you_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Family</string>
+		<key>character</key>
+		<string>Summer</string>
+		<key>sound</key>
+		<string>It's ok to dream_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Family</string>
+		<key>character</key>
+		<string>Summer</string>
+		<key>sound</key>
+		<string>That movie sucked_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Family</string>
+		<key>character</key>
+		<string>Summer</string>
+		<key>sound</key>
+		<string>This has been so much fun_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Family</string>
+		<key>character</key>
+		<string>Summer</string>
+		<key>sound</key>
+		<string>Trying to create drama_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Family</string>
+		<key>character</key>
+		<string>Summer</string>
+		<key>sound</key>
+		<string>You are kind of a dick_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Family</string>
+		<key>character</key>
+		<string>Summer</string>
+		<key>sound</key>
+		<string>You are not the victim here_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Family</string>
+		<key>character</key>
+		<string>Summer</string>
+		<key>sound</key>
+		<string>You like that_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Family</string>
+		<key>character</key>
+		<string>Summer</string>
+		<key>sound</key>
+		<string>You're so wise_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Family</string>
+		<key>character</key>
+		<string>Summer</string>
+		<key>sound</key>
+		<string>You're such a dick_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Family</string>
+		<key>character</key>
+		<string>Summer</string>
+		<key>sound</key>
+		<string>Zuckerberging me_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Family</string>
+		<key>character</key>
+		<string>Tiny Rick</string>
+		<key>sound</key>
+		<string>I'm Tiny Rick_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Family</string>
+		<key>character</key>
+		<string>Tiny Rick</string>
+		<key>sound</key>
+		<string>Let me out song guitar_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Family</string>
+		<key>character</key>
+		<string>Tiny Rick</string>
+		<key>sound</key>
+		<string>Let me out song_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Family</string>
+		<key>character</key>
+		<string>Tiny Rick</string>
+		<key>sound</key>
+		<string>Tiny Rick_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Friends</string>
+		<key>character</key>
+		<string>Abradolf Lincler</string>
+		<key>sound</key>
+		<string>Inferior genes_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Friends</string>
+		<key>character</key>
+		<string>Abradolf Lincler</string>
+		<key>sound</key>
+		<string>Into this world_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Friends</string>
+		<key>character</key>
+		<string>Abradolf Lincler</string>
+		<key>sound</key>
+		<string>No quarrel with you boy_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Friends</string>
+		<key>character</key>
+		<string>Birdperson</string>
+		<key>sound</key>
+		<string>Challenging mating season_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Friends</string>
+		<key>character</key>
+		<string>Birdperson</string>
+		<key>sound</key>
+		<string>Intense soulbond_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Friends</string>
+		<key>character</key>
+		<string>Birdperson</string>
+		<key>sound</key>
+		<string>Who is in danger_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Friends</string>
+		<key>character</key>
+		<string>Butter Bot</string>
+		<key>sound</key>
+		<string>Pass the butter_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Friends</string>
+		<key>character</key>
+		<string>Butter Bot</string>
+		<key>sound</key>
+		<string>What is my purpose_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Friends</string>
+		<key>character</key>
+		<string>Ethan</string>
+		<key>sound</key>
+		<string>Feel like a girl_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Friends</string>
+		<key>character</key>
+		<string>Gazorpazorp</string>
+		<key>sound</key>
+		<string>I want to murder_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Friends</string>
+		<key>character</key>
+		<string>Jessica</string>
+		<key>sound</key>
+		<string>Squeeze them Morty_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Friends</string>
+		<key>character</key>
+		<string>Mr Meeseek</string>
+		<key>sound</key>
+		<string>Can do_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Friends</string>
+		<key>character</key>
+		<string>Mr Meeseek</string>
+		<key>sound</key>
+		<string>I just wanna die_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Friends</string>
+		<key>character</key>
+		<string>Mr Meeseek</string>
+		<key>sound</key>
+		<string>I'm the one who sucks_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Friends</string>
+		<key>character</key>
+		<string>Mr Meeseek</string>
+		<key>sound</key>
+		<string>Mr Meeseeks_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Friends</string>
+		<key>character</key>
+		<string>Mr Meeseek</string>
+		<key>sound</key>
+		<string>Ooooh, Nice_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Friends</string>
+		<key>character</key>
+		<string>Mr Meeseek</string>
+		<key>sound</key>
+		<string>Stickler_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Friends</string>
+		<key>character</key>
+		<string>Mr Meeseek</string>
+		<key>sound</key>
+		<string>That's ok_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Friends</string>
+		<key>character</key>
+		<string>Mr Meeseek</string>
+		<key>sound</key>
+		<string>The task at hand_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Friends</string>
+		<key>character</key>
+		<string>Mr Meeseek</string>
+		<key>sound</key>
+		<string>Whatever you want_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Friends</string>
+		<key>character</key>
+		<string>Mr Meeseek</string>
+		<key>sound</key>
+		<string>Yes Sir-eee_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Friends</string>
+		<key>character</key>
+		<string>Mr Poopy Butthole </string>
+		<key>sound</key>
+		<string>What a cliffhanger_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Friends</string>
+		<key>character</key>
+		<string>Space Cruiser</string>
+		<key>sound</key>
+		<string>Totally stoked_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Friends</string>
+		<key>character</key>
+		<string>Squanchy</string>
+		<key>sound</key>
+		<string>Don't Squanch at me_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Friends</string>
+		<key>character</key>
+		<string>Squanchy</string>
+		<key>sound</key>
+		<string>En-Squanch-Ay_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Friends</string>
+		<key>character</key>
+		<string>Squanchy</string>
+		<key>sound</key>
+		<string>Squanch_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Jerry</string>
+		<key>character</key>
+		<string>Jerry</string>
+		<key>sound</key>
+		<string>Are you hungry for apples_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Jerry</string>
+		<key>character</key>
+		<string>Jerry</string>
+		<key>sound</key>
+		<string>Bad pitch_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Jerry</string>
+		<key>character</key>
+		<string>Jerry</string>
+		<key>sound</key>
+		<string>Be ashamed of yourself_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Jerry</string>
+		<key>character</key>
+		<string>Jerry</string>
+		<key>sound</key>
+		<string>Best sex_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Jerry</string>
+		<key>character</key>
+		<string>Jerry</string>
+		<key>sound</key>
+		<string>Control me with a hair cut_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Jerry</string>
+		<key>character</key>
+		<string>Jerry</string>
+		<key>sound</key>
+		<string>Convenient_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Jerry</string>
+		<key>character</key>
+		<string>Jerry</string>
+		<key>sound</key>
+		<string>Cut me some slack_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Jerry</string>
+		<key>character</key>
+		<string>Jerry</string>
+		<key>sound</key>
+		<string>Evangelical Atheist_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Jerry</string>
+		<key>character</key>
+		<string>Jerry</string>
+		<key>sound</key>
+		<string>Family's toilet paper_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Jerry</string>
+		<key>character</key>
+		<string>Jerry</string>
+		<key>sound</key>
+		<string>For everyone to like me_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Jerry</string>
+		<key>character</key>
+		<string>Jerry</string>
+		<key>sound</key>
+		<string>Hatin' this playa'_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Jerry</string>
+		<key>character</key>
+		<string>Jerry</string>
+		<key>sound</key>
+		<string>Honey, I got a job_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Jerry</string>
+		<key>character</key>
+		<string>Jerry</string>
+		<key>sound</key>
+		<string>I am finally complete_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Jerry</string>
+		<key>character</key>
+		<string>Jerry</string>
+		<key>sound</key>
+		<string>I beg your pardon_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Jerry</string>
+		<key>character</key>
+		<string>Jerry</string>
+		<key>sound</key>
+		<string>I don't get it_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Jerry</string>
+		<key>character</key>
+		<string>Jerry</string>
+		<key>sound</key>
+		<string>I remember it differently_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Jerry</string>
+		<key>character</key>
+		<string>Jerry</string>
+		<key>sound</key>
+		<string>I wasn't paying attention_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Jerry</string>
+		<key>character</key>
+		<string>Jerry</string>
+		<key>sound</key>
+		<string>I'm Mr Crowbar_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Jerry</string>
+		<key>character</key>
+		<string>Jerry</string>
+		<key>sound</key>
+		<string>I'm not stupid_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Jerry</string>
+		<key>character</key>
+		<string>Jerry</string>
+		<key>sound</key>
+		<string>If the shoe fits_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Jerry</string>
+		<key>character</key>
+		<string>Jerry</string>
+		<key>sound</key>
+		<string>If the universe needed his penis_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Jerry</string>
+		<key>character</key>
+		<string>Jerry</string>
+		<key>sound</key>
+		<string>Jews On A Saturday_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Jerry</string>
+		<key>character</key>
+		<string>Jerry</string>
+		<key>sound</key>
+		<string>Last straw_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Jerry</string>
+		<key>character</key>
+		<string>Jerry</string>
+		<key>sound</key>
+		<string>Life is effort_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Jerry</string>
+		<key>character</key>
+		<string>Jerry</string>
+		<key>sound</key>
+		<string>Make love to my wife_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Jerry</string>
+		<key>character</key>
+		<string>Jerry</string>
+		<key>sound</key>
+		<string>Maybe I will_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Jerry</string>
+		<key>character</key>
+		<string>Jerry</string>
+		<key>sound</key>
+		<string>My love of icecream_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Jerry</string>
+		<key>character</key>
+		<string>Jerry</string>
+		<key>sound</key>
+		<string>Nailed it_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Jerry</string>
+		<key>character</key>
+		<string>Jerry</string>
+		<key>sound</key>
+		<string>OK Assface_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Jerry</string>
+		<key>character</key>
+		<string>Jerry</string>
+		<key>sound</key>
+		<string>Out the front door_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Jerry</string>
+		<key>character</key>
+		<string>Jerry</string>
+		<key>sound</key>
+		<string>Raised like reptiles_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Jerry</string>
+		<key>character</key>
+		<string>Jerry</string>
+		<key>sound</key>
+		<string>Sci-Fi Rigamarole_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Jerry</string>
+		<key>character</key>
+		<string>Jerry</string>
+		<key>sound</key>
+		<string>Screw you_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Jerry</string>
+		<key>character</key>
+		<string>Jerry</string>
+		<key>sound</key>
+		<string>Steven Fucking Hawkinson_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Jerry</string>
+		<key>character</key>
+		<string>Jerry</string>
+		<key>sound</key>
+		<string>That's right assholes_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Jerry</string>
+		<key>character</key>
+		<string>Jerry</string>
+		<key>sound</key>
+		<string>Wait what_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Jerry</string>
+		<key>character</key>
+		<string>Jerry</string>
+		<key>sound</key>
+		<string>What_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Jerry</string>
+		<key>character</key>
+		<string>Jerry</string>
+		<key>sound</key>
+		<string>Where being smart got ya_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Jerry</string>
+		<key>character</key>
+		<string>Jerry</string>
+		<key>sound</key>
+		<string>You said the same thing_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Morty</string>
+		<key>character</key>
+		<string>Morty</string>
+		<key>sound</key>
+		<string>A little shady_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Morty</string>
+		<key>character</key>
+		<string>Morty</string>
+		<key>sound</key>
+		<string>Are you done_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Morty</string>
+		<key>character</key>
+		<string>Morty</string>
+		<key>sound</key>
+		<string>Can't be worse than this_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Morty</string>
+		<key>character</key>
+		<string>Morty</string>
+		<key>sound</key>
+		<string>Delicate sensibilities_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Morty</string>
+		<key>character</key>
+		<string>Morty</string>
+		<key>sound</key>
+		<string>Ferrari in the shop_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Morty</string>
+		<key>character</key>
+		<string>Morty</string>
+		<key>sound</key>
+		<string>First race war_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Morty</string>
+		<key>character</key>
+		<string>Morty</string>
+		<key>sound</key>
+		<string>Get you a coffee_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Morty</string>
+		<key>character</key>
+		<string>Morty</string>
+		<key>sound</key>
+		<string>Get your shit together_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Morty</string>
+		<key>character</key>
+		<string>Morty</string>
+		<key>sound</key>
+		<string>Have you been drinking_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Morty</string>
+		<key>character</key>
+		<string>Morty</string>
+		<key>sound</key>
+		<string>Here we go_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Morty</string>
+		<key>character</key>
+		<string>Morty</string>
+		<key>sound</key>
+		<string>Heyya you doing OK_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Morty</string>
+		<key>character</key>
+		<string>Morty</string>
+		<key>sound</key>
+		<string>I don't want to talk about it_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Morty</string>
+		<key>character</key>
+		<string>Morty</string>
+		<key>sound</key>
+		<string>I get it_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Morty</string>
+		<key>character</key>
+		<string>Morty</string>
+		<key>sound</key>
+		<string>I masturbated to..._sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Morty</string>
+		<key>character</key>
+		<string>Morty</string>
+		<key>sound</key>
+		<string>I wanna come with_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Morty</string>
+		<key>character</key>
+		<string>Morty</string>
+		<key>sound</key>
+		<string>I'm doing it because it is fun_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Morty</string>
+		<key>character</key>
+		<string>Morty</string>
+		<key>sound</key>
+		<string>I'm gonna kick your ass_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Morty</string>
+		<key>character</key>
+		<string>Morty</string>
+		<key>sound</key>
+		<string>Jeez Rick, what did you do_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Morty</string>
+		<key>character</key>
+		<string>Morty</string>
+		<key>sound</key>
+		<string>Knock next time_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Morty</string>
+		<key>character</key>
+		<string>Morty</string>
+		<key>sound</key>
+		<string>Not freaking out right now_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Morty</string>
+		<key>character</key>
+		<string>Morty</string>
+		<key>sound</key>
+		<string>Oh GEEZ_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Morty</string>
+		<key>character</key>
+		<string>Morty</string>
+		<key>sound</key>
+		<string>Oh, Jeeze_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Morty</string>
+		<key>character</key>
+		<string>Morty</string>
+		<key>sound</key>
+		<string>Old lady science_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Morty</string>
+		<key>character</key>
+		<string>Morty</string>
+		<key>sound</key>
+		<string>Oooooooooh Snap_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Morty</string>
+		<key>character</key>
+		<string>Morty</string>
+		<key>sound</key>
+		<string>Parasite scum_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Morty</string>
+		<key>character</key>
+		<string>Morty</string>
+		<key>sound</key>
+		<string>Something a chicken would say_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Morty</string>
+		<key>character</key>
+		<string>Morty</string>
+		<key>sound</key>
+		<string>Stop shaming me_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Morty</string>
+		<key>character</key>
+		<string>Morty</string>
+		<key>sound</key>
+		<string>W-What Is It_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Morty</string>
+		<key>character</key>
+		<string>Morty</string>
+		<key>sound</key>
+		<string>We're f-ed in the a-_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Morty</string>
+		<key>character</key>
+		<string>Morty</string>
+		<key>sound</key>
+		<string>We're so screwed_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Morty</string>
+		<key>character</key>
+		<string>Morty</string>
+		<key>sound</key>
+		<string>Wh-What did you do that for_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Morty</string>
+		<key>character</key>
+		<string>Morty</string>
+		<key>sound</key>
+		<string>What kind of monster are you_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Morty</string>
+		<key>character</key>
+		<string>Morty</string>
+		<key>sound</key>
+		<string>What the Hell was that_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Morty</string>
+		<key>character</key>
+		<string>Morty</string>
+		<key>sound</key>
+		<string>Woah_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Morty</string>
+		<key>character</key>
+		<string>Morty</string>
+		<key>sound</key>
+		<string>Worf from Star Trek_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Morty</string>
+		<key>character</key>
+		<string>Morty</string>
+		<key>sound</key>
+		<string>You got me on that one_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Morty</string>
+		<key>character</key>
+		<string>Morty</string>
+		<key>sound</key>
+		<string>You started a race war_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Morty</string>
+		<key>character</key>
+		<string>Morty</string>
+		<key>sound</key>
+		<string>You're like Hitler_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Other</string>
+		<key>character</key>
+		<string>Fart</string>
+		<key>sound</key>
+		<string>I like this name, Fart_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Other</string>
+		<key>character</key>
+		<string>Mr Booby Buyer</string>
+		<key>sound</key>
+		<string>Mr Boobiebuyer_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Other</string>
+		<key>character</key>
+		<string>Mr Goldenfold</string>
+		<key>sound</key>
+		<string>5 more minutes_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Other</string>
+		<key>character</key>
+		<string>Mr Goldenfold</string>
+		<key>sound</key>
+		<string>My Man!_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Other</string>
+		<key>character</key>
+		<string>Mr Goldenfold</string>
+		<key>sound</key>
+		<string>Not my fault_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Other</string>
+		<key>character</key>
+		<string>Mrs Pancakes</string>
+		<key>sound</key>
+		<string>You don't know me_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Other</string>
+		<key>character</key>
+		<string>Old Timer</string>
+		<key>sound</key>
+		<string>I'm a nice guy, for now_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Other</string>
+		<key>character</key>
+		<string>Old Timer</string>
+		<key>sound</key>
+		<string>Pretty bad stuff_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Other</string>
+		<key>character</key>
+		<string>Principle Vagina</string>
+		<key>sound</key>
+		<string>Latino student_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Other</string>
+		<key>character</key>
+		<string>Principle Vagina</string>
+		<key>sound</key>
+		<string>Principle Vagina_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Random</string>
+		<key>character</key>
+		<string>Random</string>
+		<key>sound</key>
+		<string>And who pays me_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Random</string>
+		<key>character</key>
+		<string>Random</string>
+		<key>sound</key>
+		<string>Evidence or logic_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Random</string>
+		<key>character</key>
+		<string>Random</string>
+		<key>sound</key>
+		<string>Give your penis_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Random</string>
+		<key>character</key>
+		<string>Random</string>
+		<key>sound</key>
+		<string>Giving away his penis_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Random</string>
+		<key>character</key>
+		<string>Random</string>
+		<key>sound</key>
+		<string>Hostile entity_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Random</string>
+		<key>character</key>
+		<string>Random</string>
+		<key>sound</key>
+		<string>I didn't ask to be born_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Random</string>
+		<key>character</key>
+		<string>Random</string>
+		<key>sound</key>
+		<string>I dropped out of school_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Random</string>
+		<key>character</key>
+		<string>Random</string>
+		<key>sound</key>
+		<string>I love this man_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Random</string>
+		<key>character</key>
+		<string>Random</string>
+		<key>sound</key>
+		<string>I'm calling my lawyer_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Random</string>
+		<key>character</key>
+		<string>Random</string>
+		<key>sound</key>
+		<string>If I wanted to be sober_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Random</string>
+		<key>character</key>
+		<string>Random</string>
+		<key>sound</key>
+		<string>Intergenerational Sandwich_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Random</string>
+		<key>character</key>
+		<string>Random</string>
+		<key>sound</key>
+		<string>Just masturbating_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Random</string>
+		<key>character</key>
+		<string>Random</string>
+		<key>sound</key>
+		<string>Kiss your ass_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Random</string>
+		<key>character</key>
+		<string>Random</string>
+		<key>sound</key>
+		<string>LET ME GO_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Random</string>
+		<key>character</key>
+		<string>Random</string>
+		<key>sound</key>
+		<string>Let's not make this political_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Random</string>
+		<key>character</key>
+		<string>Random</string>
+		<key>sound</key>
+		<string>Mr Smith's pathetic penis_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Random</string>
+		<key>character</key>
+		<string>Random</string>
+		<key>sound</key>
+		<string>My life is a f-ing joke_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Random</string>
+		<key>character</key>
+		<string>Random</string>
+		<key>sound</key>
+		<string>Ooooo this looks deadly_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Random</string>
+		<key>character</key>
+		<string>Random</string>
+		<key>sound</key>
+		<string>Order one large person_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Random</string>
+		<key>character</key>
+		<string>Random</string>
+		<key>sound</key>
+		<string>Silent treatment_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Random</string>
+		<key>character</key>
+		<string>Random</string>
+		<key>sound</key>
+		<string>Such an arsehole_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Random</string>
+		<key>character</key>
+		<string>Random</string>
+		<key>sound</key>
+		<string>The man's a genius_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Random</string>
+		<key>character</key>
+		<string>Random</string>
+		<key>sound</key>
+		<string>The Pope's dick_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Random</string>
+		<key>character</key>
+		<string>Random</string>
+		<key>sound</key>
+		<string>This shit is delicious_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Random</string>
+		<key>character</key>
+		<string>Random</string>
+		<key>sound</key>
+		<string>Wiener on that monitor_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Random</string>
+		<key>character</key>
+		<string>Random</string>
+		<key>sound</key>
+		<string>Worst marriage_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Random</string>
+		<key>character</key>
+		<string>Random</string>
+		<key>sound</key>
+		<string>Yes!_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Random</string>
+		<key>character</key>
+		<string>Random</string>
+		<key>sound</key>
+		<string>You'd like to use your penis_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Random</string>
+		<key>character</key>
+		<string>Random</string>
+		<key>sound</key>
+		<string>Your slave is ill mannered_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Rick</string>
+		<key>character</key>
+		<string>Rick</string>
+		<key>sound</key>
+		<string>20 percent accurate_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Rick</string>
+		<key>character</key>
+		<string>Rick</string>
+		<key>sound</key>
+		<string>A very planetary mindset_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Rick</string>
+		<key>character</key>
+		<string>Rick</string>
+		<key>sound</key>
+		<string>Aids_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Rick</string>
+		<key>character</key>
+		<string>Rick</string>
+		<key>sound</key>
+		<string>Allah Akbar_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Rick</string>
+		<key>character</key>
+		<string>Rick</string>
+		<key>sound</key>
+		<string>Allergic to dipshits_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Rick</string>
+		<key>character</key>
+		<string>Rick</string>
+		<key>sound</key>
+		<string>Already lost interest_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Rick</string>
+		<key>character</key>
+		<string>Rick</string>
+		<key>sound</key>
+		<string>Annoying memories_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Rick</string>
+		<key>character</key>
+		<string>Rick</string>
+		<key>sound</key>
+		<string>Are you happy now Morty_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Rick</string>
+		<key>character</key>
+		<string>Rick</string>
+		<key>sound</key>
+		<string>As they say in Canada_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Rick</string>
+		<key>character</key>
+		<string>Rick</string>
+		<key>sound</key>
+		<string>Aww crap_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Rick</string>
+		<key>character</key>
+		<string>Rick</string>
+		<key>sound</key>
+		<string>Bam_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Rick</string>
+		<key>character</key>
+		<string>Rick</string>
+		<key>sound</key>
+		<string>Banging my daughter_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Rick</string>
+		<key>character</key>
+		<string>Rick</string>
+		<key>sound</key>
+		<string>Be ashamed of your gender_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Rick</string>
+		<key>character</key>
+		<string>Rick</string>
+		<key>sound</key>
+		<string>Because I'm the smartest_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Rick</string>
+		<key>character</key>
+		<string>Rick</string>
+		<key>sound</key>
+		<string>Behind every great man_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Rick</string>
+		<key>character</key>
+		<string>Rick</string>
+		<key>sound</key>
+		<string>Being nice_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Rick</string>
+		<key>character</key>
+		<string>Rick</string>
+		<key>sound</key>
+		<string>Best pizza_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Rick</string>
+		<key>character</key>
+		<string>Rick</string>
+		<key>sound</key>
+		<string>Bigger deal out of this_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Rick</string>
+		<key>character</key>
+		<string>Rick</string>
+		<key>sound</key>
+		<string>Blow me_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Rick</string>
+		<key>character</key>
+		<string>Rick</string>
+		<key>sound</key>
+		<string>Brainwashed little turd_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Rick</string>
+		<key>character</key>
+		<string>Rick</string>
+		<key>sound</key>
+		<string>Burger Time_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Rick</string>
+		<key>character</key>
+		<string>Rick</string>
+		<key>sound</key>
+		<string>Burn out the CPU_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Rick</string>
+		<key>character</key>
+		<string>Rick</string>
+		<key>sound</key>
+		<string>But it's worth the risk_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Rick</string>
+		<key>character</key>
+		<string>Rick</string>
+		<key>sound</key>
+		<string>Can't blame that on the dog_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Rick</string>
+		<key>character</key>
+		<string>Rick</string>
+		<key>sound</key>
+		<string>Can't give a crap about it_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Rick</string>
+		<key>character</key>
+		<string>Rick</string>
+		<key>sound</key>
+		<string>Coffee machine_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Rick</string>
+		<key>character</key>
+		<string>Rick</string>
+		<key>sound</key>
+		<string>Die alone_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Rick</string>
+		<key>character</key>
+		<string>Rick</string>
+		<key>sound</key>
+		<string>Do you think this world is real_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Rick</string>
+		<key>character</key>
+		<string>Rick</string>
+		<key>sound</key>
+		<string>Don't be like that_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Rick</string>
+		<key>character</key>
+		<string>Rick</string>
+		<key>sound</key>
+		<string>Don't be sheep_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Rick</string>
+		<key>character</key>
+		<string>Rick</string>
+		<key>sound</key>
+		<string>Don't even trip dawg_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Rick</string>
+		<key>character</key>
+		<string>Rick</string>
+		<key>sound</key>
+		<string>Don't get carried away_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Rick</string>
+		<key>character</key>
+		<string>Rick</string>
+		<key>sound</key>
+		<string>Don't hate the player_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Rick</string>
+		<key>character</key>
+		<string>Rick</string>
+		<key>sound</key>
+		<string>Don't know what I was thinking_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Rick</string>
+		<key>character</key>
+		<string>Rick</string>
+		<key>sound</key>
+		<string>Don't look at me dude_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Rick</string>
+		<key>character</key>
+		<string>Rick</string>
+		<key>sound</key>
+		<string>Dumb_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Rick</string>
+		<key>character</key>
+		<string>Rick</string>
+		<key>sound</key>
+		<string>Easy target back_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Rick</string>
+		<key>character</key>
+		<string>Rick</string>
+		<key>sound</key>
+		<string>Easy to impress_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Rick</string>
+		<key>character</key>
+		<string>Rick</string>
+		<key>sound</key>
+		<string>Entirely hypothetical_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Rick</string>
+		<key>character</key>
+		<string>Rick</string>
+		<key>sound</key>
+		<string>Even I noticed_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Rick</string>
+		<key>character</key>
+		<string>Rick</string>
+		<key>sound</key>
+		<string>Family to exterminate_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Rick</string>
+		<key>character</key>
+		<string>Rick</string>
+		<key>sound</key>
+		<string>Fart saving mother f-er_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Rick</string>
+		<key>character</key>
+		<string>Rick</string>
+		<key>sound</key>
+		<string>Fascinating character_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Rick</string>
+		<key>character</key>
+		<string>Rick</string>
+		<key>sound</key>
+		<string>Feel superior_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Rick</string>
+		<key>character</key>
+		<string>Rick</string>
+		<key>sound</key>
+		<string>FOREVER_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Rick</string>
+		<key>character</key>
+		<string>Rick</string>
+		<key>sound</key>
+		<string>Fun's fun but who needs it_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Rick</string>
+		<key>character</key>
+		<string>Rick</string>
+		<key>sound</key>
+		<string>Funerals with cake_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Rick</string>
+		<key>character</key>
+		<string>Rick</string>
+		<key>sound</key>
+		<string>Gaaaay_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Rick</string>
+		<key>character</key>
+		<string>Rick</string>
+		<key>sound</key>
+		<string>Gets their dicks hard_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Rick</string>
+		<key>character</key>
+		<string>Rick</string>
+		<key>sound</key>
+		<string>Gonna get laid in college_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Rick</string>
+		<key>character</key>
+		<string>Rick</string>
+		<key>sound</key>
+		<string>Graaaaaaaassss_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Rick</string>
+		<key>character</key>
+		<string>Rick</string>
+		<key>sound</key>
+		<string>Guess is as good as mine_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Rick</string>
+		<key>character</key>
+		<string>Rick</string>
+		<key>sound</key>
+		<string>Haha yeah_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Rick</string>
+		<key>character</key>
+		<string>Rick</string>
+		<key>sound</key>
+		<string>Hands off your ding dong_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Rick</string>
+		<key>character</key>
+		<string>Rick</string>
+		<key>sound</key>
+		<string>Haste makes waste_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Rick</string>
+		<key>character</key>
+		<string>Rick</string>
+		<key>sound</key>
+		<string>He doesn't care_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Rick</string>
+		<key>character</key>
+		<string>Rick</string>
+		<key>sound</key>
+		<string>He'll try his best_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Rick</string>
+		<key>character</key>
+		<string>Rick</string>
+		<key>sound</key>
+		<string>He's a real piece of shit_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Rick</string>
+		<key>character</key>
+		<string>Rick</string>
+		<key>sound</key>
+		<string>Hey what's up_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Rick</string>
+		<key>character</key>
+		<string>Rick</string>
+		<key>sound</key>
+		<string>Hit The Sack Jack_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Rick</string>
+		<key>character</key>
+		<string>Rick</string>
+		<key>sound</key>
+		<string>Holy crap Morty, you're right_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Rick</string>
+		<key>character</key>
+		<string>Rick</string>
+		<key>sound</key>
+		<string>How dare you even ask me that_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Rick</string>
+		<key>character</key>
+		<string>Rick</string>
+		<key>sound</key>
+		<string>I can do whatever you do and more_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Rick</string>
+		<key>character</key>
+		<string>Rick</string>
+		<key>sound</key>
+		<string>I don't doubt it_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Rick</string>
+		<key>character</key>
+		<string>Rick</string>
+		<key>sound</key>
+		<string>I don't give a fuck_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Rick</string>
+		<key>character</key>
+		<string>Rick</string>
+		<key>sound</key>
+		<string>I don't have time_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Rick</string>
+		<key>character</key>
+		<string>Rick</string>
+		<key>sound</key>
+		<string>I outrank you_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Rick</string>
+		<key>character</key>
+		<string>Rick</string>
+		<key>sound</key>
+		<string>I thought you'd never ask_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Rick</string>
+		<key>character</key>
+		<string>Rick</string>
+		<key>sound</key>
+		<string>I want you_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Rick</string>
+		<key>character</key>
+		<string>Rick</string>
+		<key>sound</key>
+		<string>I was right_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Rick</string>
+		<key>character</key>
+		<string>Rick</string>
+		<key>sound</key>
+		<string>I'll purge you_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Rick</string>
+		<key>character</key>
+		<string>Rick</string>
+		<key>sound</key>
+		<string>I'm amazing_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Rick</string>
+		<key>character</key>
+		<string>Rick</string>
+		<key>sound</key>
+		<string>I'm busy_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Rick</string>
+		<key>character</key>
+		<string>Rick</string>
+		<key>sound</key>
+		<string>I'm Jerry Smith_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Rick</string>
+		<key>character</key>
+		<string>Rick</string>
+		<key>sound</key>
+		<string>I've really outdone myself_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Rick</string>
+		<key>character</key>
+		<string>Rick</string>
+		<key>sound</key>
+		<string>Inconvenient_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Rick</string>
+		<key>character</key>
+		<string>Rick</string>
+		<key>sound</key>
+		<string>It's basic math_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Rick</string>
+		<key>character</key>
+		<string>Rick</string>
+		<key>sound</key>
+		<string>It's beneath me_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Rick</string>
+		<key>character</key>
+		<string>Rick</string>
+		<key>sound</key>
+		<string>It's like Inception_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Rick</string>
+		<key>character</key>
+		<string>Rick</string>
+		<key>sound</key>
+		<string>Jerking yourself off_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Rick</string>
+		<key>character</key>
+		<string>Rick</string>
+		<key>sound</key>
+		<string>Just give me a gun_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Rick</string>
+		<key>character</key>
+		<string>Rick</string>
+		<key>sound</key>
+		<string>Just kidding I don't care_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Rick</string>
+		<key>character</key>
+		<string>Rick</string>
+		<key>sound</key>
+		<string>Just shake that ass_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Rick</string>
+		<key>character</key>
+		<string>Rick</string>
+		<key>sound</key>
+		<string>Left Nipple_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Rick</string>
+		<key>character</key>
+		<string>Rick</string>
+		<key>sound</key>
+		<string>Lick Lick Lick_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Rick</string>
+		<key>character</key>
+		<string>Rick</string>
+		<key>sound</key>
+		<string>Lucky break_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Rick</string>
+		<key>character</key>
+		<string>Rick</string>
+		<key>sound</key>
+		<string>More ashamed of yourself_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Rick</string>
+		<key>character</key>
+		<string>Rick</string>
+		<key>sound</key>
+		<string>Most ambitious least successful_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Rick</string>
+		<key>character</key>
+		<string>Rick</string>
+		<key>sound</key>
+		<string>Most meaningful day_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Rick</string>
+		<key>character</key>
+		<string>Rick</string>
+		<key>sound</key>
+		<string>My drink is empty_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Rick</string>
+		<key>character</key>
+		<string>Rick</string>
+		<key>sound</key>
+		<string>N-word and C-word had a baby_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Rick</string>
+		<key>character</key>
+		<string>Rick</string>
+		<key>sound</key>
+		<string>Negative Nelly_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Rick</string>
+		<key>character</key>
+		<string>Rick</string>
+		<key>sound</key>
+		<string>No can do Morty_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Rick</string>
+		<key>character</key>
+		<string>Rick</string>
+		<key>sound</key>
+		<string>No can do_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Rick</string>
+		<key>character</key>
+		<string>Rick</string>
+		<key>sound</key>
+		<string>No Jumping In The Sewer_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Rick</string>
+		<key>character</key>
+		<string>Rick</string>
+		<key>sound</key>
+		<string>Not today bitch_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Rick</string>
+		<key>character</key>
+		<string>Rick</string>
+		<key>sound</key>
+		<string>Not Very Charismatic_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Rick</string>
+		<key>character</key>
+		<string>Rick</string>
+		<key>sound</key>
+		<string>Number One is me asshole_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Rick</string>
+		<key>character</key>
+		<string>Rick</string>
+		<key>sound</key>
+		<string>Oh good job Morty_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Rick</string>
+		<key>character</key>
+		<string>Rick</string>
+		<key>sound</key>
+		<string>Oh I say good sir_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Rick</string>
+		<key>character</key>
+		<string>Rick</string>
+		<key>sound</key>
+		<string>One thing_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Rick</string>
+		<key>character</key>
+		<string>Rick</string>
+		<key>sound</key>
+		<string>Out of the frying pan_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Rick</string>
+		<key>character</key>
+		<string>Rick</string>
+		<key>sound</key>
+		<string>Party pooper_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Rick</string>
+		<key>character</key>
+		<string>Rick</string>
+		<key>sound</key>
+		<string>Planning for failure_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Rick</string>
+		<key>character</key>
+		<string>Rick</string>
+		<key>sound</key>
+		<string>Portal gun history_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Rick</string>
+		<key>character</key>
+		<string>Rick</string>
+		<key>sound</key>
+		<string>Pretty concise Morty_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Rick</string>
+		<key>character</key>
+		<string>Rick</string>
+		<key>sound</key>
+		<string>Pubecent boy_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Rick</string>
+		<key>character</key>
+		<string>Rick</string>
+		<key>sound</key>
+		<string>Repressed rage_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Rick</string>
+		<key>character</key>
+		<string>Rick</string>
+		<key>sound</key>
+		<string>Ricky Ticky Taffy_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Rick</string>
+		<key>character</key>
+		<string>Rick</string>
+		<key>sound</key>
+		<string>Rub it in_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Rick</string>
+		<key>character</key>
+		<string>Rick</string>
+		<key>sound</key>
+		<string>Rubber Baby Bumpy Bunkers_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Rick</string>
+		<key>character</key>
+		<string>Rick</string>
+		<key>sound</key>
+		<string>Same page_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Rick</string>
+		<key>character</key>
+		<string>Rick</string>
+		<key>sound</key>
+		<string>Schlum Schlum_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Rick</string>
+		<key>character</key>
+		<string>Rick</string>
+		<key>sound</key>
+		<string>Scotch whiskey_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Rick</string>
+		<key>character</key>
+		<string>Rick</string>
+		<key>sound</key>
+		<string>Screw this, I'm out_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Rick</string>
+		<key>character</key>
+		<string>Rick</string>
+		<key>sound</key>
+		<string>Shoot straight_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Rick</string>
+		<key>character</key>
+		<string>Rick</string>
+		<key>sound</key>
+		<string>Silent but deadly_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Rick</string>
+		<key>character</key>
+		<string>Rick</string>
+		<key>sound</key>
+		<string>Sloppy craftmanship_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Rick</string>
+		<key>character</key>
+		<string>Rick</string>
+		<key>sound</key>
+		<string>So embarassing_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Rick</string>
+		<key>character</key>
+		<string>Rick</string>
+		<key>sound</key>
+		<string>Some learning to do_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Rick</string>
+		<key>character</key>
+		<string>Rick</string>
+		<key>sound</key>
+		<string>Somersault Jump_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Rick</string>
+		<key>character</key>
+		<string>Rick</string>
+		<key>sound</key>
+		<string>Stereotypes_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Rick</string>
+		<key>character</key>
+		<string>Rick</string>
+		<key>sound</key>
+		<string>Stop being a pussy_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Rick</string>
+		<key>character</key>
+		<string>Rick</string>
+		<key>sound</key>
+		<string>Student becomes the teacher_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Rick</string>
+		<key>character</key>
+		<string>Rick</string>
+		<key>sound</key>
+		<string>Take a shower with me_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Rick</string>
+		<key>character</key>
+		<string>Rick</string>
+		<key>sound</key>
+		<string>Teenage mind_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Rick</string>
+		<key>character</key>
+		<string>Rick</string>
+		<key>sound</key>
+		<string>The way the news goes_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Rick</string>
+		<key>character</key>
+		<string>Rick</string>
+		<key>sound</key>
+		<string>There Is No God_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Rick</string>
+		<key>character</key>
+		<string>Rick</string>
+		<key>sound</key>
+		<string>This is why_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Rick</string>
+		<key>character</key>
+		<string>Rick</string>
+		<key>sound</key>
+		<string>This isn't Game of Thrones_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Rick</string>
+		<key>character</key>
+		<string>Rick</string>
+		<key>sound</key>
+		<string>Time to go Morty_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Rick</string>
+		<key>character</key>
+		<string>Rick</string>
+		<key>sound</key>
+		<string>Ton of bad memories with you_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Rick</string>
+		<key>character</key>
+		<string>Rick</string>
+		<key>sound</key>
+		<string>Top of your game_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Rick</string>
+		<key>character</key>
+		<string>Rick</string>
+		<key>sound</key>
+		<string>Totes Malotes, Dawg_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Rick</string>
+		<key>character</key>
+		<string>Rick</string>
+		<key>sound</key>
+		<string>Ugggh here go away_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Rick</string>
+		<key>character</key>
+		<string>Rick</string>
+		<key>sound</key>
+		<string>Uh Oh_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Rick</string>
+		<key>character</key>
+		<string>Rick</string>
+		<key>sound</key>
+		<string>Very convincing_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Rick</string>
+		<key>character</key>
+		<string>Rick</string>
+		<key>sound</key>
+		<string>Waaaay Up Your Butt_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Rick</string>
+		<key>character</key>
+		<string>Rick</string>
+		<key>sound</key>
+		<string>Walking burlap sack_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Rick</string>
+		<key>character</key>
+		<string>Rick</string>
+		<key>sound</key>
+		<string>Wear the pants_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Rick</string>
+		<key>character</key>
+		<string>Rick</string>
+		<key>sound</key>
+		<string>Weiner do the walking_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Rick</string>
+		<key>character</key>
+		<string>Rick</string>
+		<key>sound</key>
+		<string>What an asshole_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Rick</string>
+		<key>character</key>
+		<string>Rick</string>
+		<key>sound</key>
+		<string>What are you lookin' at_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Rick</string>
+		<key>character</key>
+		<string>Rick</string>
+		<key>sound</key>
+		<string>What kind of monster_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Rick</string>
+		<key>character</key>
+		<string>Rick</string>
+		<key>sound</key>
+		<string>What people call love_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Rick</string>
+		<key>character</key>
+		<string>Rick</string>
+		<key>sound</key>
+		<string>What the hell is your problem_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Rick</string>
+		<key>character</key>
+		<string>Rick</string>
+		<key>sound</key>
+		<string>Where's the sex robot_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Rick</string>
+		<key>character</key>
+		<string>Rick</string>
+		<key>sound</key>
+		<string>Whiny little piece of shit_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Rick</string>
+		<key>character</key>
+		<string>Rick</string>
+		<key>sound</key>
+		<string>White people problems_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Rick</string>
+		<key>character</key>
+		<string>Rick</string>
+		<key>sound</key>
+		<string>Who cares about_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Rick</string>
+		<key>character</key>
+		<string>Rick</string>
+		<key>sound</key>
+		<string>Who the fuck are you_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Rick</string>
+		<key>character</key>
+		<string>Rick</string>
+		<key>sound</key>
+		<string>Why are you making that face_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Rick</string>
+		<key>character</key>
+		<string>Rick</string>
+		<key>sound</key>
+		<string>Why would I do that_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Rick</string>
+		<key>character</key>
+		<string>Rick</string>
+		<key>sound</key>
+		<string>Wouldn't pull that thread_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Rick</string>
+		<key>character</key>
+		<string>Rick</string>
+		<key>sound</key>
+		<string>Wubalubadubdub_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Rick</string>
+		<key>character</key>
+		<string>Rick</string>
+		<key>sound</key>
+		<string>Wubba Lubba Dub Dub_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Rick</string>
+		<key>character</key>
+		<string>Rick</string>
+		<key>sound</key>
+		<string>Yeah me neither_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Rick</string>
+		<key>character</key>
+		<string>Rick</string>
+		<key>sound</key>
+		<string>You bastard_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Rick</string>
+		<key>character</key>
+		<string>Rick</string>
+		<key>sound</key>
+		<string>You don't have to try to impress me_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Rick</string>
+		<key>character</key>
+		<string>Rick</string>
+		<key>sound</key>
+		<string>You little turd_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Rick</string>
+		<key>character</key>
+		<string>Rick</string>
+		<key>sound</key>
+		<string>You really got me_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Rick</string>
+		<key>character</key>
+		<string>Rick</string>
+		<key>sound</key>
+		<string>You're both pieces of shit_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Rick</string>
+		<key>character</key>
+		<string>Rick</string>
+		<key>sound</key>
+		<string>You're growing up fast_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Rick</string>
+		<key>character</key>
+		<string>Rick</string>
+		<key>sound</key>
+		<string>You're Our Boy, Dawg_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Rick</string>
+		<key>character</key>
+		<string>Rick</string>
+		<key>sound</key>
+		<string>You're right Morty_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Rick</string>
+		<key>character</key>
+		<string>Rick</string>
+		<key>sound</key>
+		<string>Your choice to take it personally_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Rick</string>
+		<key>character</key>
+		<string>Rick</string>
+		<key>sound</key>
+		<string>Your medal is in the mail_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Rick</string>
+		<key>character</key>
+		<string>Rick</string>
+		<key>sound</key>
+		<string>Your opinion_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string>Rick</string>
+		<key>character</key>
+		<string>Rick</string>
+		<key>sound</key>
+		<string>Your unemployed genes_sound</string>
+	</dict>
+	<dict>
+		<key>category</key>
+		<string></string>
+		<key>character</key>
+		<string>Sorted - Character</string>
+		<key>sound</key>
+		<string>trackData1.plist</string>
+	</dict>
+</array>
+</plist>
