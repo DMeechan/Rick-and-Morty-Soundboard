@@ -3,148 +3,112 @@
 <plist version="1.0">
 <array>
 	<dict>
-		<key>name</key>
+		<key>sound</key>
 		<string>Lick my balls</string>
-		<key>image</key>
+		<key>character</key>
 		<string>rick</string>
-		<key>sound</key>
-		<string>lick my balls</string>
 	</dict>
 	<dict>
-		<key>name</key>
+		<key>character</key>
+		<string>rick</string>
+		<key>sound</key>
 		<string>Wubba lubba dub dub</string>
-		<key>image</key>
+	</dict>
+	<dict>
+		<key>character</key>
 		<string>rick</string>
 		<key>sound</key>
-		<string>wubba lubba dub dub</string>
+		<string>Aids</string>
 	</dict>
-  <dict>
-    <key>name</key>
-    <string>Aids</string>
-    <key>image</key>
-    <string>rick</string>
-    <key>sound</key>
-    <string>Aids</string>
-  </dict>
-  <dict>
-    <key>name</key>
-    <string>Allah akbar</string>
-    <key>image</key>
-    <string>rick</string>
-    <key>sound</key>
-    <string>Allah akbar</string>
-  </dict>
-  <dict>
-    <key>name</key>
-    <string>I outrank you</string>
-    <key>image</key>
-    <string>rick</string>
-    <key>sound</key>
-    <string>I outrank you</string>
-  </dict>
-  <dict>
-    <key>name</key>
-    <string>Pretty concise Morty</string>
-    <key>image</key>
-    <string>rick</string>
-    <key>sound</key>
-    <string>Pretty concise Morty</string>
-  </dict>
-  <dict>
-    <key>name</key>
-    <string>Up your butt</string>
-    <key>image</key>
-    <string>rick</string>
-    <key>sound</key>
-    <string>Up your butt</string>
-  </dict>
-  <dict>
-    <key>name</key>
-    <string>You're our boy dawg</string>
-    <key>image</key>
-    <string>rick</string>
-    <key>sound</key>
-    <string>You're our boy dawg</string>
-  </dict>
 	<dict>
-		<key>name</key>
-		<string>Tiny Rick</string>
-		<key>image</key>
+		<key>character</key>
+		<string>rick</string>
+		<key>sound</key>
+		<string>Allah akbar</string>
+	</dict>
+	<dict>
+		<key>character</key>
+		<string>rick</string>
+		<key>sound</key>
+		<string>I outrank you</string>
+	</dict>
+	<dict>
+		<key>character</key>
+		<string>rick</string>
+		<key>sound</key>
+		<string>Pretty concise Morty</string>
+	</dict>
+	<dict>
+		<key>character</key>
+		<string>rick</string>
+		<key>sound</key>
+		<string>Up your butt</string>
+	</dict>
+	<dict>
+		<key>character</key>
+		<string>rick</string>
+		<key>sound</key>
+		<string>You&apos;re our boy dawg</string>
+	</dict>
+	<dict>
+		<key>character</key>
 		<string>tiny rick</string>
 		<key>sound</key>
-		<string>tiny rick</string>
+		<string>Tiny rick</string>
 	</dict>
-  <dict>
-    <key>name</key>
-    <string>You can't hide bitch</string>
-    <key>image</key>
-    <string>scary terry</string>
-    <key>sound</key>
-    <string>You can't hide bitch</string>
-  </dict>
 	<dict>
-		<key>name</key>
-		<string>Aw bitch</string>
-		<key>image</key>
+		<key>character</key>
+		<string>scary terry</string>
+		<key>sound</key>
+		<string>You can&apos;t hide bitch</string>
+	</dict>
+	<dict>
+		<key>character</key>
 		<string>scary terry</string>
 		<key>sound</key>
 		<string>Aw bitch</string>
 	</dict>
-  <dict>
-    <key>name</key>
-    <string>Call me snowball</string>
-    <key>image</key>
-    <string>snuffles</string>
-    <key>sound</key>
-    <string>Call me snowball</string>
-  </dict>
-  <dict>
-    <key>name</key>
-    <string>Where are my testicles</string>
-    <key>image</key>
-    <string>snuffles</string>
-    <key>sound</key>
-    <string>Where are my testicles</string>
-  </dict>
-  <dict>
-    <key>name</key>
-    <string>Latino student</string>
-    <key>image</key>
-    <string>principle</string>
-    <key>sound</key>
-    <string>Latino student</string>
-  </dict>
-  <dict>
-    <key>name</key>
-    <string>Principle vagina</string>
-    <key>image</key>
-    <string>principle</string>
-    <key>sound</key>
-    <string>Principle vagina</string>
-  </dict>
-  <dict>
-    <key>name</key>
-    <string>Squanch-ay</string>
-    <key>image</key>
-    <string>squanchy</string>
-    <key>sound</key>
-    <string>Squanch-ay</string>
-  </dict>
-  <dict>
-    <key>name</key>
-    <string>You're a monster</string>
-    <key>image</key>
-    <string>morty</string>
-    <key>sound</key>
-    <string>You're a monster</string>
-  </dict>
-  <dict>
-    <key>name</key>
-    <string>Mr Meeseeks</string>
-    <key>image</key>
-    <string>mr meeseeks</string>
-    <key>sound</key>
-    <string>mr meeseeks</string>
-  </dict>
-  </array>
+	<dict>
+		<key>character</key>
+		<string>snuffles</string>
+		<key>sound</key>
+		<string>Call me snowball</string>
+	</dict>
+	<dict>
+		<key>character</key>
+		<string>snuffles</string>
+		<key>sound</key>
+		<string>Where are my testicles</string>
+	</dict>
+	<dict>
+		<key>character</key>
+		<string>principle</string>
+		<key>sound</key>
+		<string>Latino student</string>
+	</dict>
+	<dict>
+		<key>character</key>
+		<string>principle</string>
+		<key>sound</key>
+		<string>Principle vagina</string>
+	</dict>
+	<dict>
+		<key>character</key>
+		<string>squanchy</string>
+		<key>sound</key>
+		<string>Squanch-ay</string>
+	</dict>
+	<dict>
+		<key>character</key>
+		<string>morty</string>
+		<key>sound</key>
+		<string>You&apos;re a monster</string>
+	</dict>
+	<dict>
+		<key>character</key>
+		<string>mr meeseeks</string>
+		<key>sound</key>
+		<string>Mr meeseeks</string>
+	</dict>
+</array>
 </plist>
