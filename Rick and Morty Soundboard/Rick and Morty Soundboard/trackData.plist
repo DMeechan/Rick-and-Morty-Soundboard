@@ -192,7 +192,7 @@
 		<key>character</key>
 		<string>Beth</string>
 		<key>sound</key>
-		<string>Making stuff up now'_sound</string>
+		<string>Making stuff up_sound</string>
 	</dict>
 	<dict>
 		<key>category</key>
@@ -2560,7 +2560,7 @@
 		<key>character</key>
 		<string>Rick</string>
 		<key>sound</key>
-		<string>What kind of monster_sound</string>
+		<string>Kind of monster_sound</string>
 	</dict>
 	<dict>
 		<key>category</key>
