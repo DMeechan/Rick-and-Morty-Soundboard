@@ -600,7 +600,7 @@
 		<key>character</key>
 		<string>Jerry</string>
 		<key>sound</key>
-		<string>All I wanted</string>
+		<string>All I wanted_sound</string>
 	</dict>
 	<dict>
 		<key>category</key>
@@ -2072,7 +2072,7 @@
 		<key>character</key>
 		<string>Rick</string>
 		<key>sound</key>
-		<string>Least successful</string>
+		<string>Least successful_sound</string>
 	</dict>
 	<dict>
 		<key>category</key>
@@ -2288,7 +2288,7 @@
 		<key>character</key>
 		<string>Rick</string>
 		<key>sound</key>
-		<string>Schum schum</string>
+		<string>Schum schum_sound</string>
 	</dict>
 	<dict>
 		<key>category</key>

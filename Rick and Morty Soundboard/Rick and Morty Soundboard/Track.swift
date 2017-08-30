@@ -23,6 +23,10 @@ class Track {
       let shortenedSound = importedSound.replacingOccurrences(of: "_sound", with: "")
       sound = shortenedSound
       
+      if importedSound == shortenedSound {
+        print("ERROR: Sound: \(importedSound) appears to be missing _sound")
+      }
+      
     }
     
     if let importedCharacter = dataDictionary["character"] {
